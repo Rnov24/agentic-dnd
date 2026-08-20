@@ -1,0 +1,262 @@
+{
+  "id": "balgor_stoneguard",
+  "name": "Balgor Stoneguard",
+  "is_player": true,
+  "role": "Protector Tank & Sworn Sentinel",
+  "class": "Fighter",
+  "species": "Goliath",
+  "background": "Guard",
+  "alignment": "Lawful Good",
+  "level": 1,
+  "proficiency_bonus": 2,
+  "hp": {
+    "current": 12,
+    "max": 12,
+    "temp": 0
+  },
+  "ac": 18,
+  "speed": 35,
+  "hit_dice": {
+    "current": 1,
+    "max": 1,
+    "die": "1d10"
+  },
+  "stats": {
+    "strength": 17,
+    "dexterity": 12,
+    "constitution": 15,
+    "intelligence": 10,
+    "wisdom": 13,
+    "charisma": 8
+  },
+  "base_scores": {
+    "strength": 15,
+    "dexterity": 12,
+    "constitution": 14,
+    "intelligence": 10,
+    "wisdom": 13,
+    "charisma": 8
+  },
+  "saving_throws": {
+    "strength": {
+      "proficient": true,
+      "modifier": 5
+    },
+    "dexterity": {
+      "proficient": false,
+      "modifier": 1
+    },
+    "constitution": {
+      "proficient": true,
+      "modifier": 4
+    },
+    "intelligence": {
+      "proficient": false,
+      "modifier": 0
+    },
+    "wisdom": {
+      "proficient": false,
+      "modifier": 1
+    },
+    "charisma": {
+      "proficient": false,
+      "modifier": -1
+    }
+  },
+  "skills": {
+    "athletics": {
+      "stat": "strength",
+      "proficient": true,
+      "bonus": 5,
+      "total": 5
+    },
+    "perception": {
+      "stat": "wisdom",
+      "proficient": true,
+      "bonus": 3,
+      "total": 3
+    },
+    "insight": {
+      "stat": "wisdom",
+      "proficient": true,
+      "bonus": 3,
+      "total": 3
+    },
+    "intimidation": {
+      "stat": "charisma",
+      "proficient": true,
+      "bonus": 1,
+      "total": 1
+    },
+    "acrobatics": {
+      "stat": "dexterity",
+      "proficient": false,
+      "bonus": 1,
+      "total": 1
+    },
+    "animal_handling": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 1,
+      "total": 1
+    },
+    "arcana": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "deception": {
+      "stat": "charisma",
+      "proficient": false,
+      "bonus": -1,
+      "total": -1
+    },
+    "history": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "investigation": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "medicine": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 1,
+      "total": 1
+    },
+    "nature": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "performance": {
+      "stat": "charisma",
+      "proficient": false,
+      "bonus": -1,
+      "total": -1
+    },
+    "persuasion": {
+      "stat": "charisma",
+      "proficient": false,
+      "bonus": -1,
+      "total": -1
+    },
+    "religion": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "sleight_of_hand": {
+      "stat": "dexterity",
+      "proficient": false,
+      "bonus": 1,
+      "total": 1
+    },
+    "stealth": {
+      "stat": "dexterity",
+      "proficient": false,
+      "bonus": 1,
+      "total": 1
+    },
+    "survival": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 1,
+      "total": 1
+    }
+  },
+  "attacks": [
+    {
+      "name": "Warhammer",
+      "bonus": 5,
+      "damage": "1d8+3",
+      "damage_type": "bludgeoning",
+      "mastery": "Push"
+    },
+    {
+      "name": "Flail",
+      "bonus": 5,
+      "damage": "1d8+3",
+      "damage_type": "bludgeoning",
+      "mastery": "Sap"
+    },
+    {
+      "name": "Javelin",
+      "bonus": 5,
+      "damage": "1d6+3",
+      "damage_type": "piercing",
+      "mastery": "Slow"
+    },
+    {
+      "name": "Unarmed Strike",
+      "bonus": 5,
+      "damage": "4",
+      "damage_type": "bludgeoning"
+    }
+  ],
+  "feats": [
+    {
+      "name": "Alert",
+      "type": "Origin",
+      "source": "Guard Background",
+      "description": "Gain +2 bonus to Initiative rolls. Immediately after rolling initiative, you can swap your initiative count with an ally who isn't Incapacitated."
+    },
+    {
+      "name": "Fighting Style: Protection",
+      "type": "Class Feature",
+      "source": "Fighter 1",
+      "description": "When a creature you can see attacks a target other than you that is within 5 feet of you (like Rodolfo), you can use your Reaction to impose Disadvantage on the attack roll (requires Shield)."
+    }
+  ],
+  "weapon_masteries": [
+    "Push (Warhammer): Push target 10ft straight away on hit.",
+    "Sap (Flail): Target has Disadvantage on its next attack roll before start of your next turn.",
+    "Slow (Javelin): Target Speed reduced by 10ft until start of your next turn."
+  ],
+  "equipment": [
+    "Chain Mail",
+    "Shield",
+    "Warhammer",
+    "Flail",
+    "Javelin (x4)",
+    "Gaming Set (Dice)",
+    "Manacles",
+    "Traveler's Clothes"
+  ],
+  "inventory": [
+    "Chain Mail",
+    "Shield",
+    "Warhammer",
+    "Flail",
+    "Javelin (x4)",
+    "Gaming Set (Dice)",
+    "Manacles",
+    "Traveler's Clothes"
+  ],
+  "gold": 12,
+  "silver": 0,
+  "copper": 0,
+  "conditions": [],
+  "features": [
+    "Second Wind: As a Bonus Action, regain 1d10 + 1 HP (2 uses / Short or Long Rest).",
+    "Weapon Mastery: Utilize Weapon Mastery properties (Push, Sap, Slow) on 3 trained weapons.",
+    "Fighting Style: Protection: Impose Disadvantage on attacks targeting adjacent allies.",
+    "Giant Ancestry (Stone Giant): Stone's Endurance — As a Reaction when taking damage, roll 1d12 + 2 and reduce damage taken by that amount (2 uses / Long Rest).",
+    "Powerful Build: Count as Large for carry, push, drag, and lift capacity.",
+    "Large Form: At Level 5, transform into Large size for 10 minutes as a Bonus Action."
+  ],
+  "personality": {
+    "traits": "Vigilant, disciplined, and immovable as mountain stone. Constantly checks corners and physical lines of sight that scholars overlook.",
+    "ideals": "Guardianship. The brilliant minds who create and illuminate the world must be shielded by unyielding armor.",
+    "bonds": "Sworn protector to Rodolfo Edinburgh; bound by oath to keep the fragile scholar alive amidst dungeon perils.",
+    "flaws": "Stubborn and distrustful of abstract theories; relies strictly on heavy steel, stone, and physical vigilance."
+  }
+}

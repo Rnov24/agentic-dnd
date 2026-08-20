@@ -78,6 +78,7 @@ def generate_scores(method: str = "standard", seed: Optional[int] = None) -> Lis
 class CharacterCreator:
     def __init__(self, project_root: Optional[str] = None):
         self.sm = StateManager(project_root)
+        self.project_root = self.sm.project_root
         self.compendium = Compendium.get_instance(project_root)
 
     def create_character(
