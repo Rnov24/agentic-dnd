@@ -878,7 +878,7 @@ def cmd_inspect(args):
 
 
 def cmd_party(args):
-    """Manages the party roster and active player selection."""
+    """Manages the party roster, vault recruitment, and active player selection."""
     mp = MultiplayerManager(str(PROJECT_ROOT))
     party = mp.get_party()
     active_player = mp.get_active_player()
@@ -898,7 +898,7 @@ def cmd_party(args):
             print(f"* [{BOLD}{p.get('id')}{RESET}] {BOLD}{p.get('name')}{RESET} (Lvl {p.get('level', 1)} {p.get('class', '')} [{ctrl}]){act_badge}")
             print(f"  Health: {hp_bar} | AC: {BOLD}{p.get('ac')}{RESET}")
         print()
-    elif args.action == "switch" or args.action == "activate":
+    elif args.action in ["switch", "activate"]:
         if not args.character_id:
             print("Error: Specify character ID to switch to.", file=sys.stderr)
             sys.exit(1)
@@ -910,6 +910,167 @@ def cmd_party(args):
             print(json.dumps(res, indent=2))
             return
         print(f"\n{GREEN}▶ Switched active player to:{RESET} {BOLD}{res['active_character'].get('name')}{RESET} ({res['active_character'].get('class')})\n")
+    elif args.action == "add":
+        if not args.character_id:
+            print("Error: Specify character ID or name to add from vault.", file=sys.stderr)
+            sys.exit(1)
+        res = mp.add_member(args.character_id)
+        if not res["success"]:
+            print(f"Error: {res['error']}", file=sys.stderr)
+            sys.exit(1)
+        if args.json:
+            print(json.dumps(res, indent=2))
+            return
+        print(f"\n{GREEN}✓ Added {res['character'].get('name')} to active party!{RESET} (Party Size: {res['party_size']})\n")
+    elif args.action == "remove":
+        if not args.character_id:
+            print("Error: Specify character ID or name to remove from party.", file=sys.stderr)
+            sys.exit(1)
+        res = mp.remove_member(args.character_id)
+        if not res["success"]:
+            print(f"Error: {res['error']}", file=sys.stderr)
+            sys.exit(1)
+        if args.json:
+            print(json.dumps(res, indent=2))
+            return
+        print(f"\n{YELLOW}✓ Removed {res['removed'].get('name')} from active party.{RESET} (Party Size: {res['party_size']})\n")
+    elif args.action == "roster":
+        overview = mp.get_roster_overview()
+        if args.json:
+            print(json.dumps(overview, indent=2))
+            return
+        print("\n" + box_header("PARTY ROSTER & VAULT BENCH", width=70, color=BRIGHT_YELLOW))
+        print(f"\n{BRIGHT_GREEN}--- Active Party ({overview['party_count']} Members) ---{RESET}")
+        for p in overview["active_party"]:
+            is_act = p.get("id") == active_id
+            tag = " [ACTIVE]" if is_act else ""
+            print(f"  • {BOLD}{p.get('name')}{RESET} ({p.get('class')}) - HP: {p.get('hp', {}).get('current', 10)}/{p.get('hp', {}).get('max', 10)} (ID: `{p.get('id')}`){tag}")
+        print(f"\n{CYAN}--- Available on Bench / Vault ({len(overview['bench_vault'])} Heroes) ---{RESET}")
+        for b in overview["bench_vault"]:
+            print(f"  • {BOLD}{b.get('name')}{RESET} ({b.get('class')}) - (ID: `{b.get('id')}`)")
+        print()
+
+
+def cmd_vault(args):
+    """Manages the global Character Vault."""
+    from tools.vault import CharacterVault
+    from tools.character_inspector import CharacterInspector
+    vault = CharacterVault(str(PROJECT_ROOT))
+    inspector = CharacterInspector(str(PROJECT_ROOT))
+
+    if args.action == "list":
+        chars = vault.list_characters()
+        if args.json:
+            print(json.dumps(chars, indent=2))
+            return
+        print("\n" + box_header(f"🧙 GLOBAL CHARACTER VAULT ({len(chars)} HEROES)", width=70, color=BRIGHT_MAGENTA))
+        for c in chars:
+            hp = c.get("hp", {})
+            hp_str = f"{hp.get('current', 10)}/{hp.get('max', 10)} HP"
+            print(f"  * [{BOLD}{c.get('id')}{RESET}] {BOLD}{c.get('name')}{RESET} (Lvl {c.get('level', 1)} {c.get('species', '')} {c.get('class', '')}) — {hp_str}")
+        print(f"\n  {DIM}Use 'python dnd.py party add <id>' to recruit a hero into your active campaign run.{RESET}\n")
+    elif args.action == "inspect":
+        if not args.character_id:
+            print("Error: Specify character ID to inspect.", file=sys.stderr)
+            sys.exit(1)
+        c = vault.get_character(args.character_id)
+        if not c:
+            print(f"Error: Character '{args.character_id}' not found in vault.", file=sys.stderr)
+            sys.exit(1)
+        if args.json:
+            print(json.dumps(c, indent=2))
+            return
+        print(inspector.render_character_sheet(c))
+    elif args.action == "delete":
+        if not args.character_id:
+            print("Error: Specify character ID to delete.", file=sys.stderr)
+            sys.exit(1)
+        res = vault.delete_character(args.character_id)
+        if not res["success"]:
+            print(f"Error: {res['error']}", file=sys.stderr)
+            sys.exit(1)
+        print(f"\n{RED}✓ Deleted character '{res.get('name')}' from vault.{RESET}\n")
+
+
+def cmd_run(args):
+    """Manages multiple campaign runs, difficulty modes, and save slots."""
+    from tools.run_manager import RunManager, DIFFICULTY_PRESETS
+    from tools.lobby import render_campaign_lobby
+    rm = RunManager(str(PROJECT_ROOT))
+
+    if args.action == "list":
+        runs = rm.list_runs()
+        if args.json:
+            print(json.dumps(runs, indent=2))
+            return
+        print("\n" + box_header("CAMPAIGN RUNS & SAVE SLOTS", width=70, color=BRIGHT_CYAN))
+        if not runs:
+            print("  No campaign runs created yet. Run 'python dnd.py run new' to create one.\n")
+            return
+        for r in runs:
+            act_marker = f"{BRIGHT_GREEN}▶ [ACTIVE]{RESET} " if r.get("is_active") else "  [SLOT]   "
+            diff_badge = DIFFICULTY_PRESETS.get(r.get("difficulty", "normal"), {}).get("badge", r.get("difficulty"))
+            print(f"{act_marker}{BOLD}{r.get('name')}{RESET} (ID: `{r.get('id')}`) | Adventure: {r.get('adventure')} | {diff_badge} | {len(r.get('party_ids', []))} Heroes")
+        print()
+    elif args.action == "lobby":
+        print("\n" + render_campaign_lobby(project_root=str(PROJECT_ROOT)))
+    elif args.action == "switch":
+        if not args.run_id:
+            print("Error: Specify run ID to switch to.", file=sys.stderr)
+            sys.exit(1)
+        res = rm.switch_run(args.run_id)
+        if not res["success"]:
+            print(f"Error: {res['error']}", file=sys.stderr)
+            sys.exit(1)
+        if args.json:
+            print(json.dumps(res, indent=2))
+            return
+        print(f"\n{GREEN}▶ Switched active campaign run to:{RESET} {BOLD}{res.get('manifest', {}).get('name')}{RESET} (ID: `{res.get('active_run_id')}`)\n")
+    elif args.action == "new":
+        name = args.name or "New Campaign Run"
+        adv = args.adventure or "lost_mine_of_phandelver"
+        diff = args.difficulty or "normal"
+        party_ids = [p.strip() for p in args.party.split(",")] if getattr(args, "party", None) else None
+        res = rm.create_run(name=name, adventure=adv, difficulty=diff, party_ids=party_ids, run_id=getattr(args, "run_id", None))
+        if args.json:
+            print(json.dumps(res, indent=2))
+            return
+        print("\n" + box_header("CAMPAIGN RUN CREATED & ACTIVATED!", width=70, color=BRIGHT_GREEN))
+        print(f"  {BOLD}Run Name:{RESET}   {res['name']} (ID: `{res['run_id']}`)")
+        print(f"  {BOLD}Adventure:{RESET}  {res['adventure']}")
+        print(f"  {BOLD}Difficulty:{RESET} {res['difficulty']}")
+        print(f"  {BOLD}Party Size:{RESET} {res['party_size']} Heroes")
+        print(f"\n  {DIM}Run 'python dnd.py menu' to enter the adventure!{RESET}\n")
+    elif args.action == "info":
+        run_id = args.run_id or rm.get_active_run_id()
+        if not run_id:
+            print("No active run selected.", file=sys.stderr)
+            sys.exit(1)
+        manifest = rm.get_run_manifest(run_id)
+        if not manifest:
+            print(f"Run '{run_id}' not found.", file=sys.stderr)
+            sys.exit(1)
+        if args.json:
+            print(json.dumps(manifest, indent=2))
+            return
+        diff_info = DIFFICULTY_PRESETS.get(manifest.get("difficulty", "normal"), DIFFICULTY_PRESETS["normal"])
+        print("\n" + box_header(f"CAMPAIGN RUN INFO: {manifest.get('name').upper()}", width=70, color=BRIGHT_YELLOW))
+        print(f"  {BOLD}Run ID:{RESET}          `{manifest.get('id')}`")
+        print(f"  {BOLD}Adventure:{RESET}       {manifest.get('adventure')}")
+        print(f"  {BOLD}Difficulty:{RESET}      {diff_info['badge']} (Death Save DC {diff_info['death_save_dc']}, Rests: {diff_info['rest_type']})")
+        print(f"  {BOLD}Turns Played:{RESET}    {manifest.get('turns_count', 0)}")
+        print(f"  {BOLD}Party Heroes:{RESET}    {', '.join(manifest.get('party_ids', []))}")
+        print()
+    elif args.action == "delete":
+        if not args.run_id:
+            print("Error: Specify run ID to delete.", file=sys.stderr)
+            sys.exit(1)
+        res = rm.delete_run(args.run_id)
+        if not res["success"]:
+            print(f"Error: {res['error']}", file=sys.stderr)
+            sys.exit(1)
+        print(f"\n{RED}✓ Deleted campaign run '{args.run_id}'.{RESET}\n")
+
 
 
 def cmd_initiative(args):
@@ -984,6 +1145,11 @@ def cmd_dev(args):
 def cmd_menu(args):
     """Displays the comprehensive game dashboard, active hero HUD, and action menu."""
     from tools.menu import render_game_menu, get_boot_context
+    from tools.lobby import render_campaign_lobby
+    if getattr(args, "lobby", False) or getattr(args, "setup", False):
+        print("\n" + render_campaign_lobby(project_root=str(PROJECT_ROOT)))
+        return
+
     if getattr(args, "json", False):
         print(json.dumps(get_boot_context(str(PROJECT_ROOT)), indent=2))
     else:
@@ -1086,8 +1252,13 @@ def main():
 
     # menu / dashboard
     p_menu = subparsers.add_parser("menu", help="Display interactive game dashboard and non-developer action menu")
+    p_menu.add_argument("--lobby", "--setup", action="store_true", help="Display Campaign Launcher & Pre-Run Setup Lobby")
     p_menu.add_argument("--json", action="store_true", help="Output JSON context")
     p_menu.set_defaults(func=cmd_menu)
+
+    # lobby
+    p_lobby = subparsers.add_parser("lobby", help="Display Campaign Launcher & Pre-Run Setup Lobby")
+    p_lobby.set_defaults(func=lambda args: cmd_run(argparse.Namespace(action="lobby", json=getattr(args, "json", False))))
 
     # boot
     p_boot = subparsers.add_parser("boot", help="Fast-boot session initialization and state snapshot")
@@ -1283,10 +1454,28 @@ def main():
 
     # party
     p_pty = subparsers.add_parser("party", help="Manage multiplayer party and active player")
-    p_pty.add_argument("action", choices=["list", "switch", "activate"], default="list", nargs="?", help="Party action")
-    p_pty.add_argument("character_id", nargs="?", default=None, help="Character ID to switch to")
+    p_pty.add_argument("action", choices=["list", "switch", "activate", "add", "remove", "roster"], default="list", nargs="?", help="Party action")
+    p_pty.add_argument("character_id", nargs="?", default=None, help="Character ID or name")
     p_pty.add_argument("--json", action="store_true", help="Output JSON")
     p_pty.set_defaults(func=cmd_party)
+
+    # vault
+    p_vlt = subparsers.add_parser("vault", help="Manage global Character Vault")
+    p_vlt.add_argument("action", choices=["list", "inspect", "delete"], default="list", nargs="?", help="Vault action")
+    p_vlt.add_argument("character_id", nargs="?", default=None, help="Character ID or name")
+    p_vlt.add_argument("--json", action="store_true", help="Output JSON")
+    p_vlt.set_defaults(func=cmd_vault)
+
+    # run
+    p_run = subparsers.add_parser("run", help="Manage campaign runs, difficulty modes, and save slots")
+    p_run.add_argument("action", choices=["list", "new", "switch", "info", "lobby", "delete"], default="list", nargs="?", help="Run action")
+    p_run.add_argument("run_id", nargs="?", default=None, help="Run ID to switch, inspect, or delete")
+    p_run.add_argument("--name", "-n", default=None, help="Run display name")
+    p_run.add_argument("--adventure", "-a", default="lost_mine_of_phandelver", help="Adventure module slug")
+    p_run.add_argument("--difficulty", "-d", choices=["story", "normal", "hardcore", "deadly"], default="normal", help="Difficulty mode")
+    p_run.add_argument("--party", "-p", default=None, help="Comma-separated character IDs for initial party")
+    p_run.add_argument("--json", action="store_true", help="Output JSON")
+    p_run.set_defaults(func=cmd_run)
 
     # initiative
     p_init = subparsers.add_parser("initiative", help="Manage combat initiative turn order")

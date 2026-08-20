@@ -21,15 +21,19 @@ class Compendium:
     _cache: Dict[str, Any] = {}
 
     def __init__(self, project_root: Optional[Union[str, Path]] = None):
-        if project_root:
+        repo_root = Path(__file__).resolve().parent.parent
+        if project_root and (Path(project_root) / "rules").exists():
             self.project_root = Path(project_root)
+            self.rules_dir = self.project_root / "rules"
         else:
-            self.project_root = Path(__file__).resolve().parent.parent
-        self.rules_dir = self.project_root / "rules"
+            self.project_root = repo_root
+            self.rules_dir = repo_root / "rules"
 
     @classmethod
     def get_instance(cls, project_root: Optional[Union[str, Path]] = None) -> 'Compendium':
         if cls._instance is None:
+            cls._instance = Compendium(project_root)
+        elif project_root and (Path(project_root) / "rules").exists() and cls._instance.project_root != Path(project_root):
             cls._instance = Compendium(project_root)
         return cls._instance
 

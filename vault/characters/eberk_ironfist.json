@@ -1,0 +1,240 @@
+{
+  "id": "eberk_ironfist",
+  "name": "Eberk Ironfist",
+  "is_player": true,
+  "class": "Cleric",
+  "species": "Hill Dwarf",
+  "background": "Soldier",
+  "level": 1,
+  "proficiency_bonus": 2,
+  "hp": {
+    "current": 12,
+    "max": 12,
+    "temp": 0
+  },
+  "ac": 9,
+  "speed": 30,
+  "hit_dice": {
+    "current": 1,
+    "max": 1,
+    "die": "1d8"
+  },
+  "stats": {
+    "strength": 14,
+    "dexterity": 8,
+    "constitution": 17,
+    "intelligence": 10,
+    "wisdom": 16,
+    "charisma": 10
+  },
+  "base_scores": {
+    "strength": 14,
+    "dexterity": 8,
+    "constitution": 15,
+    "intelligence": 10,
+    "wisdom": 15,
+    "charisma": 10
+  },
+  "saving_throws": {
+    "strength": {
+      "proficient": false,
+      "modifier": 2
+    },
+    "dexterity": {
+      "proficient": false,
+      "modifier": -1
+    },
+    "constitution": {
+      "proficient": false,
+      "modifier": 3
+    },
+    "intelligence": {
+      "proficient": false,
+      "modifier": 0
+    },
+    "wisdom": {
+      "proficient": true,
+      "modifier": 5
+    },
+    "charisma": {
+      "proficient": true,
+      "modifier": 2
+    }
+  },
+  "skills": {
+    "acrobatics": {
+      "stat": "dexterity",
+      "proficient": false,
+      "bonus": -1,
+      "total": -1
+    },
+    "animal_handling": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 3,
+      "total": 3
+    },
+    "arcana": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "athletics": {
+      "stat": "strength",
+      "proficient": true,
+      "bonus": 4,
+      "total": 4
+    },
+    "deception": {
+      "stat": "charisma",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "history": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "insight": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 3,
+      "total": 3
+    },
+    "intimidation": {
+      "stat": "charisma",
+      "proficient": true,
+      "bonus": 2,
+      "total": 2
+    },
+    "investigation": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "medicine": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 3,
+      "total": 3
+    },
+    "nature": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "perception": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 3,
+      "total": 3
+    },
+    "performance": {
+      "stat": "charisma",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "persuasion": {
+      "stat": "charisma",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "religion": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "sleight_of_hand": {
+      "stat": "dexterity",
+      "proficient": false,
+      "bonus": -1,
+      "total": -1
+    },
+    "stealth": {
+      "stat": "dexterity",
+      "proficient": false,
+      "bonus": -1,
+      "total": -1
+    },
+    "survival": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 3,
+      "total": 3
+    }
+  },
+  "attacks": [
+    {
+      "name": "Unarmed Strike",
+      "type": "melee",
+      "ability": "strength",
+      "bonus": 4,
+      "damage": "3",
+      "damage_type": "bludgeoning"
+    }
+  ],
+  "feats": [
+    "Savage Attacker"
+  ],
+  "weapon_masteries": [],
+  "equipment": [
+    "Spear",
+    "Shortbow",
+    "20 Arrows",
+    "Gaming Set",
+    "Healer's Kit",
+    "Traveler's Clothes",
+    "14 GP"
+  ],
+  "inventory": [
+    "Spear",
+    "Shortbow",
+    "20 Arrows",
+    "Gaming Set",
+    "Healer's Kit",
+    "Traveler's Clothes",
+    "14 GP"
+  ],
+  "gold": 15,
+  "silver": 0,
+  "copper": 0,
+  "conditions": [],
+  "features": [
+    "Spellcasting",
+    "Divine Order (Protector or Thaumaturge)",
+    "Darkvision: 120 feet.",
+    "Dwarven Resilience: Resistance to Poison damage.",
+    "Dwarven Toughness: Hit Point maximum increases by 1 per level."
+  ],
+  "personality": {
+    "traits": [],
+    "ideals": [],
+    "bonds": [],
+    "flaws": []
+  },
+  "spellcasting": {
+    "ability": "wisdom"
+  },
+  "spell_slots": {
+    "level_1": {
+      "current": 2,
+      "max": 2
+    }
+  },
+  "cantrips": [
+    "fire_bolt",
+    "mage_hand"
+  ],
+  "spells_prepared": [
+    "magic_missile",
+    "shield"
+  ]
+}

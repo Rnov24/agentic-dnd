@@ -156,3 +156,67 @@ class MultiplayerManager:
         }
         self.sm.save_combat(combat)
         return {"success": True, "message": "Combat has ended."}
+
+    def add_member(self, character_id_or_name: str) -> Dict[str, Any]:
+        """Adds a character from the Character Vault into the current party roster."""
+        from tools.vault import CharacterVault
+        vault = CharacterVault(str(self.sm.project_root))
+        char = vault.get_character(character_id_or_name)
+        if not char:
+            return {"success": False, "error": f"Character '{character_id_or_name}' not found in vault."}
+
+        party = self.get_party()
+        clean_id = char.get("id")
+        for p in party:
+            if p.get("id") == clean_id:
+                return {"success": False, "error": f"Character '{char.get('name')}' is already in the party."}
+
+        party.append(char)
+        self.sm.save_party(party)
+        return {"success": True, "character": char, "party_size": len(party)}
+
+    def remove_member(self, character_id_or_name: str) -> Dict[str, Any]:
+        """Removes a character from the active party (character remains saved in vault)."""
+        party = self.get_party()
+        clean_id = character_id_or_name.lower().replace(" ", "_").replace("'", "")
+        removed = None
+        new_party = []
+        for p in party:
+            if p.get("id", "").lower() == clean_id or p.get("name", "").lower() == character_id_or_name.lower():
+                removed = p
+            else:
+                new_party.append(p)
+
+        if not removed:
+            return {"success": False, "error": f"Character '{character_id_or_name}' is not in the party."}
+
+        self.sm.save_party(new_party)
+        
+        # If removed character was the active player, switch to first available
+        active = self.get_active_player()
+        if active and active.get("id") == removed.get("id"):
+            if new_party:
+                self.set_active_player(new_party[0].get("id"))
+            else:
+                world = self.sm.get_world()
+                world.pop("active_character_id", None)
+                self.sm.save_world(world)
+
+        return {"success": True, "removed": removed, "party_size": len(new_party)}
+
+    def get_roster_overview(self) -> Dict[str, Any]:
+        """Returns active party members alongside available vault characters."""
+        from tools.vault import CharacterVault
+        vault = CharacterVault(str(self.sm.project_root))
+        party = self.get_party()
+        vault_all = vault.list_characters()
+        party_ids = {p.get("id") for p in party}
+        bench = [c for c in vault_all if c.get("id") not in party_ids]
+
+        return {
+            "active_party": party,
+            "party_count": len(party),
+            "bench_vault": bench,
+            "vault_count": len(vault_all)
+        }
+

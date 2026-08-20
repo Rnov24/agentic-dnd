@@ -14,5 +14,7 @@ Agentic D&D is an agent-native D&D 5e (2024 revision, Basic Rules, & Player'\''s
 7. **Persistence**: Ensure `state/*.json` and `campaign/*.md` files stay synchronized.
 8. **Versioning**: Use `dnd.py history`, `diff`, and `rollback` to manage campaign timeline recovery.
 9. **Tri-Layer Isolation**: Keep static rules (`rules/`), narrative docs (`campaign/`), and volatile runtime state/logs (`state/`) strictly decoupled. Never write turn state into `rules/`.
-10. **Character & Party Management**: Use `python dnd.py create-character` for D&D 5e character generation, `python dnd.py inspect` for visual character sheets, and `python dnd.py party switch` for multiplayer control.
-11. **Initiative & Combat Order**: Use `python dnd.py initiative [roll|show|next|end]` for deterministic initiative tracking and turn order advancement.
+10. **Character & Vault Management**: Use `python dnd.py vault` for global character storage, `python dnd.py party add/remove/roster` for cross-campaign party assembly, and `python dnd.py inspect` for visual character sheets.
+11. **Campaign Runs & Difficulty Engine**: Use `python dnd.py lobby` / `python dnd.py run` to create, configure difficulty (Story, Normal, Hardcore, Deadly), and switch between multiple campaign save slots.
+12. **Initiative & Combat Order**: Use `python dnd.py initiative [roll|show|next|end]` for deterministic initiative tracking and turn order advancement.
+

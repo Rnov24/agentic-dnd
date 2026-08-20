@@ -1,0 +1,12 @@
+{
+  "campaign_name": "Lost Mine Hardcore",
+  "adventure_slug": "lost_mine_of_phandelver",
+  "active_location": "wilderness",
+  "time_of_day": "Late Afternoon",
+  "weather": "Overcast",
+  "lighting": "Dim Light",
+  "tension_level": "Tense",
+  "active_character_id": "eldrin_of_silverymoon",
+  "current_scene": {},
+  "global_flags": {}
+}

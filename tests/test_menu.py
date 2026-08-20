@@ -36,9 +36,9 @@ class TestMenuEngine(unittest.TestCase):
         self.assertIn("GAME DASHBOARD", menu_str)
         self.assertIn("ACTIVE HERO", menu_str)
         self.assertIn("WHAT WOULD YOU LIKE TO DO?", menu_str)
-        self.assertIn("Natural Language", menu_str)
-        self.assertIn("Quick Slash Commands", menu_str)
-        self.assertIn("python dnd.py play", menu_str)
+        self.assertIn("TACTICAL & ROLEPLAY CHOICES", menu_str)
+        self.assertIn("EXPLORATION & ENVIRONMENT", menu_str)
+        self.assertIn("natural language", menu_str)
 
     def test_render_custom_context(self):
         fake_ctx = {

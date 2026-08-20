@@ -13,7 +13,8 @@
       "58b5bd8f",
       "5c7d42bc",
       "a8212f09",
-      "aedb6796"
+      "aedb6796",
+      "eab98d69"
     ]
   },
   "commits": {
@@ -553,7 +554,63 @@
         "state/npcs.json"
       ],
       "approved_by": null
+    },
+    "eab98d69": {
+      "commit_id": "eab98d69",
+      "parent_id": "aedb6796",
+      "branch": "main",
+      "timestamp": "2026-08-20 20:08:32",
+      "intent": "search immediate surroundings",
+      "reason": "A sudden misstep echoes in the area as composure momentarily slips `[Investigation Check: [6] + 1 = ...",
+      "agent": "DM Agent",
+      "tool_calls": [
+        {
+          "tool": "mechanics.roll_check",
+          "output": {
+            "character_name": "Aria Nightwind",
+            "check_type": "investigation",
+            "ability": "intelligence",
+            "ability_score": 12,
+            "ability_modifier": 1,
+            "skill": "investigation",
+            "is_proficient": false,
+            "has_expertise": false,
+            "proficiency_bonus": 2,
+            "extra_bonus": 0,
+            "guidance_bonus": 0,
+            "total_modifier": 1,
+            "modifier_breakdown": {
+              "ability": 1,
+              "proficiency": 0,
+              "extra": 0,
+              "guidance": 0
+            },
+            "dc": 12,
+            "natural_roll": 6,
+            "total": 7,
+            "success": false,
+            "margin": -5,
+            "is_crit_20": false,
+            "is_crit_1": false,
+            "advantage_mode": "NORMAL",
+            "formula": "[6] + 1 = 7",
+            "audit_breakdown": [
+              "Base d20 Roll: 6",
+              "Intelligence Modifier: +1",
+              "Total: 7 vs DC 12 -> FAILURE (Margin: -5)"
+            ],
+            "audit_explanation": "Base d20 Roll: 6 | Intelligence Modifier: +1 | Total: 7 vs DC 12 -> FAILURE (Margin: -5)",
+            "action_type": "ability_check"
+          }
+        }
+      ],
+      "affected_files": [
+        "state/world.json",
+        "state/party.json",
+        "state/npcs.json"
+      ],
+      "approved_by": null
     }
   },
-  "head": "aedb6796"
+  "head": "eab98d69"
 }

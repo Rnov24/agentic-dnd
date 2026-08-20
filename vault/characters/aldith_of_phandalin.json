@@ -1,0 +1,236 @@
+{
+  "id": "aldith_of_phandalin",
+  "name": "Aldith of Phandalin",
+  "is_player": true,
+  "class": "Fighter",
+  "species": "Human",
+  "background": "Noble",
+  "level": 1,
+  "proficiency_bonus": 2,
+  "hp": {
+    "current": 12,
+    "max": 12,
+    "temp": 0
+  },
+  "ac": 16,
+  "speed": 30,
+  "hit_dice": {
+    "current": 1,
+    "max": 1,
+    "die": "1d10"
+  },
+  "stats": {
+    "strength": 16,
+    "dexterity": 10,
+    "constitution": 15,
+    "intelligence": 12,
+    "wisdom": 14,
+    "charisma": 15
+  },
+  "base_scores": {
+    "strength": 15,
+    "dexterity": 9,
+    "constitution": 14,
+    "intelligence": 11,
+    "wisdom": 13,
+    "charisma": 14
+  },
+  "saving_throws": {
+    "strength": {
+      "proficient": true,
+      "modifier": 5
+    },
+    "dexterity": {
+      "proficient": false,
+      "modifier": 0
+    },
+    "constitution": {
+      "proficient": true,
+      "modifier": 4
+    },
+    "intelligence": {
+      "proficient": false,
+      "modifier": 1
+    },
+    "wisdom": {
+      "proficient": false,
+      "modifier": 2
+    },
+    "charisma": {
+      "proficient": false,
+      "modifier": 2
+    }
+  },
+  "skills": {
+    "acrobatics": {
+      "stat": "dexterity",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "animal_handling": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 2,
+      "total": 2
+    },
+    "arcana": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 1,
+      "total": 1
+    },
+    "athletics": {
+      "stat": "strength",
+      "proficient": false,
+      "bonus": 3,
+      "total": 3
+    },
+    "deception": {
+      "stat": "charisma",
+      "proficient": false,
+      "bonus": 2,
+      "total": 2
+    },
+    "history": {
+      "stat": "intelligence",
+      "proficient": true,
+      "bonus": 3,
+      "total": 3
+    },
+    "insight": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 2,
+      "total": 2
+    },
+    "intimidation": {
+      "stat": "charisma",
+      "proficient": false,
+      "bonus": 2,
+      "total": 2
+    },
+    "investigation": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 1,
+      "total": 1
+    },
+    "medicine": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 2,
+      "total": 2
+    },
+    "nature": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 1,
+      "total": 1
+    },
+    "perception": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 2,
+      "total": 2
+    },
+    "performance": {
+      "stat": "charisma",
+      "proficient": false,
+      "bonus": 2,
+      "total": 2
+    },
+    "persuasion": {
+      "stat": "charisma",
+      "proficient": true,
+      "bonus": 4,
+      "total": 4
+    },
+    "religion": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 1,
+      "total": 1
+    },
+    "sleight_of_hand": {
+      "stat": "dexterity",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "stealth": {
+      "stat": "dexterity",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "survival": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 2,
+      "total": 2
+    }
+  },
+  "attacks": [
+    {
+      "name": "Unarmed Strike",
+      "type": "melee",
+      "ability": "strength",
+      "bonus": 5,
+      "damage": "4",
+      "damage_type": "bludgeoning"
+    },
+    {
+      "name": "Greatsword",
+      "type": "melee",
+      "ability": "strength",
+      "bonus": 5,
+      "damage": "2d6+3",
+      "damage_type": "slashing",
+      "mastery": "Graze"
+    }
+  ],
+  "feats": [
+    "Skilled",
+    "Skilled"
+  ],
+  "weapon_masteries": [
+    "Greatsword (Graze)",
+    "Longbow (Slow)",
+    "Shortsword (Vex)"
+  ],
+  "equipment": [
+    "Gaming Set",
+    "Fine Clothes",
+    "Signet Ring",
+    "Perfume",
+    "Scroll of Pedigree",
+    "29 GP"
+  ],
+  "inventory": [
+    "Gaming Set",
+    "Fine Clothes",
+    "Signet Ring",
+    "Perfume",
+    "Scroll of Pedigree",
+    "29 GP"
+  ],
+  "gold": 15,
+  "silver": 0,
+  "copper": 0,
+  "conditions": [],
+  "features": [
+    "Fighting Style",
+    "Second Wind",
+    "Weapon Mastery (3)",
+    "Resourceful: You gain Heroic Inspiration whenever you finish a Long Rest.",
+    "Skillful: You gain proficiency in one skill of your choice.",
+    "Versatile: You gain one Origin feat of your choice."
+  ],
+  "personality": {
+    "traits": [],
+    "ideals": [],
+    "bonds": [],
+    "flaws": []
+  }
+}

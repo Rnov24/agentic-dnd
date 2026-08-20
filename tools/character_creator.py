@@ -90,7 +90,9 @@ class CharacterCreator:
         custom_scores: Optional[Dict[str, int]] = None,
         is_player: bool = True,
         preset: Optional[str] = None,
-        seed: Optional[int] = None
+        seed: Optional[int] = None,
+        save_to_state: bool = True,
+        save_to_vault: bool = True
     ) -> Dict[str, Any]:
         """Creates a fully-calculated D&D 5e (2024) character."""
         if preset:
@@ -316,5 +318,16 @@ class CharacterCreator:
             character["spells_prepared"] = list(class_data.get("spells_prepared", ["magic_missile", "shield"]))
 
         # Save to state and sync Markdown
-        self.sm.update_character(character)
+        if save_to_state:
+            self.sm.update_character(character)
+
+        # Save to Global Character Vault
+        if save_to_vault:
+            try:
+                from tools.vault import CharacterVault
+                vault = CharacterVault(str(self.project_root))
+                vault.save_character(character)
+            except Exception:
+                pass
+
         return character

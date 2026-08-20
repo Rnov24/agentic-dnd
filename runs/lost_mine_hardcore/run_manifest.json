@@ -1,0 +1,25 @@
+{
+  "id": "lost_mine_hardcore",
+  "name": "Lost Mine Hardcore",
+  "adventure": "lost_mine_of_phandelver",
+  "difficulty": "hardcore",
+  "difficulty_settings": {
+    "id": "hardcore",
+    "name": "Hardcore (Gritty Realism)",
+    "badge": "\ud83d\udfe0 Hardcore",
+    "description": "High-stakes tactical survival with strict death saves, tougher enemies, and permanent consequences.",
+    "death_save_dc": 12,
+    "player_save_bonus": 0,
+    "monster_hp_multiplier": 1.15,
+    "monster_attack_bonus": 0,
+    "rest_type": "Gritty Realism (8h short rest, 7d long rest)",
+    "permadeath": true
+  },
+  "created_at": "2026-08-20T20:07:54.977866",
+  "turns_count": 0,
+  "party_ids": [
+    "aria_nightwind",
+    "eldrin_of_silverymoon"
+  ],
+  "active_character_id": "aria_nightwind"
+}

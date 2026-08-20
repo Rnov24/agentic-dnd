@@ -153,27 +153,19 @@ def render_game_menu(
         if len(roster_items) > 6:
             lines.append(" | ".join(roster_items[6:]))
 
-    # 5. Non-Developer Action Menu & Quick Commands
-    lines.append(box_section("🎮 WHAT WOULD YOU LIKE TO DO? (ACTION MENU)", color=BRIGHT_GREEN))
-    
-    lines.append(f"  {BOLD}💬 Natural Language (Just type what you want to do):{RESET}")
-    lines.append(f"    • {CYAN}\"I attack the goblin in front of me with my sword\"{RESET}")
-    lines.append(f"    • {CYAN}\"I cast Fire Bolt at the nearest goblin archer\"{RESET}")
-    lines.append(f"    • {CYAN}\"I quietly search the bushes for tracks or hidden enemies\"{RESET}")
-    lines.append(f"    • {CYAN}\"We take a short rest and bandage our wounds\"{RESET}")
-    lines.append(f"    • {CYAN}\"I talk to Sildar and ask what happened on the road\"{RESET}")
-    
-    lines.append(f"\n  {BOLD}⚡ Quick Slash Commands & Tool Shortcuts:{RESET}")
-    lines.append(f"  {BRIGHT_YELLOW}[1] Play Action{RESET}   : {BOLD}python dnd.py play \"<intent>\"{RESET} (Full turn orchestration)")
-    lines.append(f"  {BRIGHT_YELLOW}[2] Attack Target{RESET} : {BOLD}python dnd.py attack <target> [--cover half]{RESET}")
-    lines.append(f"  {BRIGHT_YELLOW}[3] Cast Spell{RESET}    : {BOLD}python dnd.py cast <spell> [--target <target>]{RESET}")
-    lines.append(f"  {BRIGHT_YELLOW}[4] Skill Check{RESET}   : {BOLD}python dnd.py check <stealth/perception/athletics> [dc]{RESET}")
-    lines.append(f"  {BRIGHT_YELLOW}[5] Roll Tabletop{RESET} : {BOLD}python dnd.py roll \"1d20+5 --adv\"{RESET} / {BOLD}\"2d6+3\"{RESET}")
-    lines.append(f"  {BRIGHT_YELLOW}[6] Inspect Sheet{RESET} : {BOLD}python dnd.py inspect [character_name]{RESET}")
-    lines.append(f"  {BRIGHT_YELLOW}[7] Switch Player{RESET} : {BOLD}python dnd.py party switch <character_name>{RESET}")
-    lines.append(f"  {BRIGHT_YELLOW}[8] Short/Long Rest{RESET}: {BOLD}python dnd.py rest short{RESET} / {BOLD}python dnd.py rest long{RESET}")
-    lines.append(f"  {BRIGHT_YELLOW}[9] Lookup Rules{RESET}  : {BOLD}python dnd.py spell <name>{RESET} / {BOLD}monster <name>{RESET} / {BOLD}item <name>{RESET}")
-    lines.append(f"  {BRIGHT_YELLOW}[10] Status/Quests{RESET}: {BOLD}python dnd.py status{RESET} / {BOLD}python dnd.py menu{RESET}")
+    # 5. Dynamic RPG Action Suggestions
+    lines.append(box_section("🎮 WHAT WOULD YOU LIKE TO DO? (TACTICAL & ROLEPLAY CHOICES)", color=BRIGHT_GREEN))
+    from tools.action_suggester import ActionSuggester
+    suggester = ActionSuggester()
+    action_panel = suggester.render_action_panel(
+        actor=active,
+        scene=scene,
+        threats=scene.get("threats", []),
+        npcs=context.get("npcs", []),
+        in_combat=in_combat
+    )
+    lines.append(action_panel)
+    lines.append(f"\n  {DIM}Type your desired action in natural language or choose a tactical option above.{RESET}")
 
     lines.append("\n" + "=" * width + "\n")
     return "\n".join(lines)

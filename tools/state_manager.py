@@ -28,8 +28,9 @@ class StateManager:
         self.project_root = self.base_dir if not (self.base_dir.name in ["state", "campaign"]) else self.base_dir.parent
         self.compendium = Compendium.get_instance(self.project_root)
 
-        self.state_dir = self.project_root / "state"
-        self.campaign_dir = self.project_root / "campaign"
+        from tools.run_manager import RunManager
+        rm = RunManager(self.project_root)
+        self.state_dir, self.campaign_dir = rm.get_active_run_paths()
 
         self.party_file = self.state_dir / "party.json"
         self.world_file = self.state_dir / "world.json"

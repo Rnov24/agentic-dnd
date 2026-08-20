@@ -73,11 +73,14 @@ Welcome to **Agentic D&D** — an AI-native tabletop RPG operating environment d
 | `python dnd.py diff <commit_id>` | View unified state diff with visual before/after cards |
 | `python dnd.py rollback <commit_id>` | Restore game state to a snapshot commit |
 | `python dnd.py create-character` | Create a new D&D 5e character with species, background, and stats |
+| `python dnd.py lobby` / `menu --lobby` | Display Campaign Launcher & Pre-Run Setup Lobby (runs, difficulty, party builder) |
+| `python dnd.py run [list/new/switch/info/delete]` | Manage multi-campaign save slots and difficulty modes (Story, Normal, Hardcore, Deadly) |
+| `python dnd.py vault [list/inspect/delete]` | Inspect and manage global Character Vault pool across all campaigns |
+| `python dnd.py party [list/add/remove/roster/switch]` | Add/remove heroes from vault to active party and manage active player character |
 | `python dnd.py level-up [char]` | Level up character (1-20) with HP scaling, spell slots, and new features |
 | `python dnd.py inspect [char]` | View comprehensive visual character sheet, skills, attacks, and inventory |
-| `python dnd.py party [list/switch]` | Manage multiplayer party roster and active player character |
 | `python dnd.py initiative [roll/next]` | Roll and manage round-by-round combat initiative order |
 | `python dnd.py loot [--cr <num>] [--hoard]` | Generate deterministic 5e individual or hoard treasure |
 | `python dnd.py explain <topic>` | Explain D&D 2024 rules, weapon masteries, conditions, and spell systems |
-| `python dnd.py test` | Run automated unit test suite (138 tests) |
+| `python dnd.py test` | Run automated unit test suite (158 tests) |
 | `python dnd.py dev "<prompt>"` | Execute Developer Agent task |
