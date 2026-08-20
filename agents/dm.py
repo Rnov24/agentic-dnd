@@ -104,7 +104,14 @@ class DMAgent:
                     f"{actor_name} weaves arcane energies to cast {s_name} targeting {tgt} `[Cast {s_name}]`."
                 )
         else:
-            narration_parts.append(f"{actor_name} {player_intent.rstrip('.')} with calculated care.")
+            clean_intent = player_intent.lower().strip()
+            if clean_intent in ["hi", "hello", "hey", "greetings", "let's play", "lets play", "menu", "start", "ready"]:
+                narration_parts.append(
+                    f"The table is set and your party stands ready amidst the {lighting} and {weather} of {location}. "
+                    f"{actor_name} pauses to survey the scene and assess the path ahead."
+                )
+            else:
+                narration_parts.append(f"{actor_name} proceeds to {player_intent.rstrip('.')} with calculated care.")
 
         # 2. NPC Dialogue & Reactions
         if npc_reaction:

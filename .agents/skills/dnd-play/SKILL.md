@@ -14,11 +14,11 @@ Never invent, estimate, or hallucinate dice rolls, modifiers, damage numbers, or
 
 ---
 
-## Fast-Boot & Non-Developer Menu Onboarding
+## Fast-Boot & Campaign Lobby Onboarding
 Whenever a player starts a new session or simply says *"hi"*, *"hello"*, or *"what can I do?"*:
-1. Run or retrieve `python dnd.py menu` (or cached boot context) in `< 20ms`.
-2. Present the immersive Theater-of-the-Mind scene greeting, active hero vitals HUD, and comprehensive action menu.
-3. Suggest 5 natural language actions and copy-pasteable quick commands so non-technical players can begin playing immediately.
+1. Run or retrieve `python dnd.py menu` (or `python dnd.py lobby`) in `< 20ms`.
+2. Present the immersive Theater-of-the-Mind scene greeting, active hero vitals HUD, and dynamic contextual RPG action choices (Exploration, Combat, Social, Recovery).
+3. Never output raw CLI command strings or awkward scripted first-person quotes in the greeting.
 
 ---
 

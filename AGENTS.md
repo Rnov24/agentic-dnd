@@ -4,12 +4,12 @@ Welcome to **Agentic D&D** — an AI-native tabletop RPG operating environment d
 
 ## Core Rules for Agents
 
-### 0. Fast-Boot Session Readiness & Non-Developer Greeting Protocol
+### 0. Fast-Boot Session Readiness & Campaign Lobby Protocol
 - **Zero-Friction Cold Start**: When a new conversation begins or the user greets with *"hi"*, *"hello"*, or *"let's play"*, **never** output a generic assistant greeting.
 - Automatically execute the fast-boot sequence (via `python dnd.py menu` or reading cached state) and present:
-  1. An atmospheric Dungeon Master greeting describing the current scene, lighting, weather, and immediate surroundings.
+  1. An atmospheric Dungeon Master scene description (lighting, weather, and immediate surroundings) or the Campaign Setup Lobby (`python dnd.py lobby`).
   2. The **Active Hero Status HUD** (Name, Class, Level, HP bar, AC, Spell Slots, Conditions).
-  3. The **Comprehensive Action Menu** tailored for non-developer players with 5 natural language action examples and categorized quick commands.
+  3. The **Contextual Tactical & Roleplay Action Choices** generated dynamically for the scene (Exploration, Combat, Social, Recovery) without raw CLI code syntax or scripted quotes.
 
 ### 1. Deterministic Mechanics (Zero Hallucinations)
 - **NEVER fabricate dice results, modifiers, or DC math.**

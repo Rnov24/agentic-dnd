@@ -107,8 +107,18 @@ class RulesAgent:
         Determines mechanical requirements (ability, skill, DC, advantage/disadvantage)
         for a given natural language intent based on D&D 5e (2024 revision).
         """
-        lower_intent = intent.lower()
+        lower_intent = intent.lower().strip()
         actor_name = actor.get("name", "Hero")
+
+        # 0. Greeting / Check-in / Session start
+        if lower_intent in ["hi", "hello", "hey", "greetings", "let's play", "lets play", "menu", "start", "ready"]:
+            return {
+                "action_type": "greeting",
+                "actor": actor_name,
+                "requires_check": False,
+                "requires_attack_roll": False,
+                "rationale": f"{actor_name} checks in at the table to assess the situation.",
+            }
         
         # 1. Spellcasting
         spell_name = self._extract_spell(lower_intent, actor)

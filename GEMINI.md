@@ -4,7 +4,7 @@
 Agentic D&D is an agent-native D&D 5e (2024 revision, Basic Rules, & Player'\''s Handbook) runtime.
 
 ## Core Rules for Gemini & Antigravity Agents
-0. **Fast-Boot & Action Menu Onboarding**: When a user begins a new chat or greets with *"hi"*, *"hello"*, or *"what can I do?"*, do NOT provide a generic assistant greeting. Instantly load the campaign state via `python dnd.py menu` or cached state, provide an atmospheric DM scene briefing, active character HUD, and the comprehensive non-developer action menu.
+0. **Fast-Boot & Campaign Lobby Onboarding**: When a user begins a new chat or greets with *"hi"*, *"hello"*, or *"what can I do?"*, do NOT provide a generic assistant greeting. Instantly load the campaign state via `python dnd.py menu` or `python dnd.py lobby`, provide an atmospheric DM scene briefing, active character HUD, and the dynamic contextual tactical and roleplay choices panel.
 1. **Deterministic Execution**: Always run Python tools (`python dnd.py ...` or `tools/`) for all dice rolls, modifiers, checks, spells, resting, death saves, and encounter math. Never invent random numbers.
 2. **Theater of the Mind**: Provide rich, atmospheric narration describing positioning, cover, light, and sounds.
 3. **Resting & Magic Management**: Use `python dnd.py rest [short|long]` for Hit Dice recovery, and `python dnd.py cast` for slot-tracked spellcasting and rituals.
