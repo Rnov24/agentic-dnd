@@ -1,0 +1,251 @@
+{
+  "id": "archimedes",
+  "name": "Archimedes",
+  "is_player": true,
+  "class": "Wizard",
+  "species": "Elf",
+  "background": "Sage",
+  "level": 1,
+  "proficiency_bonus": 2,
+  "hp": {
+    "current": 7,
+    "max": 7,
+    "temp": 0
+  },
+  "ac": 12,
+  "speed": 30,
+  "hit_dice": {
+    "current": 1,
+    "max": 1,
+    "die": "1d6"
+  },
+  "stats": {
+    "intelligence": 15,
+    "strength": 14,
+    "constitution": 13,
+    "dexterity": 14,
+    "wisdom": 10,
+    "charisma": 8
+  },
+  "base_scores": {
+    "intelligence": 15,
+    "strength": 14,
+    "constitution": 13,
+    "dexterity": 12,
+    "wisdom": 10,
+    "charisma": 8
+  },
+  "saving_throws": {
+    "strength": {
+      "proficient": false,
+      "modifier": 2
+    },
+    "dexterity": {
+      "proficient": false,
+      "modifier": 2
+    },
+    "constitution": {
+      "proficient": false,
+      "modifier": 1
+    },
+    "intelligence": {
+      "proficient": true,
+      "modifier": 4
+    },
+    "wisdom": {
+      "proficient": true,
+      "modifier": 2
+    },
+    "charisma": {
+      "proficient": false,
+      "modifier": -1
+    }
+  },
+  "skills": {
+    "acrobatics": {
+      "stat": "dexterity",
+      "proficient": false,
+      "bonus": 2,
+      "total": 2
+    },
+    "animal_handling": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "arcana": {
+      "stat": "intelligence",
+      "proficient": true,
+      "bonus": 4,
+      "total": 4
+    },
+    "athletics": {
+      "stat": "strength",
+      "proficient": false,
+      "bonus": 2,
+      "total": 2
+    },
+    "deception": {
+      "stat": "charisma",
+      "proficient": false,
+      "bonus": -1,
+      "total": -1
+    },
+    "history": {
+      "stat": "intelligence",
+      "proficient": true,
+      "bonus": 4,
+      "total": 4
+    },
+    "insight": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "intimidation": {
+      "stat": "charisma",
+      "proficient": false,
+      "bonus": -1,
+      "total": -1
+    },
+    "investigation": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 2,
+      "total": 2
+    },
+    "medicine": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "nature": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 2,
+      "total": 2
+    },
+    "perception": {
+      "stat": "wisdom",
+      "proficient": true,
+      "bonus": 2,
+      "total": 2
+    },
+    "performance": {
+      "stat": "charisma",
+      "proficient": false,
+      "bonus": -1,
+      "total": -1
+    },
+    "persuasion": {
+      "stat": "charisma",
+      "proficient": false,
+      "bonus": -1,
+      "total": -1
+    },
+    "religion": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 2,
+      "total": 2
+    },
+    "sleight_of_hand": {
+      "stat": "dexterity",
+      "proficient": false,
+      "bonus": 2,
+      "total": 2
+    },
+    "stealth": {
+      "stat": "dexterity",
+      "proficient": false,
+      "bonus": 2,
+      "total": 2
+    },
+    "survival": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    }
+  },
+  "attacks": [
+    {
+      "name": "Unarmed Strike",
+      "type": "melee",
+      "ability": "strength",
+      "bonus": 4,
+      "damage": "3",
+      "damage_type": "bludgeoning"
+    },
+    {
+      "name": "Quarterstaff",
+      "type": "melee",
+      "ability": "strength",
+      "bonus": 4,
+      "damage": "1d6+2",
+      "damage_type": "bludgeoning",
+      "mastery": "Topple"
+    }
+  ],
+  "feats": [
+    "Magic Initiate (Wizard)"
+  ],
+  "weapon_masteries": [],
+  "equipment": [
+    "Quarterstaff",
+    "Calligrapher's Supplies",
+    "Book (history)",
+    "Ink & Pen",
+    "Parchment (8 sheets)",
+    "8 GP"
+  ],
+  "inventory": [
+    "Quarterstaff",
+    "Calligrapher's Supplies",
+    "Book (history)",
+    "Ink & Pen",
+    "Parchment (8 sheets)",
+    "8 GP"
+  ],
+  "gold": 15,
+  "silver": 0,
+  "copper": 0,
+  "conditions": [],
+  "features": [
+    "Arcane Recovery",
+    "Ritual Adept",
+    "Spellcasting",
+    "Spellbook",
+    "Darkvision: 60 feet (120 feet for Drow).",
+    "Elven Lineage: Choose Drow (Darkvision 120ft, Dancing Lights, Faerie Fire, Darkness), High Elf (Prestidigitation, Detect Magic, Misty Step), or Wood Elf (Speed 35ft, Druidcraft, Longstrider, Pass without Trace).",
+    "Fey Ancestry: Advantage on saving throws against being Charmed.",
+    "Keen Senses: Proficiency in the Perception skill.",
+    "Trance: You don't need sleep. Finishing a Long Rest requires only 4 hours of restful meditation."
+  ],
+  "personality": {
+    "traits": [],
+    "ideals": [],
+    "bonds": [],
+    "flaws": []
+  },
+  "spellcasting": {
+    "ability": "intelligence"
+  },
+  "spell_slots": {
+    "level_1": {
+      "current": 2,
+      "max": 2
+    }
+  },
+  "cantrips": [
+    "fire_bolt",
+    "mage_hand"
+  ],
+  "spells_prepared": [
+    "magic_missile",
+    "shield"
+  ]
+}

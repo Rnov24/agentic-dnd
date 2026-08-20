@@ -27,7 +27,7 @@ class CharacterVault:
         self._ensure_preset_seeding()
 
     def _ensure_preset_seeding(self):
-        """Seed default presets if vault is empty."""
+        """Seed default presets and auto-import existing legacy state characters into vault."""
         existing = list(self.vault_dir.glob("*.json"))
         if not existing:
             from tools.character_creator import CharacterCreator, LMOP_PRESETS
@@ -39,6 +39,22 @@ class CharacterVault:
                         self.save_character(char)
                 except Exception:
                     pass
+
+        # Auto-import any characters found in state/party.json
+        state_party_file = self.project_root / "state" / "party.json"
+        if state_party_file.exists():
+            try:
+                with open(state_party_file, "r", encoding="utf-8") as f:
+                    p_data = json.load(f)
+                    chars = p_data.get("party") or p_data.get("characters") or []
+                    if isinstance(chars, list):
+                        for c in chars:
+                            if isinstance(c, dict) and (c.get("id") or c.get("name")):
+                                cid = c.get("id") or c.get("name", "").lower().replace(" ", "_")
+                                if not (self.vault_dir / f"{cid}.json").exists():
+                                    self.save_character(c)
+            except Exception:
+                pass
 
     def save_character(self, character: Dict[str, Any]) -> Dict[str, Any]:
         """Saves or updates a character in the global vault."""

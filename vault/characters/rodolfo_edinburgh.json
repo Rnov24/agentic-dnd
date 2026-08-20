@@ -1,0 +1,445 @@
+{
+  "id": "rodolfo_edinburgh",
+  "name": "Rodolfo Edinburgh",
+  "player_name": "RnovSlicker",
+  "race": "Elf",
+  "species": "High Elf",
+  "lineage": "High Elf",
+  "class": "Wizard",
+  "level": 1,
+  "background": "Sage",
+  "experience_points": "Milestone",
+  "alignment": "Chaotic Good",
+  "is_player": true,
+  "identity": {
+    "gender": "Male",
+    "age": 14,
+    "size": "Medium",
+    "height": 185,
+    "weight": 60,
+    "skin": "White",
+    "eyes": "Hazel",
+    "hair": "Blonde"
+  },
+  "hp": {
+    "current": 7,
+    "max": 7,
+    "temp": 0
+  },
+  "ac": 10,
+  "speed": 30,
+  "hit_dice": {
+    "current": 0,
+    "max": 1,
+    "die": "1d6"
+  },
+  "proficiency_bonus": 2,
+  "stats": {
+    "strength": 8,
+    "dexterity": 10,
+    "constitution": 12,
+    "intelligence": 19,
+    "wisdom": 13,
+    "charisma": 16
+  },
+  "ability_scores": {
+    "strength": {
+      "score": 8,
+      "modifier": -1
+    },
+    "dexterity": {
+      "score": 10,
+      "modifier": 0
+    },
+    "constitution": {
+      "score": 12,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 19,
+      "modifier": 4
+    },
+    "wisdom": {
+      "score": 13,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 16,
+      "modifier": 3
+    }
+  },
+  "saving_throws": {
+    "strength": {
+      "proficient": false,
+      "modifier": -1
+    },
+    "dexterity": {
+      "proficient": false,
+      "modifier": 0
+    },
+    "constitution": {
+      "proficient": false,
+      "modifier": 1
+    },
+    "intelligence": {
+      "proficient": true,
+      "modifier": 6
+    },
+    "wisdom": {
+      "proficient": true,
+      "modifier": 3
+    },
+    "charisma": {
+      "proficient": false,
+      "modifier": 3
+    }
+  },
+  "skills": {
+    "acrobatics": {
+      "stat": "dexterity",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0,
+      "ability": "DEX"
+    },
+    "animal_handling": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 1,
+      "total": 1,
+      "ability": "WIS"
+    },
+    "arcana": {
+      "stat": "intelligence",
+      "proficient": true,
+      "bonus": 6,
+      "total": 6,
+      "ability": "INT"
+    },
+    "athletics": {
+      "stat": "strength",
+      "proficient": false,
+      "bonus": -1,
+      "total": -1,
+      "ability": "STR"
+    },
+    "deception": {
+      "stat": "charisma",
+      "proficient": false,
+      "bonus": 3,
+      "total": 3,
+      "ability": "CHA"
+    },
+    "history": {
+      "stat": "intelligence",
+      "proficient": true,
+      "bonus": 6,
+      "total": 6,
+      "ability": "INT"
+    },
+    "insight": {
+      "stat": "wisdom",
+      "proficient": true,
+      "bonus": 3,
+      "total": 3,
+      "ability": "WIS"
+    },
+    "intimidation": {
+      "stat": "charisma",
+      "proficient": false,
+      "bonus": 3,
+      "total": 3,
+      "ability": "CHA"
+    },
+    "investigation": {
+      "stat": "intelligence",
+      "proficient": true,
+      "bonus": 6,
+      "total": 6,
+      "ability": "INT"
+    },
+    "medicine": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 1,
+      "total": 1,
+      "ability": "WIS"
+    },
+    "nature": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 4,
+      "total": 4,
+      "ability": "INT"
+    },
+    "perception": {
+      "stat": "wisdom",
+      "proficient": true,
+      "bonus": 3,
+      "total": 3,
+      "ability": "WIS"
+    },
+    "performance": {
+      "stat": "charisma",
+      "proficient": false,
+      "bonus": 3,
+      "total": 3,
+      "ability": "CHA"
+    },
+    "persuasion": {
+      "stat": "charisma",
+      "proficient": false,
+      "bonus": 3,
+      "total": 3,
+      "ability": "CHA"
+    },
+    "religion": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 4,
+      "total": 4,
+      "ability": "INT"
+    },
+    "sleight_of_hand": {
+      "stat": "dexterity",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0,
+      "ability": "DEX"
+    },
+    "stealth": {
+      "stat": "dexterity",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0,
+      "ability": "DEX"
+    },
+    "survival": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 1,
+      "total": 1,
+      "ability": "WIS"
+    }
+  },
+  "passive_scores": {
+    "perception": 13,
+    "insight": 13,
+    "investigation": 16
+  },
+  "senses": {
+    "darkvision": "60 ft."
+  },
+  "defenses": {
+    "immunities": [
+      "Magical Sleep"
+    ],
+    "advantages": [
+      "Saving throws made to avoid or end the Charmed condition"
+    ]
+  },
+  "languages": [
+    "Common",
+    "Common Sign Language",
+    "Draconic",
+    "Elvish"
+  ],
+  "proficiencies_and_languages": {
+    "weapons": [
+      "Simple Weapons"
+    ],
+    "languages": [
+      "Common",
+      "Common Sign Language",
+      "Draconic",
+      "Elvish"
+    ]
+  },
+  "features": [
+    "Core Wizard Traits",
+    "Spellcasting (Wizard INT, DC 14, Attack +6)",
+    "Ritual Adept",
+    "Arcane Recovery (1 / Long Rest)",
+    "Elven Lineage: High Elf (Elementalism)",
+    "Fey Ancestry (Adv vs Charm, Immune Magical Sleep)",
+    "Keen Senses",
+    "Trance (4 hr meditation)",
+    "Background Feature: Researcher (Sage)"
+  ],
+  "features_and_traits": {
+    "wizard": [
+      "Core Wizard Traits",
+      "Spellcasting",
+      "Ritual Adept",
+      "Arcane Recovery"
+    ],
+    "elf": [
+      "Creature Type: Humanoid",
+      "Size: Medium",
+      "Speed: 30 ft.",
+      "Darkvision: 60 ft.",
+      "Elven Lineage: High Elf",
+      "Elven Lineage Spells",
+      "Fey Ancestry",
+      "Keen Senses",
+      "Trance",
+      "Languages",
+      "Ability Score Increases"
+    ],
+    "arcane_recovery": {
+      "uses": "1 / Long Rest",
+      "description": "When you finish a Short Rest, you can recover expended spell slots. The spell slots can have a combined level equal to no more than 1, and none of the slots can be level 6 or higher."
+    },
+    "fey_ancestry": {
+      "effect": "Advantage on saving throws to avoid or end the Charmed condition."
+    },
+    "keen_senses": {
+      "proficiency": "Insight"
+    },
+    "trance": {
+      "effect": "Does not need to sleep. Magic cannot put the character to sleep. A Long Rest can be completed in 4 hours through trancelike meditation."
+    }
+  },
+  "attacks": [
+    {
+      "name": "Quarterstaff",
+      "bonus": 1,
+      "damage": "1d6-1",
+      "damage_type": "bludgeoning",
+      "property": "Versatile (1d8)"
+    },
+    {
+      "name": "Dagger",
+      "bonus": 2,
+      "damage": "1d4",
+      "damage_type": "piercing",
+      "range": "20/60",
+      "property": "Finesse, Light, Thrown"
+    },
+    {
+      "name": "Unarmed Strike",
+      "bonus": 1,
+      "damage": "0",
+      "damage_type": "Bludgeoning"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Unarmed Strike",
+      "attack_bonus": 1,
+      "damage": {
+        "amount": 0,
+        "type": "Bludgeoning"
+      }
+    }
+  ],
+  "equipment": [
+    "Dagger (x2)",
+    "Quarterstaff",
+    "Robe",
+    "Backpack",
+    "Book",
+    "Parchment (10 sheets)",
+    "Ink Pen",
+    "Ink (1 ounce bottle)",
+    "Lamp",
+    "Oil (10 flasks)",
+    "Tinderbox",
+    "Spellbook",
+    "Small Knife",
+    "Common Clothes"
+  ],
+  "inventory": [
+    "Dagger (x2)",
+    "Quarterstaff",
+    "Robe",
+    "Backpack",
+    "Book",
+    "Parchment (10 sheets)",
+    "Ink Pen",
+    "Ink (1 ounce bottle)",
+    "Lamp",
+    "Oil (10 flasks)",
+    "Tinderbox",
+    "Spellbook",
+    "Small Knife",
+    "Common Clothes"
+  ],
+  "encumbrance": {
+    "weight_carried": "38 lb.",
+    "encumbered": "120 lb.",
+    "push_drag_lift": "240 lb."
+  },
+  "gold": 15,
+  "silver": 0,
+  "copper": 0,
+  "currency": {
+    "cp": 0,
+    "sp": 0,
+    "ep": 0,
+    "gp": 15,
+    "pp": 0
+  },
+  "personality": {
+    "ideals": [
+      "Knowledge. The path to power and self-improvement is through knowledge. (Neutral)"
+    ],
+    "traits": [
+      "Prone to getting lost in arcane books and esoteric theories."
+    ],
+    "bonds": [
+      "Driven to master arcane arts and unravel cosmic mysteries."
+    ],
+    "flaws": [
+      "Overconfident in intellect, sometimes overlooks physical dangers."
+    ]
+  },
+  "spellcasting": {
+    "class": "Wizard",
+    "ability": "intelligence",
+    "spell_save_dc": 14,
+    "spell_attack_bonus": 6,
+    "spell_slots": {
+      "level_1": {
+        "current": 2,
+        "max": 2
+      }
+    },
+    "spells": {
+      "cantrips": [
+        {
+          "name": "Elementalism",
+          "source": "Elven Lineage Spells",
+          "prepared": true,
+          "casting_time": "1A",
+          "range": "30 ft./5 ft. Cube",
+          "components": [
+            "V",
+            "S"
+          ],
+          "duration": "Instantaneous",
+          "page": "PHB-2024 267",
+          "notes": "5 ft. Cube, V/S"
+        }
+      ]
+    }
+  },
+  "spell_slots": {
+    "level_1": {
+      "current": 2,
+      "max": 2
+    }
+  },
+  "cantrips": [
+    "Elementalism"
+  ],
+  "spells_prepared": [
+    "Detect Magic",
+    "Magic Missile",
+    "Shield",
+    "Sleep",
+    "Thunderwave",
+    "Identify"
+  ],
+  "conditions": []
+}

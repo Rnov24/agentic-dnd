@@ -1,0 +1,238 @@
+{
+  "id": "valen_2024",
+  "name": "Valen 2024",
+  "is_player": true,
+  "class": "Fighter",
+  "species": "Human",
+  "background": "Soldier",
+  "level": 1,
+  "proficiency_bonus": 2,
+  "hp": {
+    "current": 12,
+    "max": 12,
+    "temp": 0
+  },
+  "ac": 16,
+  "speed": 30,
+  "hit_dice": {
+    "current": 1,
+    "max": 1,
+    "die": "1d10"
+  },
+  "stats": {
+    "strength": 16,
+    "constitution": 15,
+    "dexterity": 14,
+    "wisdom": 13,
+    "intelligence": 11,
+    "charisma": 9
+  },
+  "base_scores": {
+    "strength": 15,
+    "constitution": 14,
+    "dexterity": 13,
+    "wisdom": 12,
+    "intelligence": 10,
+    "charisma": 8
+  },
+  "saving_throws": {
+    "strength": {
+      "proficient": true,
+      "modifier": 5
+    },
+    "dexterity": {
+      "proficient": false,
+      "modifier": 2
+    },
+    "constitution": {
+      "proficient": true,
+      "modifier": 4
+    },
+    "intelligence": {
+      "proficient": false,
+      "modifier": 0
+    },
+    "wisdom": {
+      "proficient": false,
+      "modifier": 1
+    },
+    "charisma": {
+      "proficient": false,
+      "modifier": -1
+    }
+  },
+  "skills": {
+    "acrobatics": {
+      "stat": "dexterity",
+      "proficient": false,
+      "bonus": 2,
+      "total": 2
+    },
+    "animal_handling": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 1,
+      "total": 1
+    },
+    "arcana": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "athletics": {
+      "stat": "strength",
+      "proficient": true,
+      "bonus": 5,
+      "total": 5
+    },
+    "deception": {
+      "stat": "charisma",
+      "proficient": false,
+      "bonus": -1,
+      "total": -1
+    },
+    "history": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "insight": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 1,
+      "total": 1
+    },
+    "intimidation": {
+      "stat": "charisma",
+      "proficient": true,
+      "bonus": 1,
+      "total": 1
+    },
+    "investigation": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "medicine": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 1,
+      "total": 1
+    },
+    "nature": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "perception": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 1,
+      "total": 1
+    },
+    "performance": {
+      "stat": "charisma",
+      "proficient": false,
+      "bonus": -1,
+      "total": -1
+    },
+    "persuasion": {
+      "stat": "charisma",
+      "proficient": true,
+      "bonus": 1,
+      "total": 1
+    },
+    "religion": {
+      "stat": "intelligence",
+      "proficient": false,
+      "bonus": 0,
+      "total": 0
+    },
+    "sleight_of_hand": {
+      "stat": "dexterity",
+      "proficient": false,
+      "bonus": 2,
+      "total": 2
+    },
+    "stealth": {
+      "stat": "dexterity",
+      "proficient": false,
+      "bonus": 2,
+      "total": 2
+    },
+    "survival": {
+      "stat": "wisdom",
+      "proficient": false,
+      "bonus": 1,
+      "total": 1
+    }
+  },
+  "attacks": [
+    {
+      "name": "Unarmed Strike",
+      "type": "melee",
+      "ability": "strength",
+      "bonus": 5,
+      "damage": "4",
+      "damage_type": "bludgeoning"
+    },
+    {
+      "name": "Greatsword",
+      "type": "melee",
+      "ability": "strength",
+      "bonus": 5,
+      "damage": "2d6+3",
+      "damage_type": "slashing",
+      "mastery": "Graze"
+    }
+  ],
+  "feats": [
+    "Savage Attacker",
+    "Skilled"
+  ],
+  "weapon_masteries": [
+    "Greatsword (Graze)",
+    "Longbow (Slow)",
+    "Shortsword (Vex)"
+  ],
+  "equipment": [
+    "Spear",
+    "Shortbow",
+    "20 Arrows",
+    "Gaming Set",
+    "Healer's Kit",
+    "Traveler's Clothes",
+    "14 GP"
+  ],
+  "inventory": [
+    "Spear",
+    "Shortbow",
+    "20 Arrows",
+    "Gaming Set",
+    "Healer's Kit",
+    "Traveler's Clothes",
+    "14 GP"
+  ],
+  "gold": 15,
+  "silver": 0,
+  "copper": 0,
+  "conditions": [],
+  "features": [
+    "Fighting Style",
+    "Second Wind",
+    "Weapon Mastery (3)",
+    "Resourceful: You gain Heroic Inspiration whenever you finish a Long Rest.",
+    "Skillful: You gain proficiency in one skill of your choice.",
+    "Versatile: You gain one Origin feat of your choice."
+  ],
+  "personality": {
+    "traits": [],
+    "ideals": [],
+    "bonds": [],
+    "flaws": []
+  }
+}
