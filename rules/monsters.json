@@ -1,0 +1,255 @@
+{
+  "goblin": {
+    "id": "goblin",
+    "name": "Goblin",
+    "size": "Small",
+    "type": "Humanoid (Goblinoid)",
+    "alignment": "Neutral Evil",
+    "ac": 15,
+    "hp": {
+      "current": 7,
+      "max": 7
+    },
+    "hit_dice": "2d6",
+    "speed": "30 ft.",
+    "stats": {
+      "strength": 8,
+      "dexterity": 14,
+      "constitution": 10,
+      "intelligence": 10,
+      "wisdom": 8,
+      "charisma": 8
+    },
+    "skills": {
+      "stealth": 6
+    },
+    "senses": "Darkvision 60 ft., passive Perception 9",
+    "cr": "1/4",
+    "xp": 50,
+    "traits": [
+      "nimble_escape",
+      {
+        "name": "Nimble Escape",
+        "id": "nimble_escape",
+        "description": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Scimitar",
+        "type": "melee",
+        "ability": "dexterity",
+        "bonus": 4,
+        "damage": "1d6+2",
+        "damage_type": "slashing",
+        "mastery": "Nick"
+      },
+      {
+        "name": "Shortbow",
+        "type": "ranged",
+        "ability": "dexterity",
+        "bonus": 4,
+        "damage": "1d6+2",
+        "damage_type": "piercing",
+        "mastery": "Vex"
+      }
+    ]
+  },
+  "skeleton": {
+    "id": "skeleton",
+    "name": "Skeleton",
+    "size": "Medium",
+    "type": "Undead",
+    "alignment": "Lawful Evil",
+    "ac": 13,
+    "hp": {
+      "current": 13,
+      "max": 13
+    },
+    "hit_dice": "2d8+4",
+    "speed": "30 ft.",
+    "stats": {
+      "strength": 10,
+      "dexterity": 14,
+      "constitution": 15,
+      "intelligence": 6,
+      "wisdom": 8,
+      "charisma": 5
+    },
+    "vulnerabilities": [
+      "bludgeoning"
+    ],
+    "damage_immunities": [
+      "poison"
+    ],
+    "condition_immunities": [
+      "exhaustion",
+      "poisoned"
+    ],
+    "senses": "Darkvision 60 ft., passive Perception 9",
+    "cr": "1/4",
+    "xp": 50,
+    "attacks": [
+      {
+        "name": "Shortsword",
+        "type": "melee",
+        "ability": "dexterity",
+        "bonus": 4,
+        "damage": "1d6+2",
+        "damage_type": "piercing",
+        "mastery": "Vex"
+      },
+      {
+        "name": "Shortbow",
+        "type": "ranged",
+        "ability": "dexterity",
+        "bonus": 4,
+        "damage": "1d6+2",
+        "damage_type": "piercing",
+        "mastery": "Vex"
+      }
+    ]
+  },
+  "zombie": {
+    "id": "zombie",
+    "name": "Zombie",
+    "size": "Medium",
+    "type": "Undead",
+    "alignment": "Neutral Evil",
+    "ac": 8,
+    "hp": {
+      "current": 22,
+      "max": 22
+    },
+    "hit_dice": "3d8+9",
+    "speed": "20 ft.",
+    "stats": {
+      "strength": 13,
+      "dexterity": 6,
+      "constitution": 16,
+      "intelligence": 3,
+      "wisdom": 6,
+      "charisma": 5
+    },
+    "saving_throws": {
+      "wisdom": 0
+    },
+    "damage_immunities": [
+      "poison"
+    ],
+    "condition_immunities": [
+      "poisoned"
+    ],
+    "senses": "Darkvision 60 ft., passive Perception 8",
+    "cr": "1/4",
+    "xp": 50,
+    "traits": [
+      {
+        "name": "Undead Fortitude",
+        "description": "If damage reduces the zombie to 0 HP, it makes a CON save (DC 5 + damage taken) unless Radiant or critical. On success, it drops to 1 HP instead."
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Slam",
+        "type": "melee",
+        "ability": "strength",
+        "bonus": 3,
+        "damage": "1d6+1",
+        "damage_type": "bludgeoning"
+      }
+    ]
+  },
+  "guard": {
+    "id": "guard",
+    "name": "Guard",
+    "size": "Medium",
+    "type": "Humanoid (Any Race)",
+    "alignment": "Any Alignment",
+    "ac": 16,
+    "hp": {
+      "current": 11,
+      "max": 11
+    },
+    "hit_dice": "2d8+2",
+    "speed": "30 ft.",
+    "stats": {
+      "strength": 13,
+      "dexterity": 12,
+      "constitution": 12,
+      "intelligence": 10,
+      "wisdom": 11,
+      "charisma": 10
+    },
+    "skills": {
+      "perception": 2
+    },
+    "senses": "passive Perception 12",
+    "cr": "1/8",
+    "xp": 25,
+    "attacks": [
+      {
+        "name": "Spear",
+        "type": "melee",
+        "ability": "strength",
+        "bonus": 3,
+        "damage": "1d6+1",
+        "damage_type": "piercing",
+        "mastery": "Sap"
+      }
+    ]
+  },
+  "adult_red_dragon": {
+    "id": "adult_red_dragon",
+    "name": "Adult Red Dragon",
+    "size": "Huge",
+    "type": "Dragon",
+    "alignment": "Chaotic Evil",
+    "ac": 19,
+    "hp": {
+      "current": 256,
+      "max": 256
+    },
+    "hit_dice": "19d12+133",
+    "speed": "40 ft., climb 40 ft., fly 80 ft.",
+    "stats": {
+      "strength": 27,
+      "dexterity": 10,
+      "constitution": 25,
+      "intelligence": 16,
+      "wisdom": 13,
+      "charisma": 21
+    },
+    "saving_throws": {
+      "dexterity": 6,
+      "constitution": 13,
+      "wisdom": 7,
+      "charisma": 11
+    },
+    "skills": {
+      "perception": 13,
+      "stealth": 6
+    },
+    "damage_immunities": [
+      "fire"
+    ],
+    "senses": "Blindsight 60 ft., Darkvision 120 ft., passive Perception 23",
+    "cr": "17",
+    "xp": 18000,
+    "legendary_actions": [
+      "Detect",
+      "Tail Attack",
+      "Wing Attack"
+    ],
+    "attacks": [
+      {
+        "name": "Bite",
+        "type": "melee",
+        "ability": "strength",
+        "bonus": 14,
+        "damage": "2d10+8",
+        "damage_type": "piercing"
+      }
+    ]
+  }
+}

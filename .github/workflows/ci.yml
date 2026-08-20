@@ -1,0 +1,48 @@
+name: Agentic D&D CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    name: Test (Python ${{ matrix.python-version }} on ${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python-version: ["3.9", "3.10", "3.11", "3.12", "3.13"]
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Validate Rules Compendiums (469 Entities)
+        run: |
+          python dnd.py compendium validate
+
+      - name: Run Compendium Catalog Statistics
+        run: |
+          python dnd.py compendium stats
+
+      - name: Execute Full Automated Unit Test Suite (147 Tests)
+        run: |
+          python dnd.py test
+
+      - name: Test Fast-Boot & Menu Dashboard
+        run: |
+          python dnd.py menu
+
+      - name: Test Mechanics Explainer
+        run: |
+          python dnd.py explain "heroic inspiration"
+          python dnd.py explain "unarmed strike"
+          python dnd.py explain topple

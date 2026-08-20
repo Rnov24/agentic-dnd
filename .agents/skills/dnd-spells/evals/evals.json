@@ -1,0 +1,32 @@
+﻿{
+  "skill_name": "dnd-spells",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Eldrin casts Fire Bolt at the fortress sentry",
+      "expected_output": "Resolves Fire Bolt ranged spell attack and damage formula without deducting a spell slot.",
+      "expectations": [
+        "Identifies Fire Bolt as a cantrip",
+        "Executes deterministic attack and damage roll"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "How does concentration work if Eldrin takes 16 damage while maintaining a spell?",
+      "expected_output": "Explains that Eldrin must make a DC 10 Constitution saving throw (since half of 16 is 8, and minimum DC is 10).",
+      "expectations": [
+        "Correctly computes concentration DC as 10",
+        "Explains Constitution saving throw requirement"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Can Eldrin cast Detect Magic as a ritual without using a spell slot?",
+      "expected_output": "Confirms that under D&D 2024 rules, any prepared ritual caster can cast ritual spells in 10 minutes without expending a spell slot.",
+      "expectations": [
+        "Confirms ritual casting consumes 0 spell slots",
+        "Mentions the +10 minutes casting time addition"
+      ]
+    }
+  ]
+}

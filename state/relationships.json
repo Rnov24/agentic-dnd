@@ -1,0 +1,34 @@
+{
+  "relationships": [
+    {
+      "source": "aria_nightwind",
+      "target": "captain_aldric",
+      "disposition": "Hostile",
+      "notes": "Captain Aldric oversaw the execution of Aria's mentor."
+    },
+    {
+      "source": "aria_nightwind",
+      "target": "eldrin_shadowseeker",
+      "disposition": "Trusted Ally",
+      "notes": "Sworn companions in surviving the underworld."
+    },
+    {
+      "source": "aria_nightwind",
+      "target": "mira_the_alchemist",
+      "disposition": "Friendly Contact",
+      "notes": "Mira supplies antidotes and underworld intel."
+    },
+    {
+      "source": "captain_aldric",
+      "target": "prisoner_valen",
+      "disposition": "Interrogation Target",
+      "notes": "Aldric seeks the cipher code before executing Valen at dawn."
+    },
+    {
+      "source": "royal_garrison",
+      "target": "shadow_syndicate",
+      "disposition": "At War",
+      "notes": "Total martial suppression order against the Syndicate."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "attack": {
+    "name": "Attack",
+    "type": "Action",
+    "description": "Make one or more attack rolls using equipped weapons, improvised weapons, or Unarmed Strikes.",
+    "options": [
+      "Weapon Attack: Make a melee or ranged attack roll using a weapon you are wielding.",
+      "Unarmed Strike: Choose Damage (1 + STR bludgeoning), Grapple (target makes STR/DEX save vs DC 8 + STR mod + PB or gains Grappled condition), or Shove (target makes STR/DEX save vs DC 8 + STR mod + PB or is pushed 5ft or knocked Prone)."
+    ],
+    "triggers": ["Extra Attack feature allows additional attacks per action."]
+  },
+  "dash": {
+    "name": "Dash",
+    "type": "Action",
+    "description": "Gain extra movement equal to your Speed (plus any active modifiers) for the current turn."
+  },
+  "disengage": {
+    "name": "Disengage",
+    "type": "Action",
+    "description": "Your movement doesn't provoke Opportunity Attacks for the rest of the current turn."
+  },
+  "dodge": {
+    "name": "Dodge",
+    "type": "Action",
+    "description": "Focus entirely on evading attacks. Until the start of your next turn, attack rolls against you have Disadvantage (if you can see the attacker), and you have Advantage on Dexterity saving throws.",
+    "ends_if": "Incapacitated or Speed 0"
+  },
+  "help": {
+    "name": "Help",
+    "type": "Action",
+    "description": "Lend aid to an ally. Choose one ally within 5 feet: grant them Advantage on their next ability check before the start of your next turn, or grant Advantage on their next attack roll against a creature within 5 feet of you."
+  },
+  "hide": {
+    "name": "Hide",
+    "type": "Action",
+    "description": "Make a DC 15 Dexterity (Stealth) check while Heavily Obscured, behind Three-Quarters/Total Cover, or out of enemy line of sight. On a success, you gain the Invisible condition until discovered, you attack, cast a spell with a Verbal component, or make a loud noise.",
+    "dc": 15,
+    "check": "dexterity_stealth",
+    "grants_condition": "invisible"
+  },
+  "influence": {
+    "name": "Influence",
+    "type": "Action",
+    "description": "Make a Charisma check (Deception, Intimidation, Performance, or Persuasion) to shift an NPC's attitude or convince them to perform an action. Friendly DC 10, Indifferent DC 15, Hostile DC 20.",
+    "check": "charisma",
+    "dc_guidelines": {
+      "friendly": 10,
+      "indifferent": 15,
+      "hostile": 20
+    }
+  },
+  "magic": {
+    "name": "Magic",
+    "type": "Action",
+    "description": "Cast a spell with a casting time of 1 Action, activate a magic item, or use a magical feature (such as Channel Divinity or Wild Shape)."
+  },
+  "ready": {
+    "name": "Ready",
+    "type": "Action",
+    "description": "Prepare to act using your Reaction when a specific trigger occurs before the start of your next turn. If you ready a spell, you cast it on your turn (expending the slot) and hold its energy with Concentration until the trigger occurs."
+  },
+  "search": {
+    "name": "Search",
+    "type": "Action",
+    "description": "Devote your attention to finding something. Make a Wisdom check (Insight, Medicine, Perception, or Survival) to locate hidden creatures, secret doors, or environmental clues.",
+    "check": "wisdom"
+  },
+  "study": {
+    "name": "Study",
+    "type": "Action",
+    "description": "Study a creature, object, or phenomenon. Make an Intelligence check (Arcana, History, Investigation, Nature, or Religion) to deduce properties, weaknesses, lore, or secrets.",
+    "check": "intelligence"
+  },
+  "utilize": {
+    "name": "Utilize",
+    "type": "Action",
+    "description": "Interact with a nonmagical object, use a tool, open a locked chest with Thieves' Tools, drink a potion, or apply a healer's kit."
+  }
+}

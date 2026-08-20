@@ -1,0 +1,151 @@
+{
+  "lmop_fighter_folk_hero": {
+    "name": "Valeros of Neverwinter",
+    "class": "Fighter",
+    "species": "Human",
+    "background": "Folk Hero",
+    "scores": {
+      "strength": 15,
+      "dexterity": 13,
+      "constitution": 14,
+      "intelligence": 10,
+      "wisdom": 12,
+      "charisma": 8
+    },
+    "attacks": [
+      {
+        "name": "Greatsword",
+        "bonus": 5,
+        "damage": "2d6+3",
+        "damage_type": "slashing",
+        "property": "Heavy, Two-Handed"
+      },
+      {
+        "name": "Longbow",
+        "bonus": 3,
+        "damage": "1d8+1",
+        "damage_type": "piercing",
+        "range": "150/600"
+      }
+    ],
+    "equipment": [
+      "Chain Mail",
+      "Greatsword",
+      "Longbow",
+      "20 Arrows",
+      "Dungeoneer's Pack",
+      "Shovel",
+      "Iron Pot"
+    ]
+  },
+  "lmop_fighter_noble": {
+    "name": "Aldith of Phandalin",
+    "class": "Fighter",
+    "species": "Human",
+    "background": "Noble",
+    "scores": {
+      "strength": 15,
+      "dexterity": 9,
+      "constitution": 14,
+      "intelligence": 11,
+      "wisdom": 13,
+      "charisma": 14
+    },
+    "attacks": [
+      {
+        "name": "Longsword",
+        "bonus": 5,
+        "damage": "1d8+3",
+        "damage_type": "slashing",
+        "property": "Versatile (1d10)"
+      },
+      {
+        "name": "Javelin",
+        "bonus": 5,
+        "damage": "1d6+3",
+        "damage_type": "piercing",
+        "range": "30/120"
+      }
+    ],
+    "equipment": [
+      "Chain Mail",
+      "Longsword",
+      "Shield",
+      "3 Javelins",
+      "Fine Clothes",
+      "Signet Ring",
+      "25 GP"
+    ]
+  },
+  "lmop_wizard_acolyte": {
+    "name": "Eldrin of Silverymoon",
+    "class": "Wizard",
+    "species": "High Elf",
+    "background": "Acolyte",
+    "scores": {
+      "strength": 8,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 15,
+      "wisdom": 12,
+      "charisma": 10
+    },
+    "equipment": [
+      "Quarterstaff",
+      "Arcane Focus",
+      "Spellbook",
+      "Scholar's Pack",
+      "Holy Symbol",
+      "Prayer Book",
+      "15 GP"
+    ]
+  },
+  "lmop_rogue_criminal": {
+    "name": "Aria Nightwind",
+    "class": "Rogue",
+    "species": "Lightfoot Halfling",
+    "background": "Criminal",
+    "scores": {
+      "strength": 8,
+      "dexterity": 15,
+      "constitution": 14,
+      "intelligence": 12,
+      "wisdom": 13,
+      "charisma": 10
+    },
+    "equipment": [
+      "Leather Armor",
+      "Shortsword",
+      "Shortbow",
+      "20 Arrows",
+      "Thieves' Tools",
+      "Burglar's Pack",
+      "Crowbar",
+      "15 GP"
+    ]
+  },
+  "lmop_cleric_soldier": {
+    "name": "Eberk Ironfist",
+    "class": "Cleric",
+    "species": "Hill Dwarf",
+    "background": "Soldier",
+    "scores": {
+      "strength": 14,
+      "dexterity": 8,
+      "constitution": 15,
+      "intelligence": 10,
+      "wisdom": 15,
+      "charisma": 10
+    },
+    "equipment": [
+      "Chain Mail",
+      "Warhammer",
+      "Shield",
+      "Holy Symbol",
+      "Priest's Pack",
+      "Insignia of Rank",
+      "Bone Dice",
+      "10 GP"
+    ]
+  }
+}

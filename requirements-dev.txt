@@ -1,0 +1,6 @@
+# Developer & Testing Tools
+pytest>=7.4.0
+pytest-cov>=4.1.0
+mypy>=1.6.0
+ruff>=0.1.5
+black>=23.10.0

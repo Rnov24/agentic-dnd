@@ -1,0 +1,259 @@
+{
+  "path_of_the_berserker": {
+    "class": "barbarian",
+    "name": "Path of the Berserker",
+    "features": [
+      "Frenzy",
+      "Mindless Rage",
+      "Retaliation",
+      "Intimidating Presence"
+    ]
+  },
+  "path_of_the_wild_heart": {
+    "class": "barbarian",
+    "name": "Path of the Wild Heart",
+    "features": [
+      "Rage of the Wilds",
+      "Aspect of the Wilds",
+      "Nature Speaker",
+      "Power of the Wilds"
+    ]
+  },
+  "path_of_the_world_tree": {
+    "class": "barbarian",
+    "name": "Path of the World Tree",
+    "features": [
+      "Vitality of the Tree",
+      "Branches of the Tree",
+      "Battering Roots",
+      "Travel Along the Tree"
+    ]
+  },
+  "path_of_the_zealot": {
+    "class": "barbarian",
+    "name": "Path of the Zealot",
+    "features": [
+      "Divine Fury",
+      "Warrior of the Gods",
+      "Fanatical Focus",
+      "Zealous Presence",
+      "Rage of the Gods"
+    ]
+  },
+  "college_of_dance": {
+    "class": "bard",
+    "name": "College of Dance",
+    "features": [
+      "Dazzling Footwork",
+      "Inspiring Movement",
+      "Tandem Footwork",
+      "Leading Edge"
+    ]
+  },
+  "college_of_glamour": {
+    "class": "bard",
+    "name": "College of Glamour",
+    "features": [
+      "Beguiling Magic",
+      "Mantle of Inspiration",
+      "Mantle of Majesty",
+      "Unbreakable Majesty"
+    ]
+  },
+  "college_of_lore": {
+    "class": "bard",
+    "name": "College of Lore",
+    "features": [
+      "Bonus Proficiencies (3 skills)",
+      "Cutting Words",
+      "Additional Magical Secrets",
+      "Peerless Skill"
+    ]
+  },
+  "college_of_valor": {
+    "class": "bard",
+    "name": "College of Valor",
+    "features": [
+      "Combat Inspiration",
+      "Martial Training (Medium Armor, Shields, Martial Weapons)",
+      "Extra Attack",
+      "Battle Magic"
+    ]
+  },
+  "life_domain": {
+    "class": "cleric",
+    "name": "Life Domain",
+    "features": [
+      "Disciple of Life",
+      "Domain Spells",
+      "Preserve Life",
+      "Blessed Healer",
+      "Supreme Healing"
+    ]
+  },
+  "light_domain": {
+    "class": "cleric",
+    "name": "Light Domain",
+    "features": [
+      "Domain Spells",
+      "Radiance of the Dawn",
+      "Warding Flare",
+      "Improved Warding Flare",
+      "Corona of Light"
+    ]
+  },
+  "trickery_domain": {
+    "class": "cleric",
+    "name": "Trickery Domain",
+    "features": [
+      "Blessing of the Trickster",
+      "Domain Spells",
+      "Invoke Duplicity",
+      "Trickster's Magic",
+      "Improved Duplicity"
+    ]
+  },
+  "war_domain": {
+    "class": "cleric",
+    "name": "War Domain",
+    "features": [
+      "Domain Spells",
+      "War Priest",
+      "Guided Strike",
+      "War God's Blessing",
+      "Avatar of Battle"
+    ]
+  },
+  "battle_master": {
+    "class": "fighter",
+    "name": "Battle Master",
+    "features": [
+      "Combat Superiority (Maneuvers: Trip, Push, Riposte, Menacing, Precision)",
+      "Student of War",
+      "Know Your Enemy",
+      "Relentless"
+    ]
+  },
+  "champion": {
+    "class": "fighter",
+    "name": "Champion",
+    "features": [
+      "Improved Critical (19-20)",
+      "Remarkable Athlete",
+      "Heroic Warrior (Heroic Inspiration every turn)",
+      "Superior Critical (18-20)",
+      "Survivor"
+    ]
+  },
+  "eldritch_knight": {
+    "class": "fighter",
+    "name": "Eldritch Knight",
+    "features": [
+      "Weapon Bond",
+      "Wizard Spellcasting",
+      "War Magic",
+      "Arcane Charge",
+      "Improved War Magic"
+    ]
+  },
+  "psi_warrior": {
+    "class": "fighter",
+    "name": "Psi Warrior",
+    "features": [
+      "Psionic Power (Protective Field, Psionic Strike, Telekinetic Movement)",
+      "Psi-Powered Leap",
+      "Telekinetic Thrust",
+      "Guarded Mind",
+      "Bulwark of Force",
+      "Telekinetic Master"
+    ]
+  },
+  "arcane_trickster": {
+    "class": "rogue",
+    "name": "Arcane Trickster",
+    "features": [
+      "Mage Hand Legerdemain",
+      "Wizard Spellcasting",
+      "Magical Ambush",
+      "Versatile Trickster",
+      "Spell Thief"
+    ]
+  },
+  "assassin": {
+    "class": "rogue",
+    "name": "Assassin",
+    "features": [
+      "Assassinate (Advantage & bonus damage on round 1)",
+      "Assassin's Tools",
+      "Infiltration Expertise",
+      "Envenom Weapons",
+      "Death Strike"
+    ]
+  },
+  "soulknife": {
+    "class": "rogue",
+    "name": "Soulknife",
+    "features": [
+      "Psionic Power",
+      "Psychic Blades",
+      "Soul Blades (Homing Strikes, Telepathic Teleport)",
+      "Psychic Veil",
+      "Rend Mind"
+    ]
+  },
+  "thief": {
+    "class": "rogue",
+    "name": "Thief",
+    "features": [
+      "Fast Hands (Utilize/Magic Item as Bonus Action)",
+      "Second-Story Work",
+      "Supreme Sneak",
+      "Use Magic Device",
+      "Thief's Reflexes (2 turns in round 1)"
+    ]
+  },
+  "abjurer": {
+    "class": "wizard",
+    "name": "School of Abjuration",
+    "features": [
+      "Abjuration Savant",
+      "Arcane Ward",
+      "Projected Ward",
+      "Spell Breaker",
+      "Spell Resistance"
+    ]
+  },
+  "diviner": {
+    "class": "wizard",
+    "name": "School of Divination",
+    "features": [
+      "Divination Savant",
+      "Portent",
+      "Expert Divination",
+      "The Third Eye",
+      "Greater Portent"
+    ]
+  },
+  "evoker": {
+    "class": "wizard",
+    "name": "School of Evocation",
+    "features": [
+      "Evocation Savant",
+      "Sculpt Spells",
+      "Potent Cantrip",
+      "Empowered Evocation",
+      "Overchannel"
+    ]
+  },
+  "illusionist": {
+    "class": "wizard",
+    "name": "School of Illusion",
+    "features": [
+      "Illusion Savant",
+      "Improved Minor Illusion",
+      "Malleable Illusions",
+      "Phantasmal Creatures",
+      "Illusory Self"
+    ]
+  }
+}

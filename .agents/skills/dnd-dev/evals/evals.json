@@ -1,0 +1,32 @@
+﻿{
+  "skill_name": "dnd-dev",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Run the automated unit test suite to verify mechanics integrity",
+      "expected_output": "Executes python dnd.py test and reports the test count, duration, and pass status.",
+      "expectations": [
+        "Uses python dnd.py test",
+        "Confirms all unit tests passed with 0 errors"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Add a new horror sanity check tool for the campaign",
+      "expected_output": "Follows the 6-step developer workflow, creating the rule in rules/, the Python tool in tools/, and a unit test in tests/.",
+      "expectations": [
+        "Implements deterministic Python calculation",
+        "Updates StateManager and runs verification test"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Import a custom magic weapon 'Frostfang Dagger' into the campaign",
+      "expected_output": "Creates campaign/items/frostfang_dagger.md and registers the weapon in rules/rules_engine.py WEAPONS_TABLE.",
+      "expectations": [
+        "Creates Markdown lore document in campaign/items/",
+        "Registers damage and mastery properties in rules_engine.py"
+      ]
+    }
+  ]
+}

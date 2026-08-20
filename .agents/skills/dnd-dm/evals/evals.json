@@ -1,0 +1,34 @@
+﻿{
+  "skill_name": "dnd-dm",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Evaluate the combat difficulty of facing 1 bugbear and 3 hobgoblins for our party of four adventurers (three level 3s and one level 2).",
+      "expected_output": "Calculates the adjusted XP (1000 XP) and determines that this is a HARD encounter according to D&D Basic Rules.",
+      "expectations": [
+        "Executes python dnd.py encounter or uses exact Basic Rules XP thresholds",
+        "Calculates adjusted XP with x2.0 multiplier for 4 monsters",
+        "Correctly identifies difficulty as Hard"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "What are the properties and attunement requirements of the Cloak of Elvenkind?",
+      "expected_output": "Queries python dnd.py item cloak_of_elvenkind and explains that it requires attunement, gives advantage on Stealth to hide, and gives disadvantage on Perception to see the wearer.",
+      "expectations": [
+        "Confirms attunement is required",
+        "Lists Stealth advantage and Perception disadvantage effects"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Describe the scene as Aria confronts Guard Karl in the prison hallway.",
+      "expected_output": "Provides rich sensory Theater-of-the-Mind narration describing lighting, acoustics, smells, Karl's demeanor, and concludes with What do you do next?",
+      "expectations": [
+        "Includes sensory details (lighting, acoustics, smells)",
+        "Captures Karl's personality",
+        "Concludes with an actionable prompt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+﻿{
+  "skill_name": "dnd-play",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I sneak past Guard Karl and pick the cell lock to free Valen",
+      "expected_output": "Executes python dnd.py play command, processes the multi-agent execution trace, updates party/world state, and returns rich DM narration.",
+      "expectations": [
+        "Uses python dnd.py play with player intent",
+        "Does not fabricate dice rolls or math manually",
+        "Presents atmospheric DM narration and execution steps"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "What is our current party health and where are we right now?",
+      "expected_output": "Executes python dnd.py status to query campaign state and displays active party stats, location, and quests.",
+      "expectations": [
+        "Uses python dnd.py status",
+        "Displays Aria and Eldrin stats and current location"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "I attack Guard Karl with my dagger to silence him",
+      "expected_output": "Executes attack via dnd.py, resolves attack vs AC, applies damage deterministically, and reflects NPC HP reduction.",
+      "expectations": [
+        "Executes deterministic attack via dnd.py play or dnd.py attack",
+        "Updates Guard Karl HP in state"
+      ]
+    }
+  ]
+}

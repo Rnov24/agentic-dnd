@@ -1,0 +1,70 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-dnd"
+version = "1.0.0"
+description = "AI-native tabletop RPG operating environment with deterministic D&D 5e (2024 revision) mechanics, multi-agent orchestration, and Git-style state versioning."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Agentic D&D Contributors"}
+]
+keywords = [
+    "dnd",
+    "dnd-5e",
+    "dnd-2024",
+    "tabletop-rpg",
+    "ai-agents",
+    "antigravity",
+    "claude-code",
+    "deterministic-mechanics",
+    "llm-gaming",
+    "git-versioning"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Games/Entertainment :: Role-Playing",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "mypy>=1.0.0",
+    "ruff>=0.1.0",
+]
+
+[project.scripts]
+dnd = "dnd:main"
+
+[project.urls]
+Homepage = "https://github.com/agentic-dnd/agentic-dnd"
+Documentation = "https://github.com/agentic-dnd/agentic-dnd#readme"
+Issues = "https://github.com/agentic-dnd/agentic-dnd/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["agents*", "rules*", "tools*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"

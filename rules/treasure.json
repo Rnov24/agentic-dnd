@@ -1,0 +1,48 @@
+{
+  "individual_treasure": {
+    "cr_0_4": [
+      {"d100_min": 1, "d100_max": 30, "cp": "5d6"},
+      {"d100_min": 31, "d100_max": 60, "sp": "4d6"},
+      {"d100_min": 61, "d100_max": 70, "ep": "3d6"},
+      {"d100_min": 71, "d100_max": 95, "gp": "3d6"},
+      {"d100_min": 96, "d100_max": 100, "pp": "1d6"}
+    ],
+    "cr_5_10": [
+      {"d100_min": 1, "d100_max": 30, "cp": "4d6*100", "ep": "1d6*10"},
+      {"d100_min": 31, "d100_max": 60, "sp": "6d6*10", "gp": "2d6*10"},
+      {"d100_min": 61, "d100_max": 70, "ep": "3d6*10", "gp": "2d6*10"},
+      {"d100_min": 71, "d100_max": 95, "gp": "4d6*10"},
+      {"d100_min": 96, "d100_max": 100, "gp": "2d6*10", "pp": "3d6"}
+    ]
+  },
+  "hoard_treasure": {
+    "cr_0_4": {
+      "coins": {"cp": "6d6*100", "sp": "3d6*100", "gp": "2d6*10"},
+      "gems_art": [
+        {"d100_min": 1, "d100_max": 36, "type": "none"},
+        {"d100_min": 37, "d100_max": 60, "type": "gems", "count": "2d6", "value_gp": 10},
+        {"d100_min": 61, "d100_max": 75, "type": "art", "count": "2d4", "value_gp": 25},
+        {"d100_min": 76, "d100_max": 100, "type": "gems", "count": "2d6", "value_gp": 50}
+      ],
+      "magic_items": [
+        {"d100_min": 1, "d100_max": 70, "count": 0, "table": "none"},
+        {"d100_min": 71, "d100_max": 90, "count": "1d4", "rarity": "Common"},
+        {"d100_min": 91, "d100_max": 100, "count": "1d4", "rarity": "Uncommon"}
+      ]
+    },
+    "cr_5_10": {
+      "coins": {"cp": "2d6*100", "sp": "2d6*1000", "gp": "6d6*100", "pp": "3d6*10"},
+      "gems_art": [
+        {"d100_min": 1, "d100_max": 28, "type": "none"},
+        {"d100_min": 29, "d100_max": 40, "type": "art", "count": "2d4", "value_gp": 25},
+        {"d100_min": 41, "d100_max": 75, "type": "gems", "count": "3d6", "value_gp": 50},
+        {"d100_min": 76, "d100_max": 100, "type": "gems", "count": "3d6", "value_gp": 100}
+      ],
+      "magic_items": [
+        {"d100_min": 1, "d100_max": 34, "count": 0, "table": "none"},
+        {"d100_min": 35, "d100_max": 80, "count": "1d6", "rarity": "Uncommon"},
+        {"d100_min": 81, "d100_max": 100, "count": "1d4", "rarity": "Rare"}
+      ]
+    }
+  }
+}

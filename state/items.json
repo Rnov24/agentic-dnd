@@ -1,0 +1,57 @@
+{
+  "spider_staff": {
+    "id": "spider_staff",
+    "name": "Spider Staff",
+    "type": "Staff",
+    "rarity": "rare",
+    "attunement": true,
+    "description": "The top of this black polished wooden staff is carved in the likeness of a spider. The staff has 10 charges and regains 1d6 + 4 expended charges daily at dusk. While holding it, you deal an extra 1d6 poison damage on melee weapon hits, and can cast spider climb (1 charge) or web (2 charges, spell save DC 15).",
+    "bonuses": {
+      "melee_poison_damage": "1d6"
+    },
+    "charges": {
+      "max": 10,
+      "recharge": "1d6+4 daily at dusk"
+    }
+  },
+  "staff_of_defense": {
+    "id": "staff_of_defense",
+    "name": "Staff of Defense",
+    "type": "Staff",
+    "rarity": "rare",
+    "attunement": true,
+    "description": "This slender hollow staff is made of hardened glass. While holding it, you gain a +2 bonus to Armor Class. The staff has 4 charges and regains 1d4 expended charges daily at dawn. While holding it, you can cast mage armor (1 charge) or shield (2 charges) as an action or reaction.",
+    "bonuses": {
+      "ac": 2
+    },
+    "charges": {
+      "max": 4,
+      "recharge": "1d4 daily at dawn"
+    }
+  },
+  "lightbringer": {
+    "id": "lightbringer",
+    "name": "Lightbringer",
+    "type": "Weapon (warhammer)",
+    "rarity": "uncommon",
+    "attunement": false,
+    "description": "This +1 warhammer was forged for a cleric of Lathander. The head is shaped like a sunburst. On command, it sheds bright light in a 15-foot radius. When hitting an undead creature, it deals an extra 1d6 radiant damage.",
+    "bonuses": {
+      "attack": 1,
+      "damage": 1,
+      "undead_radiant_damage": "1d6"
+    }
+  },
+  "dragonguard": {
+    "id": "dragonguard",
+    "name": "Dragonguard",
+    "type": "Armor (breastplate)",
+    "rarity": "rare",
+    "attunement": false,
+    "description": "This +1 breastplate has a gold dragon design worked into the chest. While wearing it, you have advantage on saving throws against the breath weapons of creatures of the dragon type.",
+    "bonuses": {
+      "ac": 1,
+      "dragon_breath_advantage": true
+    }
+  }
+}

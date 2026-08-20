@@ -1,0 +1,42 @@
+{
+  "harpers": {
+    "name": "The Harpers",
+    "motto": "Knowledge is power; balance in all things.",
+    "representative_in_phandalin": "Sister Garaele",
+    "location": "Shrine of Luck",
+    "goals": "Eliminate tyranny, promote equality, preserve ancient historical lore.",
+    "membership_reward": "Title of Watcher (1 renown point)"
+  },
+  "order_of_the_gauntlet": {
+    "name": "Order of the Gauntlet",
+    "motto": "Faith, vigilance, and righteousness.",
+    "representative_in_phandalin": "Daran Edermath",
+    "location": "Edermath Orchard",
+    "goals": "Smite evil and undead threats wherever they arise.",
+    "membership_reward": "Title of Chevall (1 renown point)"
+  },
+  "emerald_enclave": {
+    "name": "Emerald Enclave",
+    "motto": "Preserve the natural order.",
+    "representative_in_phandalin": "Reidoth the Druid",
+    "location": "Ruins of Thundertree",
+    "goals": "Protect the balance of nature against encroaching abominations and corruption.",
+    "membership_reward": "Title of Springwarden (1 renown point)"
+  },
+  "lords_alliance": {
+    "name": "The Lords Alliance",
+    "motto": "Security and order through united rule.",
+    "representative_in_phandalin": "Sildar Hallwinter",
+    "location": "Townmasters Hall",
+    "goals": "Restore civilization and security to frontier settlements.",
+    "membership_reward": "Title of Cloak (1 renown point)"
+  },
+  "zhentarim": {
+    "name": "The Zhentarim (The Black Network)",
+    "motto": "Wealth and power for those bold enough to seize it.",
+    "representative_in_phandalin": "Halia Thornton",
+    "location": "Phandalin Miners Exchange",
+    "goals": "Expand commercial and political dominance across the Sword Coast.",
+    "membership_reward": "Title of Fang (1 renown point)"
+  }
+}

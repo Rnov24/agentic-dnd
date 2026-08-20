@@ -1,0 +1,32 @@
+﻿{
+  "skill_name": "dnd-versioning",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Show me the campaign history timeline for our recent turns",
+      "expected_output": "Executes python dnd.py history and renders the chronological list of snapshot commits with IDs and intents.",
+      "expectations": [
+        "Uses python dnd.py history",
+        "Shows commit IDs, timestamps, and player actions"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Show the diff for commit 5bf77379",
+      "expected_output": "Executes python dnd.py diff 5bf77379 and displays the state and markdown changes.",
+      "expectations": [
+        "Uses python dnd.py diff with commit ID",
+        "Displays before and after mutations"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "We made a huge mistake, please rollback our campaign to commit d7992972",
+      "expected_output": "Executes python dnd.py rollback d7992972 and confirms that both state JSON and campaign Markdown have been restored.",
+      "expectations": [
+        "Uses python dnd.py rollback with target commit ID",
+        "Explains that world state has been restored safely"
+      ]
+    }
+  ]
+}

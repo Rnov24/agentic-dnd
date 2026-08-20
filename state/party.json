@@ -1,0 +1,4223 @@
+{
+  "characters": [
+    {
+      "id": "aria_nightwind",
+      "name": "Aria Nightwind",
+      "class": "Rogue",
+      "level": 1,
+      "species": "Lightfoot Halfling",
+      "background": "Criminal",
+      "alignment": "Neutral Good",
+      "is_player": true,
+      "ac": 14,
+      "hp": {
+        "current": 10,
+        "max": 10,
+        "temp": 0
+      },
+      "hit_dice": {
+        "current": 1,
+        "max": 1,
+        "die": "1d8"
+      },
+      "proficiency_bonus": 2,
+      "speed": 25,
+      "stats": {
+        "strength": 8,
+        "dexterity": 17,
+        "constitution": 14,
+        "intelligence": 12,
+        "wisdom": 13,
+        "charisma": 11
+      },
+      "saving_throws": [
+        "dexterity",
+        "intelligence"
+      ],
+      "skills": {
+        "acrobatics": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "animal_handling": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "arcana": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "athletics": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "strength"
+        },
+        "deception": {
+          "total": 2,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "history": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "insight": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "intimidation": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "investigation": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "medicine": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "nature": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "perception": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "performance": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "persuasion": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "religion": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "sleight_of_hand": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "stealth": {
+          "total": 5,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "survival": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        }
+      },
+      "attacks": [
+        {
+          "name": "Rapier",
+          "bonus": 5,
+          "damage": "1d8+3",
+          "damage_type": "piercing",
+          "property": "Finesse"
+        },
+        {
+          "name": "Shortbow",
+          "bonus": 5,
+          "damage": "1d6+3",
+          "damage_type": "piercing",
+          "range": "80/320"
+        }
+      ],
+      "inventory": [
+        "Leather Armor",
+        "Rapier",
+        "Shortbow",
+        "20 Arrows",
+        "Thieves' Tools",
+        "Burglar's Pack",
+        "2 Daggers"
+      ],
+      "currency": {
+        "gp": 15,
+        "sp": 0,
+        "cp": 0
+      },
+      "personality": {
+        "traits": "The best way to get me to do something is to tell me I can't.",
+        "ideal": "Freedom. Chains are meant to be broken, as are those who would forge them.",
+        "bond": "Someone I loved died because of a mistake I made. That will never happen again.",
+        "flaw": "When I see something valuable, I can't think about anything but how to steal it."
+      },
+      "features": [
+        "Sneak Attack (+1d6 damage with advantage/adjacent ally)",
+        "Thieves' Cant",
+        "Expertise (Double proficiency)",
+        "Lucky (Reroll natural 1s)",
+        "Brave (Adv vs frightened)",
+        "Halfling Nimbleness",
+        "Naturally Stealthy (Hide behind larger creatures)",
+        "Background Feature: Criminal Contact"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "eldrin_shadowseeker",
+      "name": "Eldrin Shadowseeker",
+      "class": "Wizard (Evoker)",
+      "level": 3,
+      "background": "Sage",
+      "is_player": false,
+      "ac": 12,
+      "speed": 30,
+      "hp": {
+        "current": 18,
+        "max": 18,
+        "temp": 0
+      },
+      "stats": {
+        "strength": 8,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 17,
+        "wisdom": 12,
+        "charisma": 10
+      },
+      "proficiencies": {
+        "skills": [
+          "arcana",
+          "history",
+          "investigation"
+        ],
+        "expertise": [
+          "arcana"
+        ],
+        "saving_throws": [
+          "intelligence",
+          "wisdom"
+        ]
+      },
+      "attacks": [
+        {
+          "name": "Fire Bolt",
+          "ability": "intelligence",
+          "bonus": 0,
+          "damage": "1d10",
+          "damage_type": "fire",
+          "type": "ranged"
+        },
+        {
+          "name": "Magic Missile",
+          "ability": "intelligence",
+          "bonus": 0,
+          "damage": "3d4+3",
+          "damage_type": "force",
+          "type": "ranged"
+        }
+      ],
+      "resources": {
+        "spell_slots_level_1": 4,
+        "spell_slots_level_2": 2
+      },
+      "conditions": [],
+      "personality": "Analytical, curious, cautious companion who calculates tactical odds.",
+      "goals": [
+        "Decipher the ancient runes carved into the fortress foundation"
+      ],
+      "memories": [
+        "Pledged an oath of brotherhood to Aria after she saved his sister"
+      ],
+      "inventory": [
+        "Arcane Spellbook",
+        "Focus Crystal",
+        "Scroll of Misty Step",
+        "Scholar's Pack"
+      ],
+      "hit_dice": {
+        "current": 3,
+        "max": 3,
+        "die": "1d8"
+      }
+    },
+    {
+      "id": "kaelen_dawnblade",
+      "name": "Kaelen Dawnblade",
+      "class": "Paladin",
+      "level": 1,
+      "species": "Human",
+      "background": "Soldier",
+      "alignment": "Neutral Good",
+      "is_player": true,
+      "ac": 16,
+      "hp": {
+        "current": 12,
+        "max": 12,
+        "temp": 0
+      },
+      "hit_dice": {
+        "current": 1,
+        "max": 1,
+        "die": "1d10"
+      },
+      "proficiency_bonus": 2,
+      "speed": 30,
+      "stats": {
+        "strength": 16,
+        "dexterity": 11,
+        "constitution": 14,
+        "intelligence": 9,
+        "wisdom": 13,
+        "charisma": 15
+      },
+      "saving_throws": [
+        "wisdom",
+        "charisma"
+      ],
+      "skills": {
+        "acrobatics": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "animal_handling": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "arcana": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "athletics": {
+          "total": 5,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "strength"
+        },
+        "deception": {
+          "total": 2,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "history": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "insight": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "intimidation": {
+          "total": 4,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "investigation": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "medicine": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "nature": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "perception": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "performance": {
+          "total": 2,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "persuasion": {
+          "total": 2,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "religion": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "sleight_of_hand": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "stealth": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "survival": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        }
+      },
+      "attacks": [
+        {
+          "name": "Longsword",
+          "bonus": 5,
+          "damage": "1d8+3",
+          "damage_type": "slashing"
+        },
+        {
+          "name": "Javelin",
+          "bonus": 5,
+          "damage": "1d6+3",
+          "damage_type": "piercing",
+          "range": "30/120"
+        }
+      ],
+      "inventory": [
+        "Chain Mail",
+        "Longsword",
+        "Shield",
+        "5 Javelins",
+        "Holy Symbol",
+        "Priest's Pack"
+      ],
+      "currency": {
+        "gp": 10,
+        "sp": 0,
+        "cp": 0
+      },
+      "features": [
+        "Divine Sense (Detect celestial, fiend, undead)",
+        "Lay on Hands (Pool of 5 HP healing)",
+        "Extra Language",
+        "Resourceful",
+        "Background Feature: Military Rank"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "thorin_ironbreaker",
+      "name": "Thorin Ironbreaker",
+      "class": "Fighter",
+      "level": 1,
+      "species": "Hill Dwarf",
+      "background": "Soldier",
+      "alignment": "Neutral Good",
+      "is_player": true,
+      "ac": 16,
+      "hp": {
+        "current": 14,
+        "max": 14,
+        "temp": 0
+      },
+      "hit_dice": {
+        "current": 1,
+        "max": 1,
+        "die": "1d10"
+      },
+      "proficiency_bonus": 2,
+      "speed": 25,
+      "stats": {
+        "strength": 15,
+        "dexterity": 13,
+        "constitution": 16,
+        "intelligence": 10,
+        "wisdom": 13,
+        "charisma": 8
+      },
+      "saving_throws": [
+        "strength",
+        "constitution"
+      ],
+      "skills": {
+        "acrobatics": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "animal_handling": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "arcana": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "athletics": {
+          "total": 4,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "strength"
+        },
+        "deception": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "history": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "insight": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "intimidation": {
+          "total": 1,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "investigation": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "medicine": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "nature": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "perception": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "performance": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "persuasion": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "religion": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "sleight_of_hand": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "stealth": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "survival": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        }
+      },
+      "attacks": [
+        {
+          "name": "Longsword",
+          "bonus": 5,
+          "damage": "1d8+3",
+          "damage_type": "slashing",
+          "property": "Versatile (1d10)"
+        },
+        {
+          "name": "Light Crossbow",
+          "bonus": 3,
+          "damage": "1d8+1",
+          "damage_type": "piercing",
+          "range": "80/320"
+        }
+      ],
+      "inventory": [
+        "Chain Mail",
+        "Longsword",
+        "Shield",
+        "Light Crossbow",
+        "20 Crossbow Bolts",
+        "Dungeoneer's Pack"
+      ],
+      "currency": {
+        "gp": 10,
+        "sp": 0,
+        "cp": 0
+      },
+      "personality": {
+        "traits": "I can stare down a hell hound without flinching.",
+        "ideal": "Greater Good. Our lot is to lay down our lives in defense of others.",
+        "bond": "I would still lay down my life for the people I served with.",
+        "flaw": "The monstrous enemy we faced still haunts my nightmares."
+      },
+      "features": [
+        "Second Wind (1d10+Level heal as bonus action)",
+        "Fighting Style",
+        "Darkvision 60 ft",
+        "Dwarven Resilience (Adv vs poison, resistance to poison damage)",
+        "Stonecunning",
+        "Dwarven Toughness (+1 HP per level)",
+        "Background Feature: Military Rank"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "archimedes",
+      "name": "Archimedes",
+      "class": "Wizard",
+      "level": 1,
+      "species": "High Elf",
+      "background": "Sage",
+      "alignment": "Neutral Good",
+      "is_player": true,
+      "ac": 12,
+      "hp": {
+        "current": 8,
+        "max": 8,
+        "temp": 0
+      },
+      "hit_dice": {
+        "current": 1,
+        "max": 1,
+        "die": "1d6"
+      },
+      "proficiency_bonus": 2,
+      "speed": 30,
+      "stats": {
+        "strength": 8,
+        "dexterity": 15,
+        "constitution": 14,
+        "intelligence": 16,
+        "wisdom": 12,
+        "charisma": 10
+      },
+      "saving_throws": [
+        "intelligence",
+        "wisdom"
+      ],
+      "skills": {
+        "acrobatics": {
+          "total": 2,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "animal_handling": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "arcana": {
+          "total": 5,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "athletics": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "strength"
+        },
+        "deception": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "history": {
+          "total": 5,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "insight": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "intimidation": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "investigation": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "medicine": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "nature": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "perception": {
+          "total": 3,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "performance": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "persuasion": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "religion": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "sleight_of_hand": {
+          "total": 2,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "stealth": {
+          "total": 2,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "survival": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        }
+      },
+      "attacks": [
+        {
+          "name": "Quarterstaff",
+          "bonus": 1,
+          "damage": "1d6-1",
+          "damage_type": "bludgeoning"
+        },
+        {
+          "name": "Fire Bolt",
+          "bonus": 5,
+          "damage": "1d10",
+          "damage_type": "fire",
+          "range": "120 ft"
+        }
+      ],
+      "inventory": [
+        "Quarterstaff",
+        "Arcane Focus (Crystal)",
+        "Scholar's Pack",
+        "Spellbook",
+        "2 Daggers"
+      ],
+      "currency": {
+        "gp": 10,
+        "sp": 0,
+        "cp": 0
+      },
+      "personality": {
+        "traits": "There's nothing I like more than a good mystery.",
+        "ideal": "Knowledge. The path to power and self-improvement is through knowledge.",
+        "bond": "I've been searching my whole life for the answer to certain ancient questions.",
+        "flaw": "Most people scream and run when they see a demon. I stop and take notes on its anatomy."
+      },
+      "features": [
+        "Spellcasting (Intelligence)",
+        "Arcane Recovery (Regain spell slots on short rest)",
+        "Darkvision 60 ft",
+        "Keen Senses",
+        "Fey Ancestry (Adv vs charm, immune sleep)",
+        "Extra Wizard Cantrip (Prestidigitation)",
+        "Background Feature: Researcher"
+      ],
+      "conditions": [],
+      "spellcasting": {
+        "ability": "intelligence",
+        "cantrips_known": 3,
+        "spell_slots": {
+          "level_1": {
+            "current": 2,
+            "max": 2
+          }
+        }
+      },
+      "spell_slots": {
+        "level_1": {
+          "current": 2,
+          "max": 2
+        }
+      },
+      "cantrips": [
+        "Fire Bolt",
+        "Mage Hand",
+        "Prestidigitation"
+      ],
+      "spells_prepared": [
+        "Magic Missile",
+        "Shield",
+        "Mage Armor",
+        "Detect Magic"
+      ]
+    },
+    {
+      "id": "eberk_ironfist",
+      "name": "Eberk Ironfist",
+      "class": "Cleric",
+      "level": 3,
+      "species": "Hill Dwarf",
+      "background": "Soldier",
+      "alignment": "Neutral Good",
+      "is_player": true,
+      "ac": 15,
+      "hp": {
+        "current": 30,
+        "max": 30,
+        "temp": 0
+      },
+      "hit_dice": {
+        "current": 3,
+        "max": 3,
+        "die": "1d8"
+      },
+      "proficiency_bonus": 2,
+      "speed": 25,
+      "stats": {
+        "strength": 14,
+        "dexterity": 8,
+        "constitution": 17,
+        "intelligence": 10,
+        "wisdom": 16,
+        "charisma": 10
+      },
+      "saving_throws": [
+        "wisdom",
+        "charisma"
+      ],
+      "skills": {
+        "acrobatics": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "animal_handling": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "arcana": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "athletics": {
+          "total": 4,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "strength"
+        },
+        "deception": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "history": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "insight": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "intimidation": {
+          "total": 2,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "investigation": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "medicine": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "nature": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "perception": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "performance": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "persuasion": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "religion": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "sleight_of_hand": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "stealth": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "survival": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        }
+      },
+      "attacks": [
+        {
+          "name": "Mace",
+          "bonus": 4,
+          "damage": "1d6+2",
+          "damage_type": "bludgeoning"
+        },
+        {
+          "name": "Sacred Flame",
+          "save": "DC 13 DEX",
+          "damage": "1d8",
+          "damage_type": "radiant",
+          "range": "60 ft"
+        }
+      ],
+      "inventory": [
+        "Scale Mail",
+        "Mace",
+        "Shield",
+        "Holy Symbol (Amulet)",
+        "Priest's Pack",
+        "Light Crossbow",
+        "20 Bolts"
+      ],
+      "currency": {
+        "gp": 10,
+        "sp": 0,
+        "cp": 0
+      },
+      "personality": {
+        "traits": "I can stare down a hell hound without flinching.",
+        "ideal": "Greater Good. Our lot is to lay down our lives in defense of others.",
+        "bond": "I would still lay down my life for the people I served with.",
+        "flaw": "The monstrous enemy we faced still haunts my nightmares."
+      },
+      "features": [
+        "Spellcasting (Wisdom)",
+        "Divine Domain",
+        "Darkvision 60 ft",
+        "Dwarven Resilience (Adv vs poison, resistance to poison damage)",
+        "Stonecunning",
+        "Dwarven Toughness (+1 HP per level)",
+        "Background Feature: Military Rank",
+        "Channel Divinity: Turn Undead",
+        "Channel Divinity: Preserve Life (Heal up to 5xLevel HP)",
+        "2nd-Level Spell Access"
+      ],
+      "conditions": [],
+      "spellcasting": {
+        "ability": "wisdom",
+        "cantrips_known": 3,
+        "spell_slots": {
+          "level_1": {
+            "current": 4,
+            "max": 4
+          },
+          "level_2": {
+            "current": 2,
+            "max": 2
+          }
+        }
+      },
+      "spell_slots": {
+        "level_1": {
+          "current": 4,
+          "max": 4
+        },
+        "level_2": {
+          "current": 2,
+          "max": 2
+        }
+      },
+      "cantrips": [
+        "Sacred Flame",
+        "Guidance",
+        "Thaumaturgy"
+      ],
+      "spells_prepared": [
+        "Cure Wounds",
+        "Healing Word",
+        "Bless",
+        "Guiding Bolt"
+      ]
+    },
+    {
+      "id": "li_wei",
+      "name": "Li Wei",
+      "class": "Monk",
+      "level": 1,
+      "species": "Human",
+      "background": "Acolyte",
+      "alignment": "Neutral Good",
+      "is_player": true,
+      "ac": 15,
+      "hp": {
+        "current": 9,
+        "max": 9,
+        "temp": 0
+      },
+      "hit_dice": {
+        "current": 1,
+        "max": 1,
+        "die": "1d8"
+      },
+      "proficiency_bonus": 2,
+      "speed": 30,
+      "stats": {
+        "strength": 11,
+        "dexterity": 16,
+        "constitution": 13,
+        "intelligence": 11,
+        "wisdom": 15,
+        "charisma": 9
+      },
+      "saving_throws": [
+        "strength",
+        "dexterity"
+      ],
+      "skills": {
+        "acrobatics": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "animal_handling": {
+          "total": 2,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "arcana": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "athletics": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "strength"
+        },
+        "deception": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "history": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "insight": {
+          "total": 4,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "intimidation": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "investigation": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "medicine": {
+          "total": 2,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "nature": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "perception": {
+          "total": 2,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "performance": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "persuasion": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "religion": {
+          "total": 2,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "sleight_of_hand": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "stealth": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "survival": {
+          "total": 2,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        }
+      },
+      "attacks": [
+        {
+          "name": "Shortsword",
+          "bonus": 5,
+          "damage": "1d6+3",
+          "damage_type": "piercing",
+          "property": "Finesse, Light"
+        },
+        {
+          "name": "Unarmed Strike",
+          "bonus": 5,
+          "damage": "1d4+3",
+          "damage_type": "bludgeoning"
+        }
+      ],
+      "inventory": [
+        "Shortsword",
+        "10 Darts",
+        "Dungeoneer's Pack"
+      ],
+      "currency": {
+        "gp": 15,
+        "sp": 0,
+        "cp": 0
+      },
+      "personality": {
+        "traits": "I idolize a particular hero of my faith and constantly refer to that person's deeds.",
+        "ideal": "Tradition. The ancient traditions of worship and sacrifice must be preserved.",
+        "bond": "I will someday get revenge on the corrupt temple hierarchy that branded me a heretic.",
+        "flaw": "I am inflexible in my thinking and judge others harshly."
+      },
+      "features": [
+        "Unarmored Defense (10 + DEX + WIS)",
+        "Martial Arts (Use DEX for unarmed/monk weapons, 1d4 damage, bonus action unarmed strike)",
+        "Extra Language",
+        "Resourceful",
+        "Background Feature: Shelter of the Faithful"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "garen",
+      "name": "Garen",
+      "class": "Fighter",
+      "level": 2,
+      "species": "Human",
+      "background": "Soldier",
+      "alignment": "Neutral Good",
+      "is_player": true,
+      "ac": 16,
+      "hp": {
+        "current": 20,
+        "max": 20,
+        "temp": 0
+      },
+      "hit_dice": {
+        "current": 2,
+        "max": 2,
+        "die": "1d10"
+      },
+      "proficiency_bonus": 2,
+      "speed": 30,
+      "stats": {
+        "strength": 16,
+        "dexterity": 14,
+        "constitution": 15,
+        "intelligence": 11,
+        "wisdom": 13,
+        "charisma": 9
+      },
+      "saving_throws": [
+        "strength",
+        "constitution"
+      ],
+      "skills": {
+        "acrobatics": {
+          "total": 2,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "animal_handling": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "arcana": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "athletics": {
+          "total": 5,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "strength"
+        },
+        "deception": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "history": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "insight": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "intimidation": {
+          "total": 1,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "investigation": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "medicine": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "nature": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "perception": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "performance": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "persuasion": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "religion": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "sleight_of_hand": {
+          "total": 2,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "stealth": {
+          "total": 2,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "survival": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        }
+      },
+      "attacks": [
+        {
+          "name": "Longsword",
+          "bonus": 5,
+          "damage": "1d8+3",
+          "damage_type": "slashing",
+          "property": "Versatile (1d10)"
+        },
+        {
+          "name": "Light Crossbow",
+          "bonus": 3,
+          "damage": "1d8+1",
+          "damage_type": "piercing",
+          "range": "80/320"
+        }
+      ],
+      "inventory": [
+        "Chain Mail",
+        "Longsword",
+        "Shield",
+        "Light Crossbow",
+        "20 Crossbow Bolts",
+        "Dungeoneer's Pack"
+      ],
+      "currency": {
+        "gp": 10,
+        "sp": 0,
+        "cp": 0
+      },
+      "personality": {
+        "traits": "I can stare down a hell hound without flinching.",
+        "ideal": "Greater Good. Our lot is to lay down our lives in defense of others.",
+        "bond": "I would still lay down my life for the people I served with.",
+        "flaw": "The monstrous enemy we faced still haunts my nightmares."
+      },
+      "features": [
+        "Second Wind (1d10+Level heal as bonus action)",
+        "Fighting Style",
+        "Extra Language",
+        "Resourceful",
+        "Background Feature: Military Rank",
+        "Action Surge (Take one additional action on your turn once per short/long rest)"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "morgath",
+      "name": "Morgath",
+      "class": "Wizard",
+      "level": 3,
+      "species": "High Elf",
+      "background": "Sage",
+      "alignment": "Neutral Good",
+      "is_player": true,
+      "ac": 13,
+      "hp": {
+        "current": 17,
+        "max": 17,
+        "temp": 0
+      },
+      "hit_dice": {
+        "current": 3,
+        "max": 3,
+        "die": "1d6"
+      },
+      "proficiency_bonus": 2,
+      "speed": 30,
+      "stats": {
+        "strength": 8,
+        "dexterity": 16,
+        "constitution": 12,
+        "intelligence": 16,
+        "wisdom": 13,
+        "charisma": 10
+      },
+      "saving_throws": [
+        "intelligence",
+        "wisdom"
+      ],
+      "skills": {
+        "acrobatics": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "animal_handling": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "arcana": {
+          "total": 5,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "athletics": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "strength"
+        },
+        "deception": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "history": {
+          "total": 5,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "insight": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "intimidation": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "investigation": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "medicine": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "nature": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "perception": {
+          "total": 3,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "performance": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "persuasion": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "religion": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "sleight_of_hand": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "stealth": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "survival": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        }
+      },
+      "attacks": [
+        {
+          "name": "Quarterstaff",
+          "bonus": 1,
+          "damage": "1d6-1",
+          "damage_type": "bludgeoning"
+        },
+        {
+          "name": "Fire Bolt",
+          "bonus": 5,
+          "damage": "1d10",
+          "damage_type": "fire",
+          "range": "120 ft"
+        }
+      ],
+      "inventory": [
+        "Quarterstaff",
+        "Arcane Focus (Crystal)",
+        "Scholar's Pack",
+        "Spellbook",
+        "2 Daggers"
+      ],
+      "currency": {
+        "gp": 10,
+        "sp": 0,
+        "cp": 0
+      },
+      "personality": {
+        "traits": "There's nothing I like more than a good mystery.",
+        "ideal": "Knowledge. The path to power and self-improvement is through knowledge.",
+        "bond": "I've been searching my whole life for the answer to certain ancient questions.",
+        "flaw": "Most people scream and run when they see a demon. I stop and take notes on its anatomy."
+      },
+      "features": [
+        "Spellcasting (Intelligence)",
+        "Arcane Recovery (Regain spell slots on short rest)",
+        "Darkvision 60 ft",
+        "Keen Senses",
+        "Fey Ancestry (Adv vs charm, immune sleep)",
+        "Extra Wizard Cantrip (Prestidigitation)",
+        "Background Feature: Researcher",
+        "Arcane Tradition (School of Evocation - Sculpt Spells)",
+        "2nd-Level Spell Access"
+      ],
+      "conditions": [],
+      "spellcasting": {
+        "ability": "intelligence",
+        "cantrips_known": 3,
+        "spell_slots": {
+          "level_1": {
+            "current": 4,
+            "max": 4
+          },
+          "level_2": {
+            "current": 2,
+            "max": 2
+          }
+        }
+      },
+      "spell_slots": {
+        "level_1": {
+          "current": 4,
+          "max": 4
+        },
+        "level_2": {
+          "current": 2,
+          "max": 2
+        }
+      },
+      "cantrips": [
+        "Fire Bolt",
+        "Mage Hand",
+        "Prestidigitation"
+      ],
+      "spells_prepared": [
+        "Magic Missile",
+        "Shield",
+        "Mage Armor",
+        "Detect Magic"
+      ]
+    },
+    {
+      "id": "valeros_of_neverwinter",
+      "name": "Valeros of Neverwinter",
+      "class": "Fighter",
+      "level": 1,
+      "species": "Human",
+      "background": "Folk Hero",
+      "alignment": "Neutral Good",
+      "is_player": true,
+      "ac": 16,
+      "hp": {
+        "current": 12,
+        "max": 12,
+        "temp": 0
+      },
+      "hit_dice": {
+        "current": 1,
+        "max": 1,
+        "die": "1d10"
+      },
+      "proficiency_bonus": 2,
+      "speed": 30,
+      "stats": {
+        "strength": 16,
+        "dexterity": 14,
+        "constitution": 15,
+        "intelligence": 11,
+        "wisdom": 13,
+        "charisma": 9
+      },
+      "saving_throws": [
+        "strength",
+        "constitution"
+      ],
+      "skills": {
+        "acrobatics": {
+          "total": 2,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "animal_handling": {
+          "total": 3,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "arcana": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "athletics": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "strength"
+        },
+        "deception": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "history": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "insight": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "intimidation": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "investigation": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "medicine": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "nature": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "perception": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "performance": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "persuasion": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "religion": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "sleight_of_hand": {
+          "total": 2,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "stealth": {
+          "total": 2,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "survival": {
+          "total": 3,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "wisdom"
+        }
+      },
+      "attacks": [
+        {
+          "name": "Longsword",
+          "bonus": 5,
+          "damage": "1d8+3",
+          "damage_type": "slashing",
+          "property": "Versatile (1d10)"
+        },
+        {
+          "name": "Light Crossbow",
+          "bonus": 3,
+          "damage": "1d8+1",
+          "damage_type": "piercing",
+          "range": "80/320"
+        }
+      ],
+      "inventory": [
+        "Chain Mail",
+        "Longsword",
+        "Shield",
+        "Light Crossbow",
+        "20 Crossbow Bolts",
+        "Dungeoneer's Pack"
+      ],
+      "currency": {
+        "gp": 10,
+        "sp": 0,
+        "cp": 0
+      },
+      "personality": {
+        "traits": "If someone is in trouble, I'm always ready to lend help.",
+        "ideal": "Respect. People deserve to be treated with dignity and respect.",
+        "bond": "I protect those who cannot protect themselves.",
+        "flaw": "The tyrant who rules my land will stop at nothing to see me killed."
+      },
+      "features": [
+        "Second Wind (1d10+Level heal as bonus action)",
+        "Fighting Style",
+        "Extra Language",
+        "Resourceful",
+        "Background Feature: Rustic Hospitality"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "eldrin_of_silverymoon",
+      "name": "Eldrin of Silverymoon",
+      "class": "Wizard",
+      "level": 1,
+      "species": "High Elf",
+      "background": "Acolyte",
+      "alignment": "Neutral Good",
+      "is_player": true,
+      "ac": 13,
+      "hp": {
+        "current": 7,
+        "max": 7,
+        "temp": 0
+      },
+      "hit_dice": {
+        "current": 1,
+        "max": 1,
+        "die": "1d6"
+      },
+      "proficiency_bonus": 2,
+      "speed": 30,
+      "stats": {
+        "strength": 8,
+        "dexterity": 16,
+        "constitution": 13,
+        "intelligence": 16,
+        "wisdom": 12,
+        "charisma": 10
+      },
+      "saving_throws": [
+        "intelligence",
+        "wisdom"
+      ],
+      "skills": {
+        "acrobatics": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "animal_handling": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "arcana": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "athletics": {
+          "total": -1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "strength"
+        },
+        "deception": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "history": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "insight": {
+          "total": 3,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "intimidation": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "investigation": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "medicine": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "nature": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "perception": {
+          "total": 3,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "wisdom"
+        },
+        "performance": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "persuasion": {
+          "total": 0,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "charisma"
+        },
+        "religion": {
+          "total": 5,
+          "proficient": true,
+          "expertise": false,
+          "attribute": "intelligence"
+        },
+        "sleight_of_hand": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "stealth": {
+          "total": 3,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "dexterity"
+        },
+        "survival": {
+          "total": 1,
+          "proficient": false,
+          "expertise": false,
+          "attribute": "wisdom"
+        }
+      },
+      "attacks": [
+        {
+          "name": "Quarterstaff",
+          "bonus": 1,
+          "damage": "1d6-1",
+          "damage_type": "bludgeoning"
+        },
+        {
+          "name": "Fire Bolt",
+          "bonus": 5,
+          "damage": "1d10",
+          "damage_type": "fire",
+          "range": "120 ft"
+        }
+      ],
+      "inventory": [
+        "Quarterstaff",
+        "Arcane Focus (Crystal)",
+        "Scholar's Pack",
+        "Spellbook",
+        "2 Daggers"
+      ],
+      "currency": {
+        "gp": 15,
+        "sp": 0,
+        "cp": 0
+      },
+      "personality": {
+        "traits": "I see omens in every event and action.",
+        "ideal": "Tradition. The ancient traditions of worship and sacrifice must be preserved.",
+        "bond": "I will someday get revenge on the corrupt temple hierarchy that branded me a heretic.",
+        "flaw": "I am inflexible in my thinking and judge others harshly."
+      },
+      "features": [
+        "Spellcasting (Intelligence)",
+        "Arcane Recovery (Regain spell slots on short rest)",
+        "Darkvision 60 ft",
+        "Keen Senses",
+        "Fey Ancestry (Adv vs charm, immune sleep)",
+        "Extra Wizard Cantrip (Prestidigitation)",
+        "Background Feature: Shelter of the Faithful"
+      ],
+      "conditions": [],
+      "spellcasting": {
+        "ability": "intelligence",
+        "cantrips_known": 3,
+        "spell_slots": {
+          "level_1": {
+            "current": 2,
+            "max": 2
+          }
+        }
+      },
+      "spell_slots": {
+        "level_1": {
+          "current": 2,
+          "max": 2
+        }
+      },
+      "cantrips": [
+        "Fire Bolt",
+        "Mage Hand",
+        "Prestidigitation"
+      ],
+      "spells_prepared": [
+        "Magic Missile",
+        "Shield",
+        "Mage Armor",
+        "Detect Magic"
+      ]
+    }
+  ],
+  "party": [
+    {
+      "id": "thorin_ironbreaker",
+      "name": "Thorin Ironbreaker",
+      "is_player": true,
+      "class": "Fighter",
+      "species": "Hill Dwarf",
+      "background": "Soldier",
+      "level": 1,
+      "proficiency_bonus": 2,
+      "hp": {
+        "current": 14,
+        "max": 14,
+        "temp": 0
+      },
+      "ac": 16,
+      "speed": 30,
+      "hit_dice": {
+        "current": 1,
+        "max": 1,
+        "die": "1d10"
+      },
+      "stats": {
+        "strength": 15,
+        "constitution": 16,
+        "dexterity": 13,
+        "wisdom": 13,
+        "intelligence": 10,
+        "charisma": 8
+      },
+      "base_scores": {
+        "strength": 15,
+        "constitution": 14,
+        "dexterity": 13,
+        "wisdom": 12,
+        "intelligence": 10,
+        "charisma": 8
+      },
+      "saving_throws": {
+        "strength": {
+          "proficient": true,
+          "modifier": 4
+        },
+        "dexterity": {
+          "proficient": false,
+          "modifier": 1
+        },
+        "constitution": {
+          "proficient": true,
+          "modifier": 5
+        },
+        "intelligence": {
+          "proficient": false,
+          "modifier": 0
+        },
+        "wisdom": {
+          "proficient": false,
+          "modifier": 1
+        },
+        "charisma": {
+          "proficient": false,
+          "modifier": -1
+        }
+      },
+      "skills": {
+        "acrobatics": {
+          "stat": "dexterity",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "animal_handling": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "arcana": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "athletics": {
+          "stat": "strength",
+          "proficient": true,
+          "bonus": 4,
+          "total": 4
+        },
+        "deception": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": -1,
+          "total": -1
+        },
+        "history": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "insight": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "intimidation": {
+          "stat": "charisma",
+          "proficient": true,
+          "bonus": 1,
+          "total": 1
+        },
+        "investigation": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "medicine": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "nature": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "perception": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "performance": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": -1,
+          "total": -1
+        },
+        "persuasion": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": -1,
+          "total": -1
+        },
+        "religion": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "sleight_of_hand": {
+          "stat": "dexterity",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "stealth": {
+          "stat": "dexterity",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "survival": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        }
+      },
+      "attacks": [
+        {
+          "name": "Unarmed Strike",
+          "type": "melee",
+          "ability": "strength",
+          "bonus": 4,
+          "damage": "3",
+          "damage_type": "bludgeoning"
+        },
+        {
+          "name": "Greatsword",
+          "type": "melee",
+          "ability": "strength",
+          "bonus": 4,
+          "damage": "2d6+2",
+          "damage_type": "slashing",
+          "mastery": "Graze"
+        }
+      ],
+      "feats": [
+        "Savage Attacker"
+      ],
+      "weapon_masteries": [
+        "Greatsword (Graze)",
+        "Longbow (Slow)",
+        "Shortsword (Vex)"
+      ],
+      "equipment": [
+        "Spear",
+        "Shortbow",
+        "20 Arrows",
+        "Gaming Set",
+        "Healer's Kit",
+        "Traveler's Clothes",
+        "14 GP"
+      ],
+      "inventory": [
+        "Spear",
+        "Shortbow",
+        "20 Arrows",
+        "Gaming Set",
+        "Healer's Kit",
+        "Traveler's Clothes",
+        "14 GP"
+      ],
+      "gold": 15,
+      "silver": 0,
+      "copper": 0,
+      "conditions": [],
+      "features": [
+        "Fighting Style",
+        "Second Wind",
+        "Weapon Mastery (3)",
+        "Darkvision: 120 feet.",
+        "Dwarven Resilience: Resistance to Poison damage.",
+        "Dwarven Toughness: Hit Point maximum increases by 1 per level."
+      ],
+      "personality": {
+        "traits": [],
+        "ideals": [],
+        "bonds": [],
+        "flaws": []
+      }
+    },
+    {
+      "id": "aria_nightwind",
+      "name": "Aria Nightwind",
+      "is_player": true,
+      "class": "Rogue",
+      "species": "Lightfoot Halfling",
+      "background": "Criminal",
+      "level": 1,
+      "proficiency_bonus": 2,
+      "hp": {
+        "current": 10,
+        "max": 10,
+        "temp": 0
+      },
+      "ac": 13,
+      "speed": 30,
+      "hit_dice": {
+        "current": 1,
+        "max": 1,
+        "die": "1d8"
+      },
+      "stats": {
+        "strength": 8,
+        "dexterity": 17,
+        "constitution": 14,
+        "intelligence": 12,
+        "wisdom": 13,
+        "charisma": 11
+      },
+      "base_scores": {
+        "strength": 8,
+        "dexterity": 15,
+        "constitution": 14,
+        "intelligence": 12,
+        "wisdom": 13,
+        "charisma": 10
+      },
+      "saving_throws": {
+        "strength": {
+          "proficient": false,
+          "modifier": -1
+        },
+        "dexterity": {
+          "proficient": true,
+          "modifier": 5
+        },
+        "constitution": {
+          "proficient": false,
+          "modifier": 2
+        },
+        "intelligence": {
+          "proficient": true,
+          "modifier": 3
+        },
+        "wisdom": {
+          "proficient": false,
+          "modifier": 1
+        },
+        "charisma": {
+          "proficient": false,
+          "modifier": 0
+        }
+      },
+      "skills": {
+        "acrobatics": {
+          "stat": "dexterity",
+          "proficient": false,
+          "bonus": 3,
+          "total": 3
+        },
+        "animal_handling": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "arcana": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "athletics": {
+          "stat": "strength",
+          "proficient": false,
+          "bonus": -1,
+          "total": -1
+        },
+        "deception": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "history": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "insight": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "intimidation": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "investigation": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "medicine": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "nature": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "perception": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "performance": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "persuasion": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "religion": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "sleight_of_hand": {
+          "stat": "dexterity",
+          "proficient": true,
+          "bonus": 5,
+          "total": 5
+        },
+        "stealth": {
+          "stat": "dexterity",
+          "proficient": true,
+          "bonus": 5,
+          "total": 5
+        },
+        "survival": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        }
+      },
+      "attacks": [
+        {
+          "name": "Unarmed Strike",
+          "type": "melee",
+          "ability": "strength",
+          "bonus": 1,
+          "damage": "0",
+          "damage_type": "bludgeoning"
+        },
+        {
+          "name": "Dagger",
+          "type": "melee",
+          "ability": "dexterity",
+          "bonus": 5,
+          "damage": "1d4+3",
+          "damage_type": "piercing",
+          "mastery": "Nick"
+        }
+      ],
+      "feats": [
+        "Alert"
+      ],
+      "weapon_masteries": [
+        "Dagger (Nick)",
+        "Shortbow (Vex)"
+      ],
+      "equipment": [
+        "2 Daggers",
+        "Thieves' Tools",
+        "Crowbar",
+        "Pouch",
+        "Traveler's Clothes",
+        "16 GP"
+      ],
+      "inventory": [
+        "2 Daggers",
+        "Thieves' Tools",
+        "Crowbar",
+        "Pouch",
+        "Traveler's Clothes",
+        "16 GP"
+      ],
+      "gold": 15,
+      "silver": 0,
+      "copper": 0,
+      "conditions": [],
+      "features": [
+        "Expertise",
+        "Sneak Attack (1d6)",
+        "Thieves' Cant",
+        "Weapon Mastery (2)",
+        "Naturally Stealthy: Hide when obscured by creature at least one size larger."
+      ],
+      "personality": {
+        "traits": [],
+        "ideals": [],
+        "bonds": [],
+        "flaws": []
+      }
+    },
+    {
+      "id": "li_wei",
+      "name": "Li Wei",
+      "is_player": true,
+      "class": "Monk",
+      "species": "Human",
+      "background": "Acolyte",
+      "level": 1,
+      "proficiency_bonus": 2,
+      "hp": {
+        "current": 9,
+        "max": 9,
+        "temp": 0
+      },
+      "ac": 15,
+      "speed": 30,
+      "hit_dice": {
+        "current": 1,
+        "max": 1,
+        "die": "1d8"
+      },
+      "stats": {
+        "strength": 11,
+        "dexterity": 16,
+        "constitution": 13,
+        "intelligence": 11,
+        "wisdom": 15,
+        "charisma": 9
+      },
+      "base_scores": {
+        "strength": 10,
+        "dexterity": 15,
+        "constitution": 12,
+        "intelligence": 10,
+        "wisdom": 14,
+        "charisma": 8
+      },
+      "saving_throws": {
+        "strength": {
+          "proficient": true,
+          "modifier": 2
+        },
+        "dexterity": {
+          "proficient": true,
+          "modifier": 5
+        },
+        "constitution": {
+          "proficient": false,
+          "modifier": 1
+        },
+        "intelligence": {
+          "proficient": false,
+          "modifier": 0
+        },
+        "wisdom": {
+          "proficient": false,
+          "modifier": 2
+        },
+        "charisma": {
+          "proficient": false,
+          "modifier": -1
+        }
+      },
+      "skills": {
+        "acrobatics": {
+          "stat": "dexterity",
+          "proficient": false,
+          "bonus": 3,
+          "total": 3
+        },
+        "animal_handling": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 2,
+          "total": 2
+        },
+        "arcana": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "athletics": {
+          "stat": "strength",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "deception": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": -1,
+          "total": -1
+        },
+        "history": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "insight": {
+          "stat": "wisdom",
+          "proficient": true,
+          "bonus": 4,
+          "total": 4
+        },
+        "intimidation": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": -1,
+          "total": -1
+        },
+        "investigation": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "medicine": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 2,
+          "total": 2
+        },
+        "nature": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "perception": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 2,
+          "total": 2
+        },
+        "performance": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": -1,
+          "total": -1
+        },
+        "persuasion": {
+          "stat": "charisma",
+          "proficient": true,
+          "bonus": 1,
+          "total": 1
+        },
+        "religion": {
+          "stat": "intelligence",
+          "proficient": true,
+          "bonus": 2,
+          "total": 2
+        },
+        "sleight_of_hand": {
+          "stat": "dexterity",
+          "proficient": false,
+          "bonus": 3,
+          "total": 3
+        },
+        "stealth": {
+          "stat": "dexterity",
+          "proficient": false,
+          "bonus": 3,
+          "total": 3
+        },
+        "survival": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 2,
+          "total": 2
+        }
+      },
+      "attacks": [
+        {
+          "name": "Unarmed Strike",
+          "type": "melee",
+          "ability": "strength",
+          "bonus": 2,
+          "damage": "1",
+          "damage_type": "bludgeoning"
+        }
+      ],
+      "feats": [
+        "Magic Initiate (Cleric)",
+        "Skilled"
+      ],
+      "weapon_masteries": [],
+      "equipment": [
+        "Calligrapher's Supplies",
+        "Book (prayers)",
+        "Holy Symbol",
+        "Parchment (10 sheets)",
+        "Robe",
+        "8 GP"
+      ],
+      "inventory": [
+        "Calligrapher's Supplies",
+        "Book (prayers)",
+        "Holy Symbol",
+        "Parchment (10 sheets)",
+        "Robe",
+        "8 GP"
+      ],
+      "gold": 15,
+      "silver": 0,
+      "copper": 0,
+      "conditions": [],
+      "features": [
+        "Martial Arts (d6)",
+        "Unarmored Defense",
+        "Resourceful: You gain Heroic Inspiration whenever you finish a Long Rest.",
+        "Skillful: You gain proficiency in one skill of your choice.",
+        "Versatile: You gain one Origin feat of your choice."
+      ],
+      "personality": {
+        "traits": [],
+        "ideals": [],
+        "bonds": [],
+        "flaws": []
+      }
+    },
+    {
+      "id": "archimedes",
+      "name": "Archimedes",
+      "is_player": true,
+      "class": "Wizard",
+      "species": "Elf",
+      "background": "Sage",
+      "level": 1,
+      "proficiency_bonus": 2,
+      "hp": {
+        "current": 7,
+        "max": 7,
+        "temp": 0
+      },
+      "ac": 12,
+      "speed": 30,
+      "hit_dice": {
+        "current": 1,
+        "max": 1,
+        "die": "1d6"
+      },
+      "stats": {
+        "intelligence": 15,
+        "strength": 14,
+        "constitution": 13,
+        "dexterity": 14,
+        "wisdom": 10,
+        "charisma": 8
+      },
+      "base_scores": {
+        "intelligence": 15,
+        "strength": 14,
+        "constitution": 13,
+        "dexterity": 12,
+        "wisdom": 10,
+        "charisma": 8
+      },
+      "saving_throws": {
+        "strength": {
+          "proficient": false,
+          "modifier": 2
+        },
+        "dexterity": {
+          "proficient": false,
+          "modifier": 2
+        },
+        "constitution": {
+          "proficient": false,
+          "modifier": 1
+        },
+        "intelligence": {
+          "proficient": true,
+          "modifier": 4
+        },
+        "wisdom": {
+          "proficient": true,
+          "modifier": 2
+        },
+        "charisma": {
+          "proficient": false,
+          "modifier": -1
+        }
+      },
+      "skills": {
+        "acrobatics": {
+          "stat": "dexterity",
+          "proficient": false,
+          "bonus": 2,
+          "total": 2
+        },
+        "animal_handling": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "arcana": {
+          "stat": "intelligence",
+          "proficient": true,
+          "bonus": 4,
+          "total": 4
+        },
+        "athletics": {
+          "stat": "strength",
+          "proficient": false,
+          "bonus": 2,
+          "total": 2
+        },
+        "deception": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": -1,
+          "total": -1
+        },
+        "history": {
+          "stat": "intelligence",
+          "proficient": true,
+          "bonus": 4,
+          "total": 4
+        },
+        "insight": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "intimidation": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": -1,
+          "total": -1
+        },
+        "investigation": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 2,
+          "total": 2
+        },
+        "medicine": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "nature": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 2,
+          "total": 2
+        },
+        "perception": {
+          "stat": "wisdom",
+          "proficient": true,
+          "bonus": 2,
+          "total": 2
+        },
+        "performance": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": -1,
+          "total": -1
+        },
+        "persuasion": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": -1,
+          "total": -1
+        },
+        "religion": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 2,
+          "total": 2
+        },
+        "sleight_of_hand": {
+          "stat": "dexterity",
+          "proficient": false,
+          "bonus": 2,
+          "total": 2
+        },
+        "stealth": {
+          "stat": "dexterity",
+          "proficient": false,
+          "bonus": 2,
+          "total": 2
+        },
+        "survival": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        }
+      },
+      "attacks": [
+        {
+          "name": "Unarmed Strike",
+          "type": "melee",
+          "ability": "strength",
+          "bonus": 4,
+          "damage": "3",
+          "damage_type": "bludgeoning"
+        },
+        {
+          "name": "Quarterstaff",
+          "type": "melee",
+          "ability": "strength",
+          "bonus": 4,
+          "damage": "1d6+2",
+          "damage_type": "bludgeoning",
+          "mastery": "Topple"
+        }
+      ],
+      "feats": [
+        "Magic Initiate (Wizard)"
+      ],
+      "weapon_masteries": [],
+      "equipment": [
+        "Quarterstaff",
+        "Calligrapher's Supplies",
+        "Book (history)",
+        "Ink & Pen",
+        "Parchment (8 sheets)",
+        "8 GP"
+      ],
+      "inventory": [
+        "Quarterstaff",
+        "Calligrapher's Supplies",
+        "Book (history)",
+        "Ink & Pen",
+        "Parchment (8 sheets)",
+        "8 GP"
+      ],
+      "gold": 15,
+      "silver": 0,
+      "copper": 0,
+      "conditions": [],
+      "features": [
+        "Arcane Recovery",
+        "Ritual Adept",
+        "Spellcasting",
+        "Spellbook",
+        "Darkvision: 60 feet (120 feet for Drow).",
+        "Elven Lineage: Choose Drow (Darkvision 120ft, Dancing Lights, Faerie Fire, Darkness), High Elf (Prestidigitation, Detect Magic, Misty Step), or Wood Elf (Speed 35ft, Druidcraft, Longstrider, Pass without Trace).",
+        "Fey Ancestry: Advantage on saving throws against being Charmed.",
+        "Keen Senses: Proficiency in the Perception skill.",
+        "Trance: You don't need sleep. Finishing a Long Rest requires only 4 hours of restful meditation."
+      ],
+      "personality": {
+        "traits": [],
+        "ideals": [],
+        "bonds": [],
+        "flaws": []
+      },
+      "spellcasting": {
+        "ability": "intelligence"
+      },
+      "spell_slots": {
+        "level_1": {
+          "current": 2,
+          "max": 2
+        }
+      },
+      "cantrips": [
+        "fire_bolt",
+        "mage_hand"
+      ],
+      "spells_prepared": [
+        "magic_missile",
+        "shield"
+      ]
+    },
+    {
+      "id": "garen",
+      "name": "Garen",
+      "is_player": true,
+      "class": "Fighter",
+      "species": "Human",
+      "background": "Soldier",
+      "level": 2,
+      "proficiency_bonus": 2,
+      "hp": {
+        "current": 20,
+        "max": 20,
+        "temp": 0
+      },
+      "ac": 16,
+      "speed": 30,
+      "hit_dice": {
+        "current": 2,
+        "max": 2,
+        "die": "1d10"
+      },
+      "stats": {
+        "strength": 16,
+        "dexterity": 14,
+        "constitution": 15,
+        "intelligence": 11,
+        "wisdom": 13,
+        "charisma": 9
+      },
+      "base_scores": {
+        "strength": 15,
+        "dexterity": 13,
+        "constitution": 14,
+        "intelligence": 10,
+        "wisdom": 12,
+        "charisma": 8
+      },
+      "saving_throws": {
+        "strength": {
+          "proficient": true,
+          "modifier": 5
+        },
+        "dexterity": {
+          "proficient": false,
+          "modifier": 2
+        },
+        "constitution": {
+          "proficient": true,
+          "modifier": 4
+        },
+        "intelligence": {
+          "proficient": false,
+          "modifier": 0
+        },
+        "wisdom": {
+          "proficient": false,
+          "modifier": 1
+        },
+        "charisma": {
+          "proficient": false,
+          "modifier": -1
+        }
+      },
+      "skills": {
+        "acrobatics": {
+          "stat": "dexterity",
+          "proficient": false,
+          "bonus": 2,
+          "total": 2
+        },
+        "animal_handling": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "arcana": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "athletics": {
+          "stat": "strength",
+          "proficient": true,
+          "bonus": 5,
+          "total": 5
+        },
+        "deception": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": -1,
+          "total": -1
+        },
+        "history": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "insight": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "intimidation": {
+          "stat": "charisma",
+          "proficient": true,
+          "bonus": 1,
+          "total": 1
+        },
+        "investigation": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "medicine": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "nature": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "perception": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "performance": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": -1,
+          "total": -1
+        },
+        "persuasion": {
+          "stat": "charisma",
+          "proficient": true,
+          "bonus": 1,
+          "total": 1
+        },
+        "religion": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "sleight_of_hand": {
+          "stat": "dexterity",
+          "proficient": false,
+          "bonus": 2,
+          "total": 2
+        },
+        "stealth": {
+          "stat": "dexterity",
+          "proficient": false,
+          "bonus": 2,
+          "total": 2
+        },
+        "survival": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        }
+      },
+      "attacks": [
+        {
+          "name": "Unarmed Strike",
+          "type": "melee",
+          "ability": "strength",
+          "bonus": 5,
+          "damage": "4",
+          "damage_type": "bludgeoning"
+        },
+        {
+          "name": "Greatsword",
+          "type": "melee",
+          "ability": "strength",
+          "bonus": 5,
+          "damage": "2d6+3",
+          "damage_type": "slashing",
+          "mastery": "Graze"
+        }
+      ],
+      "feats": [
+        "Savage Attacker",
+        "Skilled"
+      ],
+      "weapon_masteries": [
+        "Greatsword (Graze)",
+        "Longbow (Slow)",
+        "Shortsword (Vex)"
+      ],
+      "equipment": [
+        "Spear",
+        "Shortbow",
+        "20 Arrows",
+        "Gaming Set",
+        "Healer's Kit",
+        "Traveler's Clothes",
+        "14 GP"
+      ],
+      "inventory": [
+        "Spear",
+        "Shortbow",
+        "20 Arrows",
+        "Gaming Set",
+        "Healer's Kit",
+        "Traveler's Clothes",
+        "14 GP"
+      ],
+      "gold": 15,
+      "silver": 0,
+      "copper": 0,
+      "conditions": [],
+      "features": [
+        "Fighting Style",
+        "Second Wind",
+        "Weapon Mastery (3)",
+        "Resourceful: You gain Heroic Inspiration whenever you finish a Long Rest.",
+        "Skillful: You gain proficiency in one skill of your choice.",
+        "Versatile: You gain one Origin feat of your choice.",
+        "Action Surge",
+        "Tactical Mind"
+      ],
+      "personality": {
+        "traits": [],
+        "ideals": [],
+        "bonds": [],
+        "flaws": []
+      }
+    },
+    {
+      "id": "morgath",
+      "name": "Morgath",
+      "is_player": true,
+      "class": "Wizard",
+      "species": "High Elf",
+      "background": "Sage",
+      "level": 3,
+      "proficiency_bonus": 2,
+      "hp": {
+        "current": 17,
+        "max": 17,
+        "temp": 0
+      },
+      "ac": 13,
+      "speed": 30,
+      "hit_dice": {
+        "current": 3,
+        "max": 3,
+        "die": "1d6"
+      },
+      "stats": {
+        "strength": 8,
+        "dexterity": 16,
+        "constitution": 12,
+        "intelligence": 16,
+        "wisdom": 13,
+        "charisma": 10
+      },
+      "base_scores": {
+        "strength": 8,
+        "dexterity": 14,
+        "constitution": 12,
+        "intelligence": 15,
+        "wisdom": 13,
+        "charisma": 10
+      },
+      "saving_throws": {
+        "strength": {
+          "proficient": false,
+          "modifier": -1
+        },
+        "dexterity": {
+          "proficient": false,
+          "modifier": 3
+        },
+        "constitution": {
+          "proficient": false,
+          "modifier": 1
+        },
+        "intelligence": {
+          "proficient": true,
+          "modifier": 5
+        },
+        "wisdom": {
+          "proficient": true,
+          "modifier": 3
+        },
+        "charisma": {
+          "proficient": false,
+          "modifier": 0
+        }
+      },
+      "skills": {
+        "acrobatics": {
+          "stat": "dexterity",
+          "proficient": false,
+          "bonus": 3,
+          "total": 3
+        },
+        "animal_handling": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "arcana": {
+          "stat": "intelligence",
+          "proficient": true,
+          "bonus": 5,
+          "total": 5
+        },
+        "athletics": {
+          "stat": "strength",
+          "proficient": false,
+          "bonus": -1,
+          "total": -1
+        },
+        "deception": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "history": {
+          "stat": "intelligence",
+          "proficient": true,
+          "bonus": 5,
+          "total": 5
+        },
+        "insight": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "intimidation": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "investigation": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 3,
+          "total": 3
+        },
+        "medicine": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "nature": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 3,
+          "total": 3
+        },
+        "perception": {
+          "stat": "wisdom",
+          "proficient": true,
+          "bonus": 3,
+          "total": 3
+        },
+        "performance": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "persuasion": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "religion": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 3,
+          "total": 3
+        },
+        "sleight_of_hand": {
+          "stat": "dexterity",
+          "proficient": false,
+          "bonus": 3,
+          "total": 3
+        },
+        "stealth": {
+          "stat": "dexterity",
+          "proficient": false,
+          "bonus": 3,
+          "total": 3
+        },
+        "survival": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        }
+      },
+      "attacks": [
+        {
+          "name": "Unarmed Strike",
+          "type": "melee",
+          "ability": "strength",
+          "bonus": 1,
+          "damage": "0",
+          "damage_type": "bludgeoning"
+        },
+        {
+          "name": "Quarterstaff",
+          "type": "melee",
+          "ability": "strength",
+          "bonus": 1,
+          "damage": "1d6+-1",
+          "damage_type": "bludgeoning",
+          "mastery": "Topple"
+        }
+      ],
+      "feats": [
+        "Magic Initiate (Wizard)"
+      ],
+      "weapon_masteries": [],
+      "equipment": [
+        "Quarterstaff",
+        "Calligrapher's Supplies",
+        "Book (history)",
+        "Ink & Pen",
+        "Parchment (8 sheets)",
+        "8 GP"
+      ],
+      "inventory": [
+        "Quarterstaff",
+        "Calligrapher's Supplies",
+        "Book (history)",
+        "Ink & Pen",
+        "Parchment (8 sheets)",
+        "8 GP"
+      ],
+      "gold": 15,
+      "silver": 0,
+      "copper": 0,
+      "conditions": [],
+      "features": [
+        "Arcane Recovery",
+        "Ritual Adept",
+        "Spellcasting",
+        "Spellbook",
+        "Darkvision: 60 feet.",
+        "Fey Ancestry: Advantage on saving throws against being Charmed.",
+        "Keen Senses: Perception proficiency.",
+        "Cantrip: You know one cantrip from the wizard spell list (Prestidigitation).",
+        "Scholar (Expertise in academic skill)",
+        "Arcane Tradition Subclass"
+      ],
+      "personality": {
+        "traits": [],
+        "ideals": [],
+        "bonds": [],
+        "flaws": []
+      },
+      "spellcasting": {
+        "ability": "intelligence",
+        "spell_slots": {
+          "level_1": {
+            "current": 4,
+            "max": 4
+          },
+          "level_2": {
+            "current": 2,
+            "max": 2
+          }
+        }
+      },
+      "spell_slots": {
+        "level_1": {
+          "current": 4,
+          "max": 4
+        },
+        "level_2": {
+          "current": 2,
+          "max": 2
+        }
+      },
+      "cantrips": [
+        "fire_bolt",
+        "mage_hand"
+      ],
+      "spells_prepared": [
+        "magic_missile",
+        "shield"
+      ]
+    },
+    {
+      "id": "rodolfo_edinburgh",
+      "name": "Rodolfo Edinburgh",
+      "player_name": "RnovSlicker",
+      "race": "Elf",
+      "species": "High Elf",
+      "lineage": "High Elf",
+      "class": "Wizard",
+      "level": 1,
+      "background": "Sage",
+      "experience_points": "Milestone",
+      "alignment": "Chaotic Good",
+      "is_player": true,
+      "identity": {
+        "gender": "Male",
+        "age": 14,
+        "size": "Medium",
+        "height": 185,
+        "weight": 60,
+        "skin": "White",
+        "eyes": "Hazel",
+        "hair": "Blonde"
+      },
+      "hp": {
+        "current": 7,
+        "max": 7,
+        "temp": 0
+      },
+      "ac": 10,
+      "speed": 30,
+      "hit_dice": {
+        "current": 0,
+        "max": 1,
+        "die": "1d6"
+      },
+      "proficiency_bonus": 2,
+      "stats": {
+        "strength": 8,
+        "dexterity": 10,
+        "constitution": 12,
+        "intelligence": 19,
+        "wisdom": 13,
+        "charisma": 16
+      },
+      "ability_scores": {
+        "strength": {
+          "score": 8,
+          "modifier": -1
+        },
+        "dexterity": {
+          "score": 10,
+          "modifier": 0
+        },
+        "constitution": {
+          "score": 12,
+          "modifier": 1
+        },
+        "intelligence": {
+          "score": 19,
+          "modifier": 4
+        },
+        "wisdom": {
+          "score": 13,
+          "modifier": 1
+        },
+        "charisma": {
+          "score": 16,
+          "modifier": 3
+        }
+      },
+      "saving_throws": {
+        "strength": {
+          "proficient": false,
+          "modifier": -1
+        },
+        "dexterity": {
+          "proficient": false,
+          "modifier": 0
+        },
+        "constitution": {
+          "proficient": false,
+          "modifier": 1
+        },
+        "intelligence": {
+          "proficient": true,
+          "modifier": 6
+        },
+        "wisdom": {
+          "proficient": true,
+          "modifier": 3
+        },
+        "charisma": {
+          "proficient": false,
+          "modifier": 3
+        }
+      },
+      "skills": {
+        "acrobatics": {
+          "stat": "dexterity",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0,
+          "ability": "DEX"
+        },
+        "animal_handling": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1,
+          "ability": "WIS"
+        },
+        "arcana": {
+          "stat": "intelligence",
+          "proficient": true,
+          "bonus": 6,
+          "total": 6,
+          "ability": "INT"
+        },
+        "athletics": {
+          "stat": "strength",
+          "proficient": false,
+          "bonus": -1,
+          "total": -1,
+          "ability": "STR"
+        },
+        "deception": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": 3,
+          "total": 3,
+          "ability": "CHA"
+        },
+        "history": {
+          "stat": "intelligence",
+          "proficient": true,
+          "bonus": 6,
+          "total": 6,
+          "ability": "INT"
+        },
+        "insight": {
+          "stat": "wisdom",
+          "proficient": true,
+          "bonus": 3,
+          "total": 3,
+          "ability": "WIS"
+        },
+        "intimidation": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": 3,
+          "total": 3,
+          "ability": "CHA"
+        },
+        "investigation": {
+          "stat": "intelligence",
+          "proficient": true,
+          "bonus": 6,
+          "total": 6,
+          "ability": "INT"
+        },
+        "medicine": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1,
+          "ability": "WIS"
+        },
+        "nature": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 4,
+          "total": 4,
+          "ability": "INT"
+        },
+        "perception": {
+          "stat": "wisdom",
+          "proficient": true,
+          "bonus": 3,
+          "total": 3,
+          "ability": "WIS"
+        },
+        "performance": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": 3,
+          "total": 3,
+          "ability": "CHA"
+        },
+        "persuasion": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": 3,
+          "total": 3,
+          "ability": "CHA"
+        },
+        "religion": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 4,
+          "total": 4,
+          "ability": "INT"
+        },
+        "sleight_of_hand": {
+          "stat": "dexterity",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0,
+          "ability": "DEX"
+        },
+        "stealth": {
+          "stat": "dexterity",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0,
+          "ability": "DEX"
+        },
+        "survival": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1,
+          "ability": "WIS"
+        }
+      },
+      "passive_scores": {
+        "perception": 13,
+        "insight": 13,
+        "investigation": 16
+      },
+      "senses": {
+        "darkvision": "60 ft."
+      },
+      "defenses": {
+        "immunities": [
+          "Magical Sleep"
+        ],
+        "advantages": [
+          "Saving throws made to avoid or end the Charmed condition"
+        ]
+      },
+      "languages": [
+        "Common",
+        "Common Sign Language",
+        "Draconic",
+        "Elvish"
+      ],
+      "proficiencies_and_languages": {
+        "weapons": [
+          "Simple Weapons"
+        ],
+        "languages": [
+          "Common",
+          "Common Sign Language",
+          "Draconic",
+          "Elvish"
+        ]
+      },
+      "features": [
+        "Core Wizard Traits",
+        "Spellcasting (Wizard INT, DC 14, Attack +6)",
+        "Ritual Adept",
+        "Arcane Recovery (1 / Long Rest)",
+        "Elven Lineage: High Elf (Elementalism)",
+        "Fey Ancestry (Adv vs Charm, Immune Magical Sleep)",
+        "Keen Senses",
+        "Trance (4 hr meditation)",
+        "Background Feature: Researcher (Sage)"
+      ],
+      "features_and_traits": {
+        "wizard": [
+          "Core Wizard Traits",
+          "Spellcasting",
+          "Ritual Adept",
+          "Arcane Recovery"
+        ],
+        "elf": [
+          "Creature Type: Humanoid",
+          "Size: Medium",
+          "Speed: 30 ft.",
+          "Darkvision: 60 ft.",
+          "Elven Lineage: High Elf",
+          "Elven Lineage Spells",
+          "Fey Ancestry",
+          "Keen Senses",
+          "Trance",
+          "Languages",
+          "Ability Score Increases"
+        ],
+        "arcane_recovery": {
+          "uses": "1 / Long Rest",
+          "description": "When you finish a Short Rest, you can recover expended spell slots. The spell slots can have a combined level equal to no more than 1, and none of the slots can be level 6 or higher."
+        },
+        "fey_ancestry": {
+          "effect": "Advantage on saving throws to avoid or end the Charmed condition."
+        },
+        "keen_senses": {
+          "proficiency": "Insight"
+        },
+        "trance": {
+          "effect": "Does not need to sleep. Magic cannot put the character to sleep. A Long Rest can be completed in 4 hours through trancelike meditation."
+        }
+      },
+      "attacks": [
+        {
+          "name": "Quarterstaff",
+          "bonus": 1,
+          "damage": "1d6-1",
+          "damage_type": "bludgeoning",
+          "property": "Versatile (1d8)"
+        },
+        {
+          "name": "Dagger",
+          "bonus": 2,
+          "damage": "1d4",
+          "damage_type": "piercing",
+          "range": "20/60",
+          "property": "Finesse, Light, Thrown"
+        },
+        {
+          "name": "Unarmed Strike",
+          "bonus": 1,
+          "damage": "0",
+          "damage_type": "Bludgeoning"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Unarmed Strike",
+          "attack_bonus": 1,
+          "damage": {
+            "amount": 0,
+            "type": "Bludgeoning"
+          }
+        }
+      ],
+      "equipment": [
+        "Dagger (x2)",
+        "Quarterstaff",
+        "Robe",
+        "Backpack",
+        "Book",
+        "Parchment (10 sheets)",
+        "Ink Pen",
+        "Ink (1 ounce bottle)",
+        "Lamp",
+        "Oil (10 flasks)",
+        "Tinderbox",
+        "Spellbook",
+        "Small Knife",
+        "Common Clothes"
+      ],
+      "inventory": [
+        "Dagger (x2)",
+        "Quarterstaff",
+        "Robe",
+        "Backpack",
+        "Book",
+        "Parchment (10 sheets)",
+        "Ink Pen",
+        "Ink (1 ounce bottle)",
+        "Lamp",
+        "Oil (10 flasks)",
+        "Tinderbox",
+        "Spellbook",
+        "Small Knife",
+        "Common Clothes"
+      ],
+      "encumbrance": {
+        "weight_carried": "38 lb.",
+        "encumbered": "120 lb.",
+        "push_drag_lift": "240 lb."
+      },
+      "gold": 15,
+      "silver": 0,
+      "copper": 0,
+      "currency": {
+        "cp": 0,
+        "sp": 0,
+        "ep": 0,
+        "gp": 15,
+        "pp": 0
+      },
+      "personality": {
+        "ideals": [
+          "Knowledge. The path to power and self-improvement is through knowledge. (Neutral)"
+        ],
+        "traits": [
+          "Prone to getting lost in arcane books and esoteric theories."
+        ],
+        "bonds": [
+          "Driven to master arcane arts and unravel cosmic mysteries."
+        ],
+        "flaws": [
+          "Overconfident in intellect, sometimes overlooks physical dangers."
+        ]
+      },
+      "spellcasting": {
+        "class": "Wizard",
+        "ability": "intelligence",
+        "spell_save_dc": 14,
+        "spell_attack_bonus": 6,
+        "spell_slots": {
+          "level_1": {
+            "current": 2,
+            "max": 2
+          }
+        },
+        "spells": {
+          "cantrips": [
+            {
+              "name": "Elementalism",
+              "source": "Elven Lineage Spells",
+              "prepared": true,
+              "casting_time": "1A",
+              "range": "30 ft./5 ft. Cube",
+              "components": [
+                "V",
+                "S"
+              ],
+              "duration": "Instantaneous",
+              "page": "PHB-2024 267",
+              "notes": "5 ft. Cube, V/S"
+            }
+          ]
+        }
+      },
+      "spell_slots": {
+        "level_1": {
+          "current": 2,
+          "max": 2
+        }
+      },
+      "cantrips": [
+        "Elementalism"
+      ],
+      "spells_prepared": [
+        "Detect Magic",
+        "Magic Missile",
+        "Shield",
+        "Sleep",
+        "Thunderwave",
+        "Identify"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "valen_2024",
+      "name": "Valen 2024",
+      "is_player": true,
+      "class": "Fighter",
+      "species": "Human",
+      "background": "Soldier",
+      "level": 1,
+      "proficiency_bonus": 2,
+      "hp": {
+        "current": 12,
+        "max": 12,
+        "temp": 0
+      },
+      "ac": 16,
+      "speed": 30,
+      "hit_dice": {
+        "current": 1,
+        "max": 1,
+        "die": "1d10"
+      },
+      "stats": {
+        "strength": 16,
+        "constitution": 15,
+        "dexterity": 14,
+        "wisdom": 13,
+        "intelligence": 11,
+        "charisma": 9
+      },
+      "base_scores": {
+        "strength": 15,
+        "constitution": 14,
+        "dexterity": 13,
+        "wisdom": 12,
+        "intelligence": 10,
+        "charisma": 8
+      },
+      "saving_throws": {
+        "strength": {
+          "proficient": true,
+          "modifier": 5
+        },
+        "dexterity": {
+          "proficient": false,
+          "modifier": 2
+        },
+        "constitution": {
+          "proficient": true,
+          "modifier": 4
+        },
+        "intelligence": {
+          "proficient": false,
+          "modifier": 0
+        },
+        "wisdom": {
+          "proficient": false,
+          "modifier": 1
+        },
+        "charisma": {
+          "proficient": false,
+          "modifier": -1
+        }
+      },
+      "skills": {
+        "acrobatics": {
+          "stat": "dexterity",
+          "proficient": false,
+          "bonus": 2,
+          "total": 2
+        },
+        "animal_handling": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "arcana": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "athletics": {
+          "stat": "strength",
+          "proficient": true,
+          "bonus": 5,
+          "total": 5
+        },
+        "deception": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": -1,
+          "total": -1
+        },
+        "history": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "insight": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "intimidation": {
+          "stat": "charisma",
+          "proficient": true,
+          "bonus": 1,
+          "total": 1
+        },
+        "investigation": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "medicine": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "nature": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "perception": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        },
+        "performance": {
+          "stat": "charisma",
+          "proficient": false,
+          "bonus": -1,
+          "total": -1
+        },
+        "persuasion": {
+          "stat": "charisma",
+          "proficient": true,
+          "bonus": 1,
+          "total": 1
+        },
+        "religion": {
+          "stat": "intelligence",
+          "proficient": false,
+          "bonus": 0,
+          "total": 0
+        },
+        "sleight_of_hand": {
+          "stat": "dexterity",
+          "proficient": false,
+          "bonus": 2,
+          "total": 2
+        },
+        "stealth": {
+          "stat": "dexterity",
+          "proficient": false,
+          "bonus": 2,
+          "total": 2
+        },
+        "survival": {
+          "stat": "wisdom",
+          "proficient": false,
+          "bonus": 1,
+          "total": 1
+        }
+      },
+      "attacks": [
+        {
+          "name": "Unarmed Strike",
+          "type": "melee",
+          "ability": "strength",
+          "bonus": 5,
+          "damage": "4",
+          "damage_type": "bludgeoning"
+        },
+        {
+          "name": "Greatsword",
+          "type": "melee",
+          "ability": "strength",
+          "bonus": 5,
+          "damage": "2d6+3",
+          "damage_type": "slashing",
+          "mastery": "Graze"
+        }
+      ],
+      "feats": [
+        "Savage Attacker",
+        "Skilled"
+      ],
+      "weapon_masteries": [
+        "Greatsword (Graze)",
+        "Longbow (Slow)",
+        "Shortsword (Vex)"
+      ],
+      "equipment": [
+        "Spear",
+        "Shortbow",
+        "20 Arrows",
+        "Gaming Set",
+        "Healer's Kit",
+        "Traveler's Clothes",
+        "14 GP"
+      ],
+      "inventory": [
+        "Spear",
+        "Shortbow",
+        "20 Arrows",
+        "Gaming Set",
+        "Healer's Kit",
+        "Traveler's Clothes",
+        "14 GP"
+      ],
+      "gold": 15,
+      "silver": 0,
+      "copper": 0,
+      "conditions": [],
+      "features": [
+        "Fighting Style",
+        "Second Wind",
+        "Weapon Mastery (3)",
+        "Resourceful: You gain Heroic Inspiration whenever you finish a Long Rest.",
+        "Skillful: You gain proficiency in one skill of your choice.",
+        "Versatile: You gain one Origin feat of your choice."
+      ],
+      "personality": {
+        "traits": [],
+        "ideals": [],
+        "bonds": [],
+        "flaws": []
+      }
+    }
+  ]
+}

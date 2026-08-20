@@ -1,0 +1,410 @@
+{
+  "acolyte": {
+    "name": "Acolyte",
+    "feature": "Shelter of the Faithful",
+    "ability_scores": [
+      "intelligence",
+      "wisdom",
+      "charisma"
+    ],
+    "feat": "Magic Initiate (Cleric)",
+    "skill_proficiencies": [
+      "insight",
+      "religion"
+    ],
+    "tool_proficiency": "Calligrapher's Supplies",
+    "equipment": [
+      "Calligrapher's Supplies",
+      "Book (prayers)",
+      "Holy Symbol",
+      "Parchment (10 sheets)",
+      "Robe",
+      "8 GP"
+    ],
+    "description": "You devoted yourself to service in a temple, shrine, or monastery, learning sacred rites and theological wisdom."
+  },
+  "artisan": {
+    "name": "Artisan",
+    "feature": "Guild Membership",
+    "ability_scores": [
+      "strength",
+      "dexterity",
+      "intelligence"
+    ],
+    "feat": "Crafter",
+    "skill_proficiencies": [
+      "investigation",
+      "persuasion"
+    ],
+    "tool_proficiency": "Artisan's Tools (one of choice)",
+    "equipment": [
+      "Artisan's Tools",
+      "Abacus",
+      "Pouch",
+      "Traveler's Clothes",
+      "25 GP"
+    ],
+    "description": "You began apprenticing at a young age, mastering a craft and learning how business and guild politics work."
+  },
+  "charlatan": {
+    "name": "Charlatan",
+    "feature": "False Identity",
+    "ability_scores": [
+      "dexterity",
+      "constitution",
+      "charisma"
+    ],
+    "feat": "Skilled",
+    "skill_proficiencies": [
+      "deception",
+      "sleight_of_hand"
+    ],
+    "tool_proficiency": "Forgery Kit",
+    "equipment": [
+      "Forgery Kit",
+      "Costume",
+      "Pouch",
+      "Fine Clothes",
+      "15 GP"
+    ],
+    "description": "You mastered deception, adopting false identities, sleight of hand, and confidence games to get ahead."
+  },
+  "criminal": {
+    "name": "Criminal",
+    "feature": "Criminal Contact",
+    "ability_scores": [
+      "dexterity",
+      "constitution",
+      "intelligence"
+    ],
+    "feat": "Alert",
+    "skill_proficiencies": [
+      "sleight_of_hand",
+      "stealth"
+    ],
+    "tool_proficiency": "Thieves' Tools",
+    "equipment": [
+      "2 Daggers",
+      "Thieves' Tools",
+      "Crowbar",
+      "Pouch",
+      "Traveler's Clothes",
+      "16 GP"
+    ],
+    "description": "You learned to survive on the wrong side of the law, navigating shadows, locks, and underworld contacts."
+  },
+  "cultist": {
+    "name": "Cultist",
+    "feature": "Cult Secrets",
+    "ability_scores": [
+      "intelligence",
+      "wisdom",
+      "charisma"
+    ],
+    "feat": "Magic Initiate (Warlock)",
+    "skill_proficiencies": [
+      "arcana",
+      "religion"
+    ],
+    "tool_proficiency": "Disguise Kit",
+    "equipment": [
+      "Dagger",
+      "Disguise Kit",
+      "Robes",
+      "Occult Symbol",
+      "19 GP"
+    ],
+    "description": "You were initiated into a secretive cult dedicated to an otherworldly entity or dark power."
+  },
+  "entertainer": {
+    "name": "Entertainer",
+    "feature": "By Popular Demand",
+    "ability_scores": [
+      "strength",
+      "dexterity",
+      "charisma"
+    ],
+    "feat": "Musician",
+    "skill_proficiencies": [
+      "acrobatics",
+      "performance"
+    ],
+    "tool_proficiency": "Musical Instrument (one of choice)",
+    "equipment": [
+      "Musical Instrument",
+      "Costume",
+      "Mirror (steel)",
+      "Perfume",
+      "8 GP"
+    ],
+    "description": "You thrive in front of an audience, captivating crowds with song, dance, storytelling, or acrobatics."
+  },
+  "farmer": {
+    "name": "Farmer",
+    "feature": "Rustic Hospitality",
+    "ability_scores": [
+      "strength",
+      "constitution",
+      "wisdom"
+    ],
+    "feat": "Tough",
+    "skill_proficiencies": [
+      "animal_handling",
+      "nature"
+    ],
+    "tool_proficiency": "Carpenter's Tools",
+    "equipment": [
+      "Sickle",
+      "Carpenter's Tools",
+      "Healer's Kit",
+      "Iron Pot",
+      "Shovel",
+      "Traveler's Clothes",
+      "23 GP"
+    ],
+    "description": "You grew up working the soil and caring for livestock, developing rugged endurance and practical skills."
+  },
+  "guard": {
+    "name": "Guard",
+    "feature": "Watcher's Eye",
+    "ability_scores": [
+      "strength",
+      "intelligence",
+      "wisdom"
+    ],
+    "feat": "Alert",
+    "skill_proficiencies": [
+      "athletics",
+      "perception"
+    ],
+    "tool_proficiency": "Gaming Set (one of choice)",
+    "equipment": [
+      "Spear",
+      "Light Crossbow",
+      "20 Crossbow Bolts",
+      "Gaming Set",
+      "Manacles",
+      "Traveler's Clothes",
+      "12 GP"
+    ],
+    "description": "You served as a sentry, city watch officer, or bodyguard, keeping keen eyes on doors, crowds, and perimeter walls."
+  },
+  "guide": {
+    "name": "Guide",
+    "feature": "Wanderer",
+    "ability_scores": [
+      "dexterity",
+      "constitution",
+      "wisdom"
+    ],
+    "feat": "Magic Initiate (Druid)",
+    "skill_proficiencies": [
+      "stealth",
+      "survival"
+    ],
+    "tool_proficiency": "Cartographer's Tools",
+    "equipment": [
+      "Shortbow",
+      "20 Arrows",
+      "Cartographer's Tools",
+      "Bedroll",
+      "Tent",
+      "Traveler's Clothes",
+      "3 GP"
+    ],
+    "description": "You learned the secrets of the untamed wilderness, navigating dangerous terrain, tracking game, and reading weather."
+  },
+  "hermit": {
+    "name": "Hermit",
+    "feature": "Discovery",
+    "ability_scores": [
+      "constitution",
+      "wisdom",
+      "charisma"
+    ],
+    "feat": "Healer",
+    "skill_proficiencies": [
+      "medicine",
+      "religion"
+    ],
+    "tool_proficiency": "Herbalism Kit",
+    "equipment": [
+      "Quarterstaff",
+      "Herbalism Kit",
+      "Bedroll",
+      "Book (philosophy)",
+      "Traveler's Clothes",
+      "15 GP"
+    ],
+    "description": "You lived in secluded contemplation in nature or a monastery, seeking spiritual enlightenment and holistic cures."
+  },
+  "merchant": {
+    "name": "Merchant",
+    "feature": "Trade Routes",
+    "ability_scores": [
+      "constitution",
+      "intelligence",
+      "charisma"
+    ],
+    "feat": "Lucky",
+    "skill_proficiencies": [
+      "animal_handling",
+      "persuasion"
+    ],
+    "tool_proficiency": "Navigator's Tools",
+    "equipment": [
+      "Navigator's Tools",
+      "Pouch",
+      "Traveler's Clothes",
+      "Fine Clothes",
+      "Letter of Introduction",
+      "22 GP"
+    ],
+    "description": "You bought and sold goods across trading hubs and caravan routes, learning negotiation and trade logistics."
+  },
+  "noble": {
+    "name": "Noble",
+    "feature": "Position of Privilege",
+    "ability_scores": [
+      "strength",
+      "intelligence",
+      "charisma"
+    ],
+    "feat": "Skilled",
+    "skill_proficiencies": [
+      "history",
+      "persuasion"
+    ],
+    "tool_proficiency": "Gaming Set (one of choice)",
+    "equipment": [
+      "Gaming Set",
+      "Fine Clothes",
+      "Signet Ring",
+      "Perfume",
+      "Scroll of Pedigree",
+      "29 GP"
+    ],
+    "description": "You were born into privilege and political intrigue, trained in heraldry, etiquette, and high-society rhetoric."
+  },
+  "sage": {
+    "name": "Sage",
+    "feature": "Researcher",
+    "ability_scores": [
+      "constitution",
+      "intelligence",
+      "wisdom"
+    ],
+    "feat": "Magic Initiate (Wizard)",
+    "skill_proficiencies": [
+      "arcana",
+      "history"
+    ],
+    "tool_proficiency": "Calligrapher's Supplies",
+    "equipment": [
+      "Quarterstaff",
+      "Calligrapher's Supplies",
+      "Book (history)",
+      "Ink & Pen",
+      "Parchment (8 sheets)",
+      "8 GP"
+    ],
+    "description": "You spent years studying dusty tomes, esoteric libraries, and academic theories in search of ancient knowledge."
+  },
+  "sailor": {
+    "name": "Sailor",
+    "feature": "Ship's Passage",
+    "ability_scores": [
+      "strength",
+      "dexterity",
+      "wisdom"
+    ],
+    "feat": "Tavern Brawler",
+    "skill_proficiencies": [
+      "acrobatics",
+      "perception"
+    ],
+    "tool_proficiency": "Navigator's Tools",
+    "equipment": [
+      "Dagger",
+      "Navigator's Tools",
+      "Silk Rope (50ft)",
+      "Lucky Charm",
+      "Traveler's Clothes",
+      "10 GP"
+    ],
+    "description": "You grew up on the decks of merchant galleys, warships, or fishing smacks, weathering gales and sea monsters."
+  },
+  "scribe": {
+    "name": "Scribe",
+    "feature": "Archival Access",
+    "ability_scores": [
+      "dexterity",
+      "intelligence",
+      "wisdom"
+    ],
+    "feat": "Skilled",
+    "skill_proficiencies": [
+      "investigation",
+      "perception"
+    ],
+    "tool_proficiency": "Calligrapher's Supplies",
+    "equipment": [
+      "Calligrapher's Supplies",
+      "Fine Clothes",
+      "Lamp",
+      "Oil (flask)",
+      "Parchment (10 sheets)",
+      "23 GP"
+    ],
+    "description": "You earned your living drafting official charters, translating scrolls, and maintaining civic records."
+  },
+  "soldier": {
+    "name": "Soldier",
+    "feature": "Military Rank",
+    "ability_scores": [
+      "strength",
+      "dexterity",
+      "constitution"
+    ],
+    "feat": "Savage Attacker",
+    "skill_proficiencies": [
+      "athletics",
+      "intimidation"
+    ],
+    "tool_proficiency": "Gaming Set (one of choice)",
+    "equipment": [
+      "Spear",
+      "Shortbow",
+      "20 Arrows",
+      "Gaming Set",
+      "Healer's Kit",
+      "Traveler's Clothes",
+      "14 GP"
+    ],
+    "description": "You were trained in military discipline and formation combat as part of an army, militia, or mercenary company."
+  },
+  "wayfarer": {
+    "name": "Wayfarer",
+    "feature": "City Secrets",
+    "ability_scores": [
+      "dexterity",
+      "wisdom",
+      "charisma"
+    ],
+    "feat": "Lucky",
+    "skill_proficiencies": [
+      "insight",
+      "stealth"
+    ],
+    "tool_proficiency": "Thieves' Tools",
+    "equipment": [
+      "2 Daggers",
+      "Thieves' Tools",
+      "Gaming Set",
+      "Bedroll",
+      "Traveler's Clothes",
+      "16 GP"
+    ],
+    "description": "You grew up as an urchin or drifter on city streets, relying on quick wits, alleys, and luck to survive."
+  }
+}

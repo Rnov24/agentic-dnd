@@ -1,0 +1,113 @@
+[
+  {
+    "id": "goblin_arrows_deliver_supplies",
+    "title": "Escort Provisions to Barthens",
+    "type": "main",
+    "giver": "Gundren Rockseeker",
+    "status": "active",
+    "priority": "High",
+    "objectives": [
+      {
+        "id": "deliver_wagon",
+        "description": "Escort the ox wagon safely to Barthens Provisions in Phandalin",
+        "completed": false
+      },
+      {
+        "id": "claim_payment",
+        "description": "Receive 10 gp per adventurer from Elmar Barthen",
+        "completed": false
+      }
+    ],
+    "rewards": {
+      "xp": 100,
+      "gp": 50
+    }
+  },
+  {
+    "id": "rescue_sildar",
+    "title": "Rescue Sildar Hallwinter",
+    "type": "main",
+    "giver": "Auto (Goblin Ambush Clue)",
+    "status": "active",
+    "priority": "Critical",
+    "objectives": [
+      {
+        "id": "infiltrate_hideout",
+        "description": "Follow goblin trail to Cragmaw Hideout",
+        "completed": false
+      },
+      {
+        "id": "free_sildar",
+        "description": "Rescue Sildar Hallwinter from Yeemiks clutches",
+        "completed": false
+      }
+    ],
+    "rewards": {
+      "xp": 150,
+      "gp": 50
+    }
+  },
+  {
+    "id": "redbrand_menace",
+    "title": "The Redbrand Menace",
+    "type": "main",
+    "giver": "Sildar Hallwinter / Townspeople",
+    "status": "active",
+    "priority": "High",
+    "objectives": [
+      {
+        "id": "infiltrate_tresendar",
+        "description": "Infiltrate the Redbrand Hideout beneath Tresendar Manor",
+        "completed": false
+      },
+      {
+        "id": "defeat_glasstaff",
+        "description": "Defeat or capture Iarno Glasstaff Albrek",
+        "completed": false
+      },
+      {
+        "id": "rescue_dendrars",
+        "description": "Free Mirna Dendrar and her children from the slave pens",
+        "completed": false
+      }
+    ],
+    "rewards": {
+      "xp": 400,
+      "gp": 200
+    }
+  },
+  {
+    "id": "wave_echo_cave_forge",
+    "title": "Reclaim Wave Echo Cave and The Forge of Spells",
+    "type": "main",
+    "giver": "Gundren Rockseeker",
+    "status": "active",
+    "priority": "Epic",
+    "objectives": [
+      {
+        "id": "enter_cave",
+        "description": "Travel to the secret entrance of Wave Echo Cave",
+        "completed": false
+      },
+      {
+        "id": "defeat_black_spider",
+        "description": "Defeat Nezznar the Black Spider in the Temple of Dumathoin",
+        "completed": false
+      },
+      {
+        "id": "reclaim_forge",
+        "description": "Secure the Forge of Spells and restore prosperity to Phandalin",
+        "completed": false
+      }
+    ],
+    "rewards": {
+      "xp": 1200,
+      "gp": 1000,
+      "items": [
+        "Spider Staff",
+        "Lightbringer",
+        "Dragonguard"
+      ]
+    }
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "sildar_hallwinter": {
+    "id": "sildar_hallwinter",
+    "name": "Sildar Hallwinter",
+    "race": "Human",
+    "role": "Lords Alliance Agent / Escort",
+    "faction": "Lords Alliance",
+    "status": "Alive",
+    "ac": 16,
+    "hp": {
+      "current": 11,
+      "max": 11
+    },
+    "stats": {
+      "strength": 13,
+      "dexterity": 10,
+      "constitution": 12,
+      "intelligence": 10,
+      "wisdom": 11,
+      "charisma": 10
+    },
+    "disposition": 50,
+    "description": "A kind-hearted human warrior in his fifties with silver hair and an honorable bearing."
+  },
+  "gundren_rockseeker": {
+    "id": "gundren_rockseeker",
+    "name": "Gundren Rockseeker",
+    "race": "Dwarf",
+    "role": "Prospector and Explorer",
+    "status": "Alive",
+    "ac": 10,
+    "hp": {
+      "current": 10,
+      "max": 10
+    },
+    "stats": {
+      "strength": 14,
+      "dexterity": 10,
+      "constitution": 14,
+      "intelligence": 12,
+      "wisdom": 12,
+      "charisma": 11
+    },
+    "disposition": 60,
+    "description": "An ambitious, enthusiastic dwarf prospector who discovered Wave Echo Cave with his brothers."
+  },
+  "iarno_albrek": {
+    "id": "iarno_albrek",
+    "name": "Iarno Glasstaff Albrek",
+    "race": "Human",
+    "role": "Former Lords Alliance Wizard / Leader of the Redbrands",
+    "status": "Alive",
+    "ac": 13,
+    "hp": {
+      "current": 22,
+      "max": 22
+    },
+    "stats": {
+      "strength": 9,
+      "dexterity": 14,
+      "constitution": 11,
+      "intelligence": 17,
+      "wisdom": 12,
+      "charisma": 14
+    },
+    "disposition": -80,
+    "description": "A treacherous wizard with a glass staff who betrayed the Lords Alliance."
+  },
+  "nezznar_the_black_spider": {
+    "id": "nezznar_the_black_spider",
+    "name": "Nezznar the Black Spider",
+    "race": "Drow",
+    "role": "Mastermind and Drow Mage",
+    "status": "Alive",
+    "ac": 11,
+    "hp": {
+      "current": 27,
+      "max": 27
+    },
+    "stats": {
+      "strength": 9,
+      "dexterity": 13,
+      "constitution": 10,
+      "intelligence": 16,
+      "wisdom": 14,
+      "charisma": 13
+    },
+    "disposition": -100,
+    "description": "A sinister, patient drow wizard seeking to unlock the Forge of Spells."
+  }
+}

@@ -1,0 +1,32 @@
+﻿{
+  "skill_name": "dnd-multiverse",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create an alternate timeline branch called 'timeline-stealth-route'",
+      "expected_output": "Creates a new branch pointer in state/history.json and sets the active branch without mutating previous commits.",
+      "expectations": [
+        "Uses python dnd.py branch with create flag",
+        "Confirms branch creation"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Switch our active timeline back to the 'main' branch",
+      "expected_output": "Switches the active branch pointer in history.json to 'main'.",
+      "expectations": [
+        "Uses python dnd.py branch main",
+        "Confirms active branch is now main"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Compare what happened on our alternate branch versus our main timeline",
+      "expected_output": "Uses dnd.py history or diff across branches to explain narrative differences.",
+      "expectations": [
+        "Queries branch history",
+        "Explains divergent decisions"
+      ]
+    }
+  ]
+}

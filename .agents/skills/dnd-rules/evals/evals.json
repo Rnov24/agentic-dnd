@@ -1,0 +1,33 @@
+﻿{
+  "skill_name": "dnd-rules",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Roll a Stealth check for Aria vs DC 15 with advantage",
+      "expected_output": "Executes python dnd.py check stealth 15 --adv and reports the exact roll formula, proficiency status, and success/failure outcome.",
+      "expectations": [
+        "Uses python dnd.py check stealth 15 --adv",
+        "Reports deterministic mathematical formula",
+        "Indicates proficiency and advantage calculation"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "What is the Weapon Mastery property for a Rapier under D&D 2024 rules?",
+      "expected_output": "Explains the Vex mastery: on hit and damage, grants advantage on the next attack roll against that target before the end of your next turn.",
+      "expectations": [
+        "Identifies Vex as the Rapier mastery",
+        "Correctly explains the advantage trigger"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Aria attacks Guard Karl with her dagger. How is damage computed if it crits?",
+      "expected_output": "Executes attack and explains that on a critical hit, the weapon damage dice (1d4) and sneak attack dice (2d6) are doubled to 2d4 + 4d6 + DEX mod.",
+      "expectations": [
+        "Correctly doubles damage dice on critical hit",
+        "Uses deterministic CLI tool"
+      ]
+    }
+  ]
+}

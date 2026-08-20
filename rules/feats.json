@@ -1,0 +1,202 @@
+{
+  "alert": {
+    "name": "Alert",
+    "category": "origin",
+    "level_prereq": 1,
+    "prerequisite": "None",
+    "benefits": [
+      "Initiative Proficiency: Add your Proficiency Bonus to your Initiative rolls.",
+      "Initiative Swap: Immediately after you roll Initiative, you can swap your Initiative roll with the Initiative roll of one willing ally in the same combat."
+    ]
+  },
+  "crafter": {
+    "name": "Crafter",
+    "category": "origin",
+    "level_prereq": 1,
+    "prerequisite": "None",
+    "benefits": [
+      "Tool Proficiency: Proficiency with 3 different Artisan's Tools of your choice.",
+      "Discount: 20% discount on nonmagical items you purchase.",
+      "Fast Crafting: Craft nonmagical items in 20% less time."
+    ]
+  },
+  "healer": {
+    "name": "Healer",
+    "category": "origin",
+    "level_prereq": 1,
+    "prerequisite": "None",
+    "benefits": [
+      "Battle Medic: When you use a Healer's Kit to stabilize a creature, that creature also regains 1 HP.",
+      "Healing Rerolls: When you roll dice to determine HP restored by a spell or ability, you can reroll any roll of a 1."
+    ]
+  },
+  "lucky": {
+    "name": "Lucky",
+    "category": "origin",
+    "level_prereq": 1,
+    "prerequisite": "None",
+    "benefits": [
+      "Luck Points: Gain Luck Points equal to your Proficiency Bonus (regained on Long Rest).",
+      "Advantage: Spend 1 Luck Point to gain Advantage on a D20 Test.",
+      "Disadvantage: When an attack roll is made against you, spend 1 Luck Point to impose Disadvantage on the attack roll."
+    ]
+  },
+  "magic_initiate": {
+    "name": "Magic Initiate",
+    "category": "origin",
+    "level_prereq": 1,
+    "prerequisite": "None",
+    "benefits": [
+      "Two Cantrips: Choose 2 cantrips from the Cleric, Druid, or Wizard spell list.",
+      "Level 1 Spell: Choose one 1st-level spell from that same list (cast 1/Long Rest without slot, and can also cast using spell slots).",
+      "Spellcasting Ability: Intelligence, Wisdom, or Charisma (chosen when taking feat)."
+    ]
+  },
+  "musician": {
+    "name": "Musician",
+    "category": "origin",
+    "level_prereq": 1,
+    "prerequisite": "None",
+    "benefits": [
+      "Instrument Training: Gain proficiency with 3 Musical Instruments of your choice.",
+      "Inspiring Song: As part of a Short or Long Rest, play music to grant Heroic Inspiration to allies equal to your Proficiency Bonus."
+    ]
+  },
+  "savage_attacker": {
+    "name": "Savage Attacker",
+    "category": "origin",
+    "level_prereq": 1,
+    "prerequisite": "None",
+    "benefits": [
+      "Damage Advantage: Once per turn when you hit a target with a weapon attack, roll the weapon's damage dice twice and use either total."
+    ]
+  },
+  "skilled": {
+    "name": "Skilled",
+    "category": "origin",
+    "level_prereq": 1,
+    "prerequisite": "None",
+    "benefits": [
+      "Versatile Expertise: Gain proficiency in any combination of 3 skills or tools of your choice (Repeatable)."
+    ]
+  },
+  "tavern_brawler": {
+    "name": "Tavern Brawler",
+    "category": "origin",
+    "level_prereq": 1,
+    "prerequisite": "None",
+    "benefits": [
+      "Enhanced Unarmed Strike: Unarmed Strike damage becomes 1d4 + Strength modifier.",
+      "Damage Rerolls: Reroll any damage die of a 1 on Unarmed Strikes.",
+      "Push: When you hit with an Unarmed Strike, push the target 5 feet straight away."
+    ]
+  },
+  "tough": {
+    "name": "Tough",
+    "category": "origin",
+    "level_prereq": 1,
+    "prerequisite": "None",
+    "benefits": [
+      "Hit Point Surge: Max HP increases by 2 per level (including retroactive past levels)."
+    ]
+  },
+  "ability_score_improvement": {
+    "name": "Ability Score Improvement",
+    "category": "general",
+    "level_prereq": 4,
+    "prerequisite": "None",
+    "benefits": [
+      "Increase one ability score by 2, or two ability scores by 1 each (max 20). Repeatable."
+    ]
+  },
+  "great_weapon_master": {
+    "name": "Great Weapon Master",
+    "category": "general",
+    "level_prereq": 4,
+    "prerequisite": "Strength 13+",
+    "benefits": [
+      "Ability Score: Increase Strength by 1.",
+      "Heavy Weapon Mastery: On your turn with a Heavy weapon, deal extra damage equal to your Proficiency Bonus on hit.",
+      "Hew: On critical hit or dropping enemy to 0 HP, make one bonus melee attack."
+    ]
+  },
+  "polearm_master": {
+    "name": "Polearm Master",
+    "category": "general",
+    "level_prereq": 4,
+    "prerequisite": "Strength or Dexterity 13+",
+    "benefits": [
+      "Ability Score: Increase Strength or Dexterity by 1.",
+      "Polearm Butt Strike: Bonus Action attack with opposite end dealing 1d4 bludgeoning damage.",
+      "Reactive Strike: Opportunity Attack when a creature enters your reach."
+    ]
+  },
+  "sentinel": {
+    "name": "Sentinel",
+    "category": "general",
+    "level_prereq": 4,
+    "prerequisite": "Strength or Dexterity 13+",
+    "benefits": [
+      "Ability Score: Increase Strength or Dexterity by 1.",
+      "Guardian: Hit with Opportunity Attack reduces target's Speed to 0 for rest of turn.",
+      "Vengeance: Make melee reaction attack against enemy attacking an ally within 5ft."
+    ]
+  },
+  "war_caster": {
+    "name": "War Caster",
+    "category": "general",
+    "level_prereq": 4,
+    "prerequisite": "Spellcaster",
+    "benefits": [
+      "Ability Score: Increase INT, WIS, or CHA by 1.",
+      "Advantage on Concentration saves to maintain spells when taking damage.",
+      "Somatic Casting: Perform somatic components while holding weapons/shields.",
+      "Opportunity Spell: Cast a 1-action spell as a Reaction when enemy provokes Opportunity Attack."
+    ]
+  },
+  "fighting_style_archery": {
+    "name": "Fighting Style: Archery",
+    "category": "fighting_style",
+    "level_prereq": 1,
+    "prerequisite": "Fighting Style Feature",
+    "benefits": [
+      "Gain a +2 bonus to attack rolls made with ranged weapons."
+    ]
+  },
+  "fighting_style_defense": {
+    "name": "Fighting Style: Defense",
+    "category": "fighting_style",
+    "level_prereq": 1,
+    "prerequisite": "Fighting Style Feature",
+    "benefits": [
+      "Gain a +1 bonus to Armor Class while wearing Light, Medium, or Heavy armor."
+    ]
+  },
+  "fighting_style_dueling": {
+    "name": "Fighting Style: Dueling",
+    "category": "fighting_style",
+    "level_prereq": 1,
+    "prerequisite": "Fighting Style Feature",
+    "benefits": [
+      "Gain a +2 bonus to damage rolls when wielding a melee weapon in one hand and no other weapons."
+    ]
+  },
+  "fighting_style_great_weapon": {
+    "name": "Fighting Style: Great Weapon Fighting",
+    "category": "fighting_style",
+    "level_prereq": 1,
+    "prerequisite": "Fighting Style Feature",
+    "benefits": [
+      "When rolling damage for a Two-Handed or Versatile melee weapon, treat any roll of a 1 or 2 as a 3."
+    ]
+  },
+  "fighting_style_two_weapon": {
+    "name": "Fighting Style: Two-Weapon Fighting",
+    "category": "fighting_style",
+    "level_prereq": 1,
+    "prerequisite": "Fighting Style Feature",
+    "benefits": [
+      "When making an extra attack from Two-Weapon Fighting / Light property, add your ability modifier to the damage."
+    ]
+  }
+}

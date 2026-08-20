@@ -1,0 +1,41 @@
+[
+  {
+    "id": "goblin_ambush",
+    "name": "Goblin Ambush on Triboar Trail",
+    "monsters": [
+      "goblin",
+      "goblin",
+      "goblin",
+      "goblin"
+    ],
+    "base_xp": 200,
+    "adjusted_xp": 400,
+    "difficulty": "Deadly for 1st level",
+    "tactics": "2 melee goblins rush with scimitars while 2 archers fire from +2 half-cover thickets."
+  },
+  {
+    "id": "klargs_den",
+    "name": "Chieftain Klarg and Ripper",
+    "monsters": [
+      "bugbear",
+      "wolf",
+      "goblin",
+      "goblin"
+    ],
+    "base_xp": 350,
+    "adjusted_xp": 700,
+    "difficulty": "Deadly for 1st level",
+    "tactics": "Klarg attempts a surprise strike dealing +2d6 damage from hiding."
+  },
+  {
+    "id": "venomfang_tower",
+    "name": "Venomfang the Young Green Dragon",
+    "monsters": [
+      "young_green_dragon"
+    ],
+    "base_xp": 3900,
+    "adjusted_xp": 3900,
+    "difficulty": "Deadly for 3rd level",
+    "tactics": "Opens with Poison Breath (DC 14 CON save, 12d6 poison)."
+  }
+]

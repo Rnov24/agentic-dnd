@@ -1,0 +1,559 @@
+{
+  "active_branch": "main",
+  "branches": {
+    "main": [
+      "7e76f5ec",
+      "d7992972",
+      "96dfa5d9",
+      "5bf77379",
+      "62691fa7",
+      "ac9cf654",
+      "9321a5f7",
+      "221c4caf",
+      "58b5bd8f",
+      "5c7d42bc",
+      "a8212f09",
+      "aedb6796"
+    ]
+  },
+  "commits": {
+    "7e76f5ec": {
+      "commit_id": "7e76f5ec",
+      "parent_id": null,
+      "branch": "main",
+      "timestamp": "2026-08-18 22:38:24",
+      "intent": "I sneak past Guard Karl, steal the key, and unlock Valen's cell",
+      "reason": "Under the rumbling cover of distant thunder, you glide silently across the wet flagstones. Your foot...",
+      "agent": "DM Agent",
+      "tool_calls": [
+        {
+          "tool": "mechanics.roll_check",
+          "output": {
+            "character_name": "Aria Nightwind",
+            "check_type": "stealth",
+            "ability": "dexterity",
+            "ability_score": 17,
+            "ability_modifier": 3,
+            "skill": "stealth",
+            "is_proficient": true,
+            "has_expertise": true,
+            "proficiency_bonus": 2,
+            "extra_bonus": 0,
+            "guidance_bonus": 0,
+            "total_modifier": 7,
+            "dc": 12,
+            "natural_roll": 17,
+            "total": 24,
+            "success": true,
+            "margin": 12,
+            "is_crit_20": false,
+            "is_crit_1": false,
+            "advantage_mode": "ADVANTAGE",
+            "formula": "[17] + 7 = 24",
+            "action_type": "ability_check"
+          }
+        }
+      ],
+      "affected_files": [
+        "state/world.json",
+        "state/party.json",
+        "state/npcs.json"
+      ],
+      "approved_by": null
+    },
+    "d7992972": {
+      "commit_id": "d7992972",
+      "parent_id": "7e76f5ec",
+      "branch": "main",
+      "timestamp": "2026-08-18 22:39:48",
+      "intent": "hi",
+      "reason": "You hi with calculated care.\n\nGuard Karl observes the situation carefully.\n\n> **Eldrin Shadowseeker*...",
+      "agent": "DM Agent",
+      "tool_calls": [],
+      "affected_files": [
+        "state/world.json",
+        "state/party.json",
+        "state/npcs.json"
+      ],
+      "approved_by": null
+    },
+    "96dfa5d9": {
+      "commit_id": "96dfa5d9",
+      "parent_id": "d7992972",
+      "branch": "main",
+      "timestamp": "2026-08-18 22:40:20",
+      "intent": "I sneak quietly past Guard Karl towards the cell door",
+      "reason": "Under the rumbling cover of distant thunder, you glide silently across the wet flagstones. Your foot...",
+      "agent": "DM Agent",
+      "tool_calls": [
+        {
+          "tool": "mechanics.roll_check",
+          "output": {
+            "character_name": "Aria Nightwind",
+            "check_type": "stealth",
+            "ability": "dexterity",
+            "ability_score": 17,
+            "ability_modifier": 3,
+            "skill": "stealth",
+            "is_proficient": true,
+            "has_expertise": true,
+            "proficiency_bonus": 2,
+            "extra_bonus": 0,
+            "guidance_bonus": 0,
+            "total_modifier": 7,
+            "dc": 12,
+            "natural_roll": 17,
+            "total": 24,
+            "success": true,
+            "margin": 12,
+            "is_crit_20": false,
+            "is_crit_1": false,
+            "advantage_mode": "ADVANTAGE",
+            "formula": "[17] + 7 = 24",
+            "action_type": "ability_check"
+          }
+        }
+      ],
+      "affected_files": [
+        "state/world.json",
+        "state/party.json",
+        "state/npcs.json"
+      ],
+      "approved_by": null
+    },
+    "5bf77379": {
+      "commit_id": "5bf77379",
+      "parent_id": "96dfa5d9",
+      "branch": "main",
+      "timestamp": "2026-08-18 22:45:39",
+      "intent": "I sneak past Guard Karl and pick the lock of Cell #3",
+      "reason": "A loose cobble shifts sharply beneath your boot heel with a sharp scraping ring `[Stealth Check: [4]...",
+      "agent": "DM Agent",
+      "tool_calls": [
+        {
+          "tool": "mechanics.roll_check",
+          "output": {
+            "character_name": "Aria Nightwind",
+            "check_type": "stealth",
+            "ability": "dexterity",
+            "ability_score": 17,
+            "ability_modifier": 3,
+            "skill": "stealth",
+            "is_proficient": true,
+            "has_expertise": true,
+            "proficiency_bonus": 2,
+            "extra_bonus": 0,
+            "guidance_bonus": 0,
+            "total_modifier": 7,
+            "dc": 12,
+            "natural_roll": 4,
+            "total": 11,
+            "success": false,
+            "margin": -1,
+            "is_crit_20": false,
+            "is_crit_1": false,
+            "advantage_mode": "ADVANTAGE",
+            "formula": "[4] + 7 = 11",
+            "action_type": "ability_check"
+          }
+        }
+      ],
+      "affected_files": [
+        "state/world.json",
+        "state/party.json",
+        "state/npcs.json"
+      ],
+      "approved_by": null
+    },
+    "62691fa7": {
+      "commit_id": "62691fa7",
+      "parent_id": "5bf77379",
+      "branch": "main",
+      "timestamp": "2026-08-18 22:46:23",
+      "intent": "I sneak past Guard Karl and pick the lock of Cell #3",
+      "reason": "A loose cobble shifts sharply beneath your boot heel with a sharp scraping ring `[Stealth Check: [4]...",
+      "agent": "DM Agent",
+      "tool_calls": [
+        {
+          "tool": "mechanics.roll_check",
+          "output": {
+            "character_name": "Aria Nightwind",
+            "check_type": "stealth",
+            "ability": "dexterity",
+            "ability_score": 17,
+            "ability_modifier": 3,
+            "skill": "stealth",
+            "is_proficient": true,
+            "has_expertise": true,
+            "proficiency_bonus": 2,
+            "extra_bonus": 0,
+            "guidance_bonus": 0,
+            "total_modifier": 7,
+            "dc": 12,
+            "natural_roll": 4,
+            "total": 11,
+            "success": false,
+            "margin": -1,
+            "is_crit_20": false,
+            "is_crit_1": false,
+            "advantage_mode": "ADVANTAGE",
+            "formula": "[4] + 7 = 11",
+            "action_type": "ability_check"
+          }
+        }
+      ],
+      "affected_files": [
+        "state/world.json",
+        "state/party.json",
+        "state/npcs.json"
+      ],
+      "approved_by": null
+    },
+    "ac9cf654": {
+      "commit_id": "ac9cf654",
+      "parent_id": "62691fa7",
+      "branch": "main",
+      "timestamp": "2026-08-19 20:37:18",
+      "intent": "I examine the dead horses on the trail and keep my daggers ready",
+      "reason": "A loose cobble shifts sharply beneath your boot heel with a sharp scraping ring `[Investigation Chec...",
+      "agent": "DM Agent",
+      "tool_calls": [
+        {
+          "tool": "mechanics.roll_check",
+          "output": {
+            "character_name": "Aria Nightwind",
+            "check_type": "investigation",
+            "ability": "intelligence",
+            "ability_score": 12,
+            "ability_modifier": 1,
+            "skill": "investigation",
+            "is_proficient": false,
+            "has_expertise": false,
+            "proficiency_bonus": 2,
+            "extra_bonus": 0,
+            "guidance_bonus": 0,
+            "total_modifier": 1,
+            "dc": 12,
+            "natural_roll": 4,
+            "total": 5,
+            "success": false,
+            "margin": -7,
+            "is_crit_20": false,
+            "is_crit_1": false,
+            "advantage_mode": "NORMAL",
+            "formula": "[4] + 1 = 5",
+            "action_type": "ability_check"
+          }
+        }
+      ],
+      "affected_files": [
+        "state/world.json",
+        "state/party.json",
+        "state/npcs.json"
+      ],
+      "approved_by": null
+    },
+    "9321a5f7": {
+      "commit_id": "9321a5f7",
+      "parent_id": "ac9cf654",
+      "branch": "main",
+      "timestamp": "2026-08-20 17:53:39",
+      "intent": "I carefully examine the dead horses on the road for clues and tracks",
+      "reason": "A sudden misstep echoes in the area as composure momentarily slips `[Investigation Check: [5] = 5 vs...",
+      "agent": "DM Agent",
+      "tool_calls": [
+        {
+          "tool": "mechanics.roll_check",
+          "output": {
+            "character_name": "Li Wei",
+            "check_type": "investigation",
+            "ability": "intelligence",
+            "ability_score": 11,
+            "ability_modifier": 0,
+            "skill": "investigation",
+            "is_proficient": false,
+            "has_expertise": false,
+            "proficiency_bonus": 2,
+            "extra_bonus": 0,
+            "guidance_bonus": 0,
+            "total_modifier": 0,
+            "modifier_breakdown": {
+              "ability": 0,
+              "proficiency": 0,
+              "extra": 0,
+              "guidance": 0
+            },
+            "dc": 12,
+            "natural_roll": 5,
+            "total": 5,
+            "success": false,
+            "margin": -7,
+            "is_crit_20": false,
+            "is_crit_1": false,
+            "advantage_mode": "NORMAL",
+            "formula": "[5] = 5",
+            "audit_breakdown": [
+              "Base d20 Roll: 5",
+              "Intelligence Modifier: +0",
+              "Total: 5 vs DC 12 -> FAILURE (Margin: -7)"
+            ],
+            "audit_explanation": "Base d20 Roll: 5 | Intelligence Modifier: +0 | Total: 5 vs DC 12 -> FAILURE (Margin: -7)",
+            "action_type": "ability_check"
+          }
+        }
+      ],
+      "affected_files": [
+        "state/world.json",
+        "state/party.json",
+        "state/npcs.json"
+      ],
+      "approved_by": null
+    },
+    "221c4caf": {
+      "commit_id": "221c4caf",
+      "parent_id": "9321a5f7",
+      "branch": "main",
+      "timestamp": "2026-08-20 17:54:04",
+      "intent": "I carefully examine the dead horses on the road for clues and tracks",
+      "reason": "A sudden misstep echoes in the area as composure momentarily slips `[Investigation Check: [11] = 11 ...",
+      "agent": "DM Agent",
+      "tool_calls": [
+        {
+          "tool": "mechanics.roll_check",
+          "output": {
+            "character_name": "Li Wei",
+            "check_type": "investigation",
+            "ability": "intelligence",
+            "ability_score": 11,
+            "ability_modifier": 0,
+            "skill": "investigation",
+            "is_proficient": false,
+            "has_expertise": false,
+            "proficiency_bonus": 2,
+            "extra_bonus": 0,
+            "guidance_bonus": 0,
+            "total_modifier": 0,
+            "modifier_breakdown": {
+              "ability": 0,
+              "proficiency": 0,
+              "extra": 0,
+              "guidance": 0
+            },
+            "dc": 12,
+            "natural_roll": 11,
+            "total": 11,
+            "success": false,
+            "margin": -1,
+            "is_crit_20": false,
+            "is_crit_1": false,
+            "advantage_mode": "NORMAL",
+            "formula": "[11] = 11",
+            "audit_breakdown": [
+              "Base d20 Roll: 11",
+              "Intelligence Modifier: +0",
+              "Total: 11 vs DC 12 -> FAILURE (Margin: -1)"
+            ],
+            "audit_explanation": "Base d20 Roll: 11 | Intelligence Modifier: +0 | Total: 11 vs DC 12 -> FAILURE (Margin: -1)",
+            "action_type": "ability_check"
+          }
+        }
+      ],
+      "affected_files": [
+        "state/world.json",
+        "state/party.json",
+        "state/npcs.json"
+      ],
+      "approved_by": null
+    },
+    "58b5bd8f": {
+      "commit_id": "58b5bd8f",
+      "parent_id": "221c4caf",
+      "branch": "main",
+      "timestamp": "2026-08-20 17:54:23",
+      "intent": "I carefully examine the dead horses on the road for clues and tracks",
+      "reason": "Li Wei's keen eyes scour the area, quickly identifying structural details and hidden clues `[Investi...",
+      "agent": "DM Agent",
+      "tool_calls": [
+        {
+          "tool": "mechanics.roll_check",
+          "output": {
+            "character_name": "Li Wei",
+            "check_type": "investigation",
+            "ability": "intelligence",
+            "ability_score": 11,
+            "ability_modifier": 0,
+            "skill": "investigation",
+            "is_proficient": false,
+            "has_expertise": false,
+            "proficiency_bonus": 2,
+            "extra_bonus": 0,
+            "guidance_bonus": 0,
+            "total_modifier": 0,
+            "modifier_breakdown": {
+              "ability": 0,
+              "proficiency": 0,
+              "extra": 0,
+              "guidance": 0
+            },
+            "dc": 12,
+            "natural_roll": 16,
+            "total": 16,
+            "success": true,
+            "margin": 4,
+            "is_crit_20": false,
+            "is_crit_1": false,
+            "advantage_mode": "NORMAL",
+            "formula": "[16] = 16",
+            "audit_breakdown": [
+              "Base d20 Roll: 16",
+              "Intelligence Modifier: +0",
+              "Total: 16 vs DC 12 -> SUCCESS (Margin: +4)"
+            ],
+            "audit_explanation": "Base d20 Roll: 16 | Intelligence Modifier: +0 | Total: 16 vs DC 12 -> SUCCESS (Margin: +4)",
+            "action_type": "ability_check"
+          }
+        }
+      ],
+      "affected_files": [
+        "state/world.json",
+        "state/party.json",
+        "state/npcs.json"
+      ],
+      "approved_by": null
+    },
+    "5c7d42bc": {
+      "commit_id": "5c7d42bc",
+      "parent_id": "58b5bd8f",
+      "branch": "main",
+      "timestamp": "2026-08-20 17:54:58",
+      "intent": "I strike the goblin with my quarterstaff",
+      "reason": "Li Wei strikes forward with Unarmed Strike! The blow connects cleanly against Guard Karl `[Attack: [...",
+      "agent": "DM Agent",
+      "tool_calls": [
+        {
+          "tool": "combat.roll_attack",
+          "output": {
+            "attacker": "Li Wei",
+            "target": "Guard Karl",
+            "attack_name": "Unarmed Strike",
+            "attack_modifier": 4,
+            "target_ac": 14,
+            "natural_roll": 18,
+            "total": 22,
+            "is_hit": true,
+            "is_critical_hit": false,
+            "is_critical_fumble": false,
+            "advantage_mode": "NORMAL",
+            "damage_formula": "1",
+            "damage_type": "bludgeoning",
+            "formula": "[18] + 4 = 22"
+          }
+        },
+        {
+          "tool": "combat.roll_damage",
+          "output": {
+            "attacker": "Li Wei",
+            "target": "Guard Karl",
+            "damage_formula": "1",
+            "damage_type": "bludgeoning",
+            "is_critical": false,
+            "dice_rolls": [],
+            "bonus_added": 3,
+            "raw_damage": 4,
+            "final_damage": 4,
+            "multiplier_note": "normal",
+            "formula": "[0] + 4 = 4",
+            "audit_breakdown": [
+              "Dice (1): []",
+              "Stat Mod (dexterity): +3",
+              "Final Damage: 4 bludgeoning"
+            ],
+            "audit_explanation": "Dice (1): [] | Stat Mod (dexterity): +3 | Final Damage: 4 bludgeoning"
+          }
+        }
+      ],
+      "affected_files": [
+        "state/world.json",
+        "state/party.json",
+        "state/npcs.json"
+      ],
+      "approved_by": null
+    },
+    "a8212f09": {
+      "commit_id": "a8212f09",
+      "parent_id": "5c7d42bc",
+      "branch": "main",
+      "timestamp": "2026-08-20 17:54:58",
+      "intent": "I cast Fire Bolt at the goblin archer in the trees",
+      "reason": "Li Wei I cast Fire Bolt at the goblin archer in the trees with calculated care.\n\nGuard Karl observes...",
+      "agent": "DM Agent",
+      "tool_calls": [
+        {
+          "tool": "spells.cast_spell",
+          "output": {
+            "success": true,
+            "spell": "Fire Bolt",
+            "caster": "Li Wei",
+            "level_cast": 0,
+            "is_ritual": false,
+            "slot_expended": false,
+            "spell_save_dc": 9,
+            "spell_attack_bonus": 1,
+            "duration": "Instantaneous",
+            "concentration": false,
+            "damage": 3,
+            "formula": "[3] = 3",
+            "damage_type": "fire",
+            "target_hp_after": 7,
+            "target_name": "Goblin"
+          }
+        }
+      ],
+      "affected_files": [
+        "state/world.json",
+        "state/party.json",
+        "state/npcs.json"
+      ],
+      "approved_by": null
+    },
+    "aedb6796": {
+      "commit_id": "aedb6796",
+      "parent_id": "a8212f09",
+      "branch": "main",
+      "timestamp": "2026-08-20 17:56:34",
+      "intent": "I cast Fire Bolt at the goblin archer in the trees",
+      "reason": "Li Wei unleashes Fire Bolt with crackling magical power! The energy strikes Goblin `[Cast Fire Bolt:...",
+      "agent": "DM Agent",
+      "tool_calls": [
+        {
+          "tool": "spells.cast_spell",
+          "output": {
+            "success": true,
+            "spell": "Fire Bolt",
+            "spell_name": "Fire Bolt",
+            "caster": "Li Wei",
+            "level_cast": 0,
+            "is_ritual": false,
+            "slot_expended": false,
+            "spell_save_dc": 9,
+            "spell_attack_bonus": 1,
+            "duration": "Instantaneous",
+            "concentration": false,
+            "damage": 2,
+            "formula": "[2] = 2",
+            "damage_type": "fire",
+            "target_hp_after": 8,
+            "target_name": "Goblin"
+          }
+        }
+      ],
+      "affected_files": [
+        "state/world.json",
+        "state/party.json",
+        "state/npcs.json"
+      ],
+      "approved_by": null
+    }
+  },
+  "head": "aedb6796"
+}

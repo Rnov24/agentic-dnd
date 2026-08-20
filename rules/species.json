@@ -1,0 +1,258 @@
+{
+  "aasimar": {
+    "name": "Aasimar",
+    "size": "Medium or Small",
+    "speed": 30,
+    "bonuses": {
+      "charisma": 2,
+      "wisdom": 1
+    },
+    "traits": [
+      "Celestial Resistance: Resistance to Necrotic and Radiant damage.",
+      "Darkvision: 60 feet.",
+      "Healing Hands: As an Action, touch a creature and restore HP equal to a roll of d4s equal to your Proficiency Bonus (1/Long Rest).",
+      "Light Bearer: You know the Light cantrip (Charisma).",
+      "Celestial Revelation: At Level 3, transform as a Bonus Action for 1 minute (Heavenly Wings, Inner Radiance, or Necrotic Shroud, 1/Long Rest)."
+    ]
+  },
+  "dragonborn": {
+    "name": "Dragonborn",
+    "size": "Medium",
+    "speed": 30,
+    "bonuses": {
+      "strength": 2,
+      "charisma": 1
+    },
+    "traits": [
+      "Draconic Ancestry: Choose Black, Blue, Brass, Bronze, Copper, Gold, Green, Red, Silver, or White dragon ancestor.",
+      "Breath Weapon: When you take the Attack action, replace one attack with a 15ft cone or 30ft line breath (Damage: 1d10 at lvl 1, 2d10 at lvl 5, 3d10 at lvl 11, 4d10 at lvl 17; uses = PB/Long Rest).",
+      "Damage Resistance: Resistance to the damage type associated with your Draconic Ancestry.",
+      "Darkvision: 60 feet.",
+      "Draconic Flight: At Level 5, gain flying speed equal to your Speed for 10 minutes as a Bonus Action (1/Long Rest)."
+    ]
+  },
+  "dwarf": {
+    "name": "Dwarf",
+    "size": "Medium",
+    "speed": 30,
+    "bonuses": {
+      "constitution": 2
+    },
+    "traits": [
+      "Darkvision: 120 feet.",
+      "Dwarven Resilience: Resistance to Poison damage and Advantage on saving throws against the Poisoned condition.",
+      "Dwarven Toughness: Your Hit Point maximum increases by 1 for each level you possess.",
+      "Stonecunning: As a Bonus Action, gain Tremorsense with a range of 60 feet for 10 minutes while on stone surfaces (uses = PB/Long Rest)."
+    ]
+  },
+  "hill_dwarf": {
+    "name": "Hill Dwarf",
+    "size": "Medium",
+    "speed": 30,
+    "bonuses": {
+      "constitution": 2,
+      "wisdom": 1
+    },
+    "traits": [
+      "Darkvision: 120 feet.",
+      "Dwarven Resilience: Resistance to Poison damage.",
+      "Dwarven Toughness: Hit Point maximum increases by 1 per level."
+    ]
+  },
+  "mountain_dwarf": {
+    "name": "Mountain Dwarf",
+    "size": "Medium",
+    "speed": 30,
+    "bonuses": {
+      "strength": 2,
+      "constitution": 2
+    },
+    "traits": [
+      "Darkvision: 120 feet.",
+      "Dwarven Resilience: Resistance to Poison damage.",
+      "Dwarven Armor Training: Proficiency with light and medium armor."
+    ]
+  },
+  "elf": {
+    "name": "Elf",
+    "size": "Medium",
+    "speed": 30,
+    "bonuses": {
+      "dexterity": 2
+    },
+    "traits": [
+      "Darkvision: 60 feet (120 feet for Drow).",
+      "Elven Lineage: Choose Drow (Darkvision 120ft, Dancing Lights, Faerie Fire, Darkness), High Elf (Prestidigitation, Detect Magic, Misty Step), or Wood Elf (Speed 35ft, Druidcraft, Longstrider, Pass without Trace).",
+      "Fey Ancestry: Advantage on saving throws against being Charmed.",
+      "Keen Senses: Proficiency in the Perception skill.",
+      "Trance: You don't need sleep. Finishing a Long Rest requires only 4 hours of restful meditation."
+    ]
+  },
+  "high_elf": {
+    "name": "High Elf",
+    "size": "Medium",
+    "speed": 30,
+    "bonuses": {
+      "dexterity": 2,
+      "intelligence": 1
+    },
+    "traits": [
+      "Darkvision: 60 feet.",
+      "Fey Ancestry: Advantage on saving throws against being Charmed.",
+      "Keen Senses: Perception proficiency.",
+      "Cantrip: You know one cantrip from the wizard spell list (Prestidigitation)."
+    ]
+  },
+  "wood_elf": {
+    "name": "Wood Elf",
+    "size": "Medium",
+    "speed": 35,
+    "bonuses": {
+      "dexterity": 2,
+      "wisdom": 1
+    },
+    "traits": [
+      "Fleet of Foot: Base walking speed 35 feet.",
+      "Mask of the Wild: Attempt to hide even when only lightly obscured.",
+      "Keen Senses: Perception proficiency."
+    ]
+  },
+  "drow": {
+    "name": "Drow",
+    "size": "Medium",
+    "speed": 30,
+    "bonuses": {
+      "dexterity": 2,
+      "charisma": 1
+    },
+    "traits": [
+      "Superior Darkvision: 120 feet.",
+      "Drow Magic: Dancing Lights cantrip; Faerie Fire and Darkness as you level up."
+    ]
+  },
+  "gnome": {
+    "name": "Gnome",
+    "size": "Small",
+    "speed": 30,
+    "bonuses": {
+      "intelligence": 2
+    },
+    "traits": [
+      "Darkvision: 60 feet.",
+      "Gnomish Cunning: Advantage on all Intelligence, Wisdom, and Charisma saving throws.",
+      "Gnomish Lineage: Choose Forest Gnome (Minor Illusion, Speak with Animals) or Rock Gnome (Mending, Prestidigitation, Clockwork device creation)."
+    ]
+  },
+  "forest_gnome": {
+    "name": "Forest Gnome",
+    "size": "Small",
+    "speed": 30,
+    "bonuses": {
+      "intelligence": 2,
+      "dexterity": 1
+    },
+    "traits": [
+      "Natural Illusionist: Minor Illusion cantrip.",
+      "Speak with Small Beasts: Communicate simple ideas with small beasts."
+    ]
+  },
+  "rock_gnome": {
+    "name": "Rock Gnome",
+    "size": "Small",
+    "speed": 30,
+    "bonuses": {
+      "intelligence": 2,
+      "constitution": 1
+    },
+    "traits": [
+      "Artificer's Lore: Add twice your PB to History checks related to magic items/devices.",
+      "Tinker: Craft clockwork devices using tinker's tools."
+    ]
+  },
+  "goliath": {
+    "name": "Goliath",
+    "size": "Medium",
+    "speed": 35,
+    "bonuses": {
+      "strength": 2,
+      "constitution": 1
+    },
+    "traits": [
+      "Giant Ancestry: Choose Cloud (Misty Step PB/day), Fire (+1d10 fire dmg), Frost (+1d6 cold dmg & slow), Hill (knock prone on hit), Stone (reduce damage by 1d12+CON), or Storm (reaction 1d8 thunder dmg).",
+      "Large Form: At Level 5, as a Bonus Action, you can transform to Large size for 10 minutes (Advantage on Strength checks, Speed +10ft, 1/Long Rest).",
+      "Powerful Build: You count as one size larger when determining carrying capacity and weight you can push, drag, or lift."
+    ]
+  },
+  "halfling": {
+    "name": "Halfling",
+    "size": "Small",
+    "speed": 30,
+    "bonuses": {
+      "dexterity": 2
+    },
+    "traits": [
+      "Brave: Advantage on saving throws against the Frightened condition.",
+      "Halfling Nimbleness: You can move through the space of any creature that is of a size larger than yours.",
+      "Lucky: When you roll a 1 on the d20 for a D20 Test, you can reroll the die and must use the new roll.",
+      "Naturally Stealthy: You can take the Hide action even when obscured only by a creature at least one size larger than you."
+    ]
+  },
+  "lightfoot_halfling": {
+    "name": "Lightfoot Halfling",
+    "size": "Small",
+    "speed": 30,
+    "bonuses": {
+      "dexterity": 2,
+      "charisma": 1
+    },
+    "traits": [
+      "Naturally Stealthy: Hide when obscured by creature at least one size larger."
+    ]
+  },
+  "human": {
+    "name": "Human",
+    "size": "Medium or Small",
+    "speed": 30,
+    "bonuses": {
+      "strength": 1,
+      "dexterity": 1,
+      "constitution": 1,
+      "intelligence": 1,
+      "wisdom": 1,
+      "charisma": 1
+    },
+    "traits": [
+      "Resourceful: You gain Heroic Inspiration whenever you finish a Long Rest.",
+      "Skillful: You gain proficiency in one skill of your choice.",
+      "Versatile: You gain one Origin feat of your choice."
+    ]
+  },
+  "orc": {
+    "name": "Orc",
+    "size": "Medium",
+    "speed": 30,
+    "bonuses": {
+      "strength": 2,
+      "constitution": 1
+    },
+    "traits": [
+      "Adrenaline Rush: As a Bonus Action, take the Dash action and gain Temporary Hit Points equal to your Proficiency Bonus (uses = PB/Short or Long Rest).",
+      "Darkvision: 120 feet.",
+      "Relentless Endurance: When dropped to 0 HP but not killed outright, drop to 1 HP instead (1/Long Rest)."
+    ]
+  },
+  "tiefling": {
+    "name": "Tiefling",
+    "size": "Medium or Small",
+    "speed": 30,
+    "bonuses": {
+      "charisma": 2,
+      "intelligence": 1
+    },
+    "traits": [
+      "Darkvision: 60 feet.",
+      "Fiendish Legacy: Choose Abyssal (Poison resistance, Poison Spray, Ray of Sickness, Hold Person), Chthonic (Necrotic resistance, Chill Touch, False Life, Ray of Enfeeblement), or Infernal (Fire resistance, Fire Bolt, Hellish Rebuke, Darkness).",
+      "Otherworldly Presence: You know the Thaumaturgy cantrip (Charisma)."
+    ]
+  }
+}

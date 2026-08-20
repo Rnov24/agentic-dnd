@@ -1,0 +1,457 @@
+{
+  "world": {
+    "campaign_name": "Escape from Blackstone Fortress",
+    "ruleset": "D&D 5e (2024 revision)",
+    "active_location": "the_dungeon_cells",
+    "lighting": "dim flickering torchlight",
+    "time_of_day": "midnight",
+    "weather": "driving rain and heavy thunder echoing through stone walls",
+    "tension_level": "high",
+    "alarm_raised": false,
+    "discovered_secrets": [
+      "Old drainage grate in cell #3 leads toward the river moat",
+      "Guard Karl falls half-asleep between bell tolls"
+    ],
+    "global_flags": {
+      "valen_freed": true,
+      "aldric_alerted": false,
+      "dungeon_key_stolen": true,
+      "garrison_alarm": false
+    },
+    "current_scene": {
+      "title": "The Cellblock Corridor",
+      "description": "Damp stone arches drip with condensation. Across the corridor, Guard Karl rests his feet on a wooden barrel, nodding off while holding an iron lantern. In the far corner cell behind heavy iron bars, prisoner Valen sits huddled in tattered garments.",
+      "threats": [
+        "Guard Karl (15 ft away, drowsy)",
+        "Creaky wooden floorboard near the cell door (DC 13 Perception/Acrobatics to bypass)"
+      ],
+      "exits": [
+        "Iron Gate to North (leads to Guard Barracks and Upper Courtyard)",
+        "Sewer Grate to South (submerged drain leading to River Moat)",
+        "Cell #3 Lock (iron lock, DC 14 Sleight of Hand with Thieves' Tools)"
+      ]
+    }
+  },
+  "party": [
+    {
+      "id": "aria_nightwind",
+      "name": "Aria Nightwind",
+      "class": "Rogue (Thief)",
+      "level": 3,
+      "background": "Criminal / Infiltrator",
+      "is_player": true,
+      "ac": 15,
+      "speed": 30,
+      "hp": {
+        "current": 21,
+        "max": 24,
+        "temp": 0
+      },
+      "stats": {
+        "strength": 10,
+        "dexterity": 17,
+        "constitution": 14,
+        "intelligence": 12,
+        "wisdom": 13,
+        "charisma": 14
+      },
+      "proficiencies": {
+        "skills": [
+          "stealth",
+          "sleight_of_hand",
+          "acrobatics",
+          "perception",
+          "deception"
+        ],
+        "expertise": [
+          "stealth",
+          "sleight_of_hand"
+        ],
+        "saving_throws": [
+          "dexterity",
+          "intelligence"
+        ]
+      },
+      "attacks": [
+        {
+          "name": "Black Glass Dagger",
+          "ability": "dexterity",
+          "bonus": 1,
+          "damage": "1d4+1",
+          "damage_type": "piercing",
+          "type": "melee"
+        },
+        {
+          "name": "Shortbow",
+          "ability": "dexterity",
+          "bonus": 0,
+          "damage": "1d6",
+          "damage_type": "piercing",
+          "type": "ranged"
+        }
+      ],
+      "resources": {
+        "sneak_attack_dice": 2,
+        "inspiration": 1
+      },
+      "conditions": [],
+      "personality": "Quiet, observant, fiercely loyal to allies, distrustful of corrupt nobles.",
+      "goals": [
+        "Infiltrate the Blackstone Fortress dungeon and free prisoner Valen",
+        "Escape through the lower sewer drains before Captain Aldric notices",
+        "Recover the Stolen Royal Seal"
+      ],
+      "memories": [
+        "Escaped the royal prison in the capital two winters ago",
+        "Discovered the enchanted black glass dagger in an ancient ruin"
+      ],
+      "inventory": [
+        "Black Glass Dagger (+1 enchanted)",
+        "Shortbow & Quiver (20 arrows)",
+        "Thieves' Tools (Fine lockpicks)",
+        "Potion of Healing (2d4+2)",
+        "Grappling Hook & 50ft Silk Rope",
+        "Pouch with 35 gold pieces",
+        "Fortress Iron Cell Key"
+      ]
+    },
+    {
+      "id": "eldrin_shadowseeker",
+      "name": "Eldrin Shadowseeker",
+      "class": "Wizard (Evoker)",
+      "level": 3,
+      "background": "Sage",
+      "is_player": false,
+      "ac": 12,
+      "speed": 30,
+      "hp": {
+        "current": 18,
+        "max": 18,
+        "temp": 0
+      },
+      "stats": {
+        "strength": 8,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 17,
+        "wisdom": 12,
+        "charisma": 10
+      },
+      "proficiencies": {
+        "skills": [
+          "arcana",
+          "history",
+          "investigation"
+        ],
+        "expertise": [
+          "arcana"
+        ],
+        "saving_throws": [
+          "intelligence",
+          "wisdom"
+        ]
+      },
+      "attacks": [
+        {
+          "name": "Fire Bolt",
+          "ability": "intelligence",
+          "bonus": 0,
+          "damage": "1d10",
+          "damage_type": "fire",
+          "type": "ranged"
+        },
+        {
+          "name": "Magic Missile",
+          "ability": "intelligence",
+          "bonus": 0,
+          "damage": "3d4+3",
+          "damage_type": "force",
+          "type": "ranged"
+        }
+      ],
+      "resources": {
+        "spell_slots_level_1": 4,
+        "spell_slots_level_2": 2
+      },
+      "conditions": [],
+      "personality": "Analytical, curious, cautious companion who calculates tactical odds.",
+      "goals": [
+        "Decipher the ancient runes carved into the fortress foundation"
+      ],
+      "memories": [
+        "Pledged an oath of brotherhood to Aria after she saved his sister"
+      ],
+      "inventory": [
+        "Arcane Spellbook",
+        "Focus Crystal",
+        "Scroll of Misty Step",
+        "Scholar's Pack"
+      ]
+    }
+  ],
+  "npcs": [
+    {
+      "id": "captain_aldric",
+      "name": "Captain Aldric",
+      "role": "Commander of the Blackstone Garrison",
+      "faction": "royal_garrison",
+      "status": "Alive",
+      "is_boss": true,
+      "disposition": "Hostile",
+      "location": "the_guard_barracks",
+      "ac": 18,
+      "hp": {
+        "current": 52,
+        "max": 52,
+        "temp": 0
+      },
+      "stats": {
+        "strength": 16,
+        "dexterity": 12,
+        "constitution": 15,
+        "intelligence": 11,
+        "wisdom": 13,
+        "charisma": 14
+      },
+      "attacks": [
+        {
+          "name": "Greatsword",
+          "ability": "strength",
+          "bonus": 1,
+          "damage": "2d6+3",
+          "damage_type": "slashing",
+          "type": "melee"
+        },
+        {
+          "name": "Heavy Crossbow",
+          "ability": "dexterity",
+          "bonus": 0,
+          "damage": "1d10+1",
+          "damage_type": "piercing",
+          "type": "ranged"
+        }
+      ],
+      "conditions": [],
+      "personality": "Stern, unforgiving, strictly adheres to martial law.",
+      "motivations": [
+        "Maintain absolute control over Blackstone Fortress",
+        "Interrogate the prisoner Valen before midnight",
+        "Execute any infiltrators on sight"
+      ],
+      "knowledge": [
+        "Carries the Fortress Master Key on his belt",
+        "Knows the secret escape passage in the lower wine cellar"
+      ],
+      "memories": [
+        "Promoted directly by the Grand Marshal after the Siege of Oakhaven"
+      ]
+    },
+    {
+      "id": "prisoner_valen",
+      "name": "Valen the Scholar",
+      "role": "Imprisoned Rebel Informant",
+      "faction": "shadow_syndicate",
+      "status": "Alive",
+      "is_boss": false,
+      "disposition": "Liberated Companion",
+      "location": "the_dungeon_cells",
+      "ac": 10,
+      "hp": {
+        "current": 6,
+        "max": 12,
+        "temp": 0
+      },
+      "stats": {
+        "strength": 8,
+        "dexterity": 11,
+        "constitution": 10,
+        "intelligence": 16,
+        "wisdom": 14,
+        "charisma": 12
+      },
+      "conditions": [],
+      "personality": "Frail, intelligent, desperate for rescue, possesses vital intelligence.",
+      "motivations": [
+        "Escape alive with the encoded garrison cipher",
+        "Deliver the truth about the Blood Moon ritual to the Syndicate"
+      ],
+      "knowledge": [
+        "Has memorized the cipher to unlock the fortress treasury",
+        "Knows guard patrol shifts change every 30 minutes"
+      ],
+      "memories": [
+        "Captured three days ago in the Whispering Woods"
+      ]
+    },
+    {
+      "id": "guard_karl",
+      "name": "Guard Karl",
+      "role": "Cellblock Sentry",
+      "faction": "royal_garrison",
+      "status": "Alive",
+      "is_boss": false,
+      "disposition": "Distracted / Bored",
+      "location": "the_dungeon_cells",
+      "ac": 14,
+      "hp": {
+        "current": 16,
+        "max": 16,
+        "temp": 0
+      },
+      "stats": {
+        "strength": 13,
+        "dexterity": 12,
+        "constitution": 12,
+        "intelligence": 9,
+        "wisdom": 10,
+        "charisma": 10
+      },
+      "attacks": [
+        {
+          "name": "Spear",
+          "ability": "strength",
+          "bonus": 0,
+          "damage": "1d6+1",
+          "damage_type": "piercing",
+          "type": "melee"
+        }
+      ],
+      "conditions": [],
+      "personality": "Fatigued, easily startled, anxious about the storm outside.",
+      "motivations": [
+        "Finish his shift without trouble",
+        "Keep the cell keys safe in his iron pouch"
+      ],
+      "knowledge": [
+        "Knows the heavy iron key unlocks Valen's cell"
+      ],
+      "memories": []
+    },
+    {
+      "id": "mira_the_alchemist",
+      "name": "Mira the Alchemist",
+      "role": "Hermit Herbalist & Smuggler",
+      "faction": "neutral",
+      "status": "Alive",
+      "is_boss": false,
+      "disposition": "Helpful",
+      "location": "the_whispering_woods",
+      "ac": 12,
+      "hp": {
+        "current": 20,
+        "max": 20,
+        "temp": 0
+      },
+      "stats": {
+        "strength": 9,
+        "dexterity": 14,
+        "constitution": 12,
+        "intelligence": 16,
+        "wisdom": 15,
+        "charisma": 13
+      },
+      "conditions": [],
+      "personality": "Eccentric, knowledgeable about herbs, potions, and fortress secrets.",
+      "motivations": [
+        "Trade potent concoctions for rare alchemical reagents"
+      ],
+      "knowledge": [
+        "Knows the recipe for Invisibility Draught and Night-Eye Elixir"
+      ],
+      "memories": [
+        "Provided Aria with the initial map of the fortress sewers"
+      ]
+    }
+  ],
+  "combat": {
+    "is_active": false,
+    "round": 0,
+    "turn_index": 0,
+    "initiative_order": [],
+    "environmental_effects": [],
+    "log": []
+  },
+  "quests": [
+    {
+      "id": "escape_the_fort",
+      "title": "Escape the Fort",
+      "status": "Active",
+      "priority": "Critical",
+      "giver": "Shadow Syndicate Master",
+      "reward": "500 gp and passage out of the province",
+      "description": "Infiltrate the Blackstone Fortress dungeon, free Valen the Scholar, and escape through the forgotten sewer grate without raising the general alarm.",
+      "objectives": [
+        {
+          "id": "reach_dungeon",
+          "description": "Slip past exterior sentries and reach the subterranean dungeon cells",
+          "completed": true
+        },
+        {
+          "id": "free_valen",
+          "description": "Unlock or pick the lock of Cell #3 and free prisoner Valen",
+          "completed": true
+        },
+        {
+          "id": "evade_aldric",
+          "description": "Avoid alerting Captain Aldric and his armored garrison",
+          "completed": false
+        },
+        {
+          "id": "reach_sewers",
+          "description": "Escape through the southern drainage grate into the whispering woods",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "the_stolen_seal",
+      "title": "The Stolen Royal Seal",
+      "status": "Active",
+      "priority": "Optional",
+      "giver": "Mira the Alchemist",
+      "reward": "Potion of Superior Healing and Invisibility Draught",
+      "description": "Captain Aldric holds the stolen Royal Seal in his personal quarters inside the Guard Barracks. Steal it before fleeing.",
+      "objectives": [
+        {
+          "id": "locate_seal",
+          "description": "Search Captain Aldric's desk in the upper barracks",
+          "completed": false
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "relationships": [
+      {
+        "source": "aria_nightwind",
+        "target": "captain_aldric",
+        "disposition": "Hostile",
+        "notes": "Captain Aldric oversaw the execution of Aria's mentor."
+      },
+      {
+        "source": "aria_nightwind",
+        "target": "eldrin_shadowseeker",
+        "disposition": "Trusted Ally",
+        "notes": "Sworn companions in surviving the underworld."
+      },
+      {
+        "source": "aria_nightwind",
+        "target": "mira_the_alchemist",
+        "disposition": "Friendly Contact",
+        "notes": "Mira supplies antidotes and underworld intel."
+      },
+      {
+        "source": "captain_aldric",
+        "target": "prisoner_valen",
+        "disposition": "Interrogation Target",
+        "notes": "Aldric seeks the cipher code before executing Valen at dawn."
+      },
+      {
+        "source": "royal_garrison",
+        "target": "shadow_syndicate",
+        "disposition": "At War",
+        "notes": "Total martial suppression order against the Syndicate."
+      }
+    ]
+  }
+}

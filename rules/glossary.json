@@ -1,0 +1,702 @@
+{
+  "ability_check": {
+    "name": "Ability Check",
+    "description": "An ability check is a D20 Test that represents using \n\none of the six abilitiesor a specific skill associated \n\nwith an abilityto overcome a challenge. See also \n\nchapter 1 (\"D20 Tests\" and \"Proficiency\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "ability_score_and_modifier": {
+    "name": "Ability Score and Modifier",
+    "description": "A creature has six ability scores-Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma-each of which has a corresponding modifier. \n\nAdd the modifier when you make a D20 Test with \n\nthe corresponding ability or when a rule asks you to \n\ndo so. See also chapter 1 (\"The Six Abilities\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "action": {
+    "name": "Action",
+    "description": "On your turn, you can take one action. Choose \n\nwhich action to take from those below or from the \n\nspecial actions provided by your features. See also \n\nchapter 1 (\"Actions\"). These actions are defined elsewhere in this glossary:\n\n\n\nAttack \n\nDodge \n\nInfluence \n\nSearch \n\nDash \n\nHelp \n\nMagic \n\nStudy \n\nDisengage \n\nHide \n\nReady \n\nUtilize\n\n\n\ni:.- -- - -\n\n~=-",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "advantage": {
+    "name": "Advantage",
+    "description": "If you have Advantage on a D20 Test, roll two d20s, \n\nand use the higher roll. A roll can't be affected by \n\nmore than one Advantage, and Advantage and Disadvantage on the same roll cancel each other. See \n\nalso chapter 1 (\"D20 Tests\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "adventure": {
+    "name": "Adventure",
+    "description": "emerges through playing them. See also \"Encounter.\"",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "alignment": {
+    "name": "Alignment",
+    "description": "A creature's alignment broadly describes its ethical \n\nattitudes and ideals. Alignment is a combination of \n\ntwo factors: one identifies morality (good, evil, or \n\nneutral), and the other descdbes attitudes toward\n\n\n\n\n\n\n\n\norder (!awful, chaotic, or neutral). These factors allow for nine possible combinations, such as Lawful \n\nGood and Neutral Evil. See also chapter 2 (\"Create \n\nYour Character\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "ally": {
+    "name": "Ally",
+    "description": "A creature is your ally if it is a member of your \n\nadventu ring party, your friend, on your side in \n\ncombat, or a creature that the rules or the DM designates as your ally.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "area_of_effect": {
+    "name": "Area of Effect",
+    "description": "from which the effect's energy erupts. The rules for \n\neach shape specify how to position its point of origin. If all straight lines extending from the point of \n\norigin to a location in the area of effect are blocked, \n\nthat location isn't included in the area of effect. \n\nTo block a line, an obstruction must provide Total \n\nCover. See also \"Cover.\"",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "attack": {
+    "name": "Attack",
+    "description": "attack roll with a weapon or an Unarmed Strike.\n\n\n\nEquipping and Unequipping Weapons. You can either equip or unequip one weapon when you make \n\nan attack as part of this action. You do so either \n\nbefore or after the attack. If you equip a weapon \n\nbefore an attack, you don't need to use it for that attack. Equipping a weapon includes drawing it from \n\na sheath or picking it up. Unequipping a weapon \n\nincludes sheathing, stowing, or dropping it. \n\nMoving between Attacks. If you move on your turn \n\nand have a feature, such as Extra Attack, that gives \n\nyou more than one attack as part of the Attack action, you can use some or all of that movement to \n\nmove between those attacks.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "armor_training": {
+    "name": "Armor Training",
+    "description": "Armor training allows you to use armor of a certain category without the following drawbacks. If \n\nyou wear Light, Medium, or Heavy armor and lack \n\ntraining with it, you have Disadvantage on any D20 \n\nTest that involves Strength or Dexterity, and you \n\ncan't cast spells. If you use a Shield and lack training \n\nwith it, you don't gain its AC bonus. See also \"Disadvantage\" and chapter 6 (\"Armor\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "attitude": {
+    "name": "Attitude",
+    "description": "A monster has a starting attitude toward a player \n\ncharacter: Friendly, Hostile, or Indifferent. See also \n\n\"Friendly,\" \"Hostile,\" \"Indifferent,\" and \"Influence.\"",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "attunement": {
+    "name": "Attunement",
+    "description": "Some magic items require a creature to form a \n\nbond-called Attunement-with them before the \n\ncreature can use an item's magical properties. A \n\ncreature can have Attunement with no more than \n\nthree magic items at a time. See also chapter 6 \n\n(\"Magic Items\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "blinded": {
+    "name": "Blinded",
+    "description": "While you have the Blinded condition, you experience the following effects. \n\nCan't See. You can't see and automatically fail any \n\nability check that requires sight.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "blindsight": {
+    "name": "Blindsight",
+    "description": "If you have Blindsight, you can see within a specific \n\nrange without relying on physical sight. Within that \n\nrange, you can see anything that isn't behind Total \n\nCover even if you have the Blinded condition or are \n\nin Darkness. Moreover, in that range, you can see \n\nsomething that has the Invisible condition.\n\n\n\n",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "bloodied": {
+    "name": "Bloodied",
+    "description": "A creature is Bloodied while it has half its Hit Points \n\nor fewer remaining.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "bonus_action": {
+    "name": "Bonus Action",
+    "description": "A Bonus Action is a special action that you can take \n\non the same turn that you take an action. You can't \n\ntake more than one Bonus Action on a turn, and \n\nyou have a Bonus Action to take only if a rule ex-\n\n\n\nplicitly says so. See also chapter 1 (\"Actions\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "breaking_objects": {
+    "name": "Breaking Objects",
+    "description": "Objects can be harmed by attacks and by some \n\nspells, using the rules below. If an object is exceedingly fragile, the DM may allow a creature to break \n\nit automatically with the Attack or Utilize action. \n\nArmor Class. The Object Armor Class table suggests ACs for various substances.\n\n\n\nOBJECT ARMOR CLASS\n\n\n\nAC \n\nSubstance \n\nAC \n\nSubstance\n\n\n\n11 \n\nCloth, paper, rope \n\n19 \n\nIron, steel\n\n\n\n13 \n\nCrystal, glass, ice \n\n21 \n\nMithral\n\n\n\n15 \n\nWood \n\n23 \n\nAdamantine\n\n\n\n17 \n\nStone\n\n\n\nHit Points. An object is destroyed when it has 0 \n\nHit Points. The Object Hit Points table suggests Hit \n\nPoints for fragile and resilient objects that are Large \n\nor smaller. To track Hit Points for a Huge or Gargantuan object, divide it into Large or smaller sections, and track each section's Hit Points separately. \n\nThe DM determines whether destroying part of an \n\nobject causes the whole thing to collapse.\n\n\n\nOBJECT HtT POINTS\n\n\n\nSize \n\nFragile \n\nResilient\n\n\n\nTiny (bottle, lock) \n\n2 (1d4) \n\n5 (2d4)\n\n\n\nSmall (chest, lute) \n\n3 (1 d6) \n\n10 (3d6)\n\n\n\nMedium (barrel, chandelier) \n\n4 (1d8) \n\n18 (4d8)\n\n\n\nLarge (cart, dining table) \n\n5 (ldl0) \n\n27 (Sdl0)\n\n\n\nDamage Types and Objects. Objects have Immunity to Poison and Psychic damage. The DM might \n\ndecide that some damage types are more or less\n\n\n\n~ 6 2___________ \n\n~ \n\n-.: \n\n__,,,=;-:--~~~ ~~ ~~~ \n\ner \n\n- - b\" \n\nF \n\n1 \n\np-'A \n\ne11ect1ve agamst an o ~ect. or examp e, Bludgeoning damage works well for smashing things but not \n\nfor cutting. Paper or cloth objects might have Vulnerability to Fire damage. \n\nDamage Threshold. Big objects, such as castle \n\nwalls, often have extra resilience represented by a \n\ndamage threshold. See also \"Damage Threshold.\"\n\n\n\nNo Ability Scores. An object lacks ability scores \n\nunless a rule assigns scores to the object. W ithout \n\nability scores, an object can't make ability checks, \n\nand it fails all saving throws.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "bright_light": {
+    "name": "Bright Light",
+    "description": "Bright Light is normal illumination. See also chapter \n\n1 (\"Exploration\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "burning": {
+    "name": "Burning",
+    "description": "",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "burrow_speed": {
+    "name": "Burrow Speed",
+    "description": "A creature that has a Burrow Speed can use that \n\nspeed to move through sand, earth, mud, or ice. The \n\ncreature can't burrow through solid rock unless the \n\ncreature has a trait that allows it to do so. See also \n\n\"Speed.\"",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "campaign": {
+    "name": "Campaign",
+    "description": "A campaign is a series of adventures. See also \n\n\"Adventure.\"",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "cantrip": {
+    "name": "Cantrip",
+    "description": "A cantrip is a level O spell, which is cast without a \n\nspell slot. See also chapter 7.\n\n\n\n:::=--=--",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "carrying_capacity": {
+    "name": "Carrying Capacity",
+    "description": "Your size and Strength score dcte:\u00b7,nine the maximum weight in pounds that yot1 Gin carry, as shown \n\nin the Carrying Capacity tabh'!. 1'!1(\u00b7 ~able also shows \n\nthe maximum weight you can dr ;'\u00b7:- lilt, or push.\n\n\n\n\n\n\n\n\n~\n\n\n\nWhile dragging, lifting, or pushing weight in excess of the maximum weight you can carry, your \n\nSpeed can be no more than 5 feet.\n\n\n\nCARRYING CAPACITY \n\nCreature Size \n\nCarry \n\nDrag/Lift/Push \n\nTiny \n\nStr. x 7.5 lb. \n\nStr. x 15 lb. \n\nSmall/Medium \n\nStr. x 15 lb. \n\nStr. x 30 lb. \n\nLarge \n\nStr. x 30 lb. \n\nStr. x 60 lb. \n\nHuge \n\nStr. x 60 lb. \n\nStr. x 120 lb. \n\nGargantuan \n\nStr. x 120 lb. \n\nStr. x 240 lb.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "challenge_rating": {
+    "name": "Challenge Rating",
+    "description": "",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "character_sheet": {
+    "name": "Character Sheet",
+    "description": "A character sheet is a paper or digital record that \n\nyou use to track your character's information. See \n\nalso chapter 2.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "charmed": {
+    "name": "Charmed",
+    "description": "While you have the Charmed condition, you experience the following effects. \n\nCan't Harm the Charmer. You can't attack the \n\ncharmer or target the charmer with damaging abilities or magical effects. \n\nSocial Advantage. The charmer has Advantage on \n\nany ability check to interact with you socially.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "climbing": {
+    "name": "Climbing",
+    "description": "W hile you're climbing, each foot of movement costs \n\n1 extrn foot (2 extra feet in Difficult Terrain). You \n\nignore t his extra cost if you have a Climb Speed and \n\nuse i\u00b7 o climb.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "climb_speed": {
+    "name": "Climb Speed",
+    "description": "A Climb Speed can be used in place of Speed to traverse a vertical surface without expending the extra \n\nmovement normally associated with climbing. See \n\nalso \"Climbing\" and \"Speed.\"",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "concentration": {
+    "name": "Concentration",
+    "description": "Some spells and other effects require Concentration \n\nto remain active, as specified in their descriptions. \n\nIf the effect's creator loses Concentration, the effect \n\nends. If the effect has a maximum duration, the effect's description specifies how long the creator can \n\nconcentrate on it: up to 1 minute, 1 hour, or some \n\nother duration. The creator can end Concentration \n\nat any time (no action required). The following factors break Concentration. \n\nAnother Concentration Effect. You lose Concentration on an effect the moment you start casting \n\na spell that requires Concentration or activate another effect that requires Concentration. \n\nDamage. If you take damage, you must succeed on \n\na Constitution saving throw to maintain Concentration. The DC equals 10 or half the damage taken \n\n(round down}, whichever number is higher, up to a \n\nmaximum DC of 30. \n\nIncapacitated or Dead. Your Concentration ends if \n\nyou have the Incapacitated condition or you die.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "condition": {
+    "name": "Condition",
+    "description": "A condition is a temporary game state. The definition of a condition says how it affects its recipient, \n\nand various rules define how to end a condition. \n\nThis glossary defines these conditions:\n\n\n\nBlinded \n\nGrappled \n\nPoisoned",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "cone": {
+    "name": "Cone",
+    "description": "A Cone is an area of effect that extends in straight \n\nlines from a point of origin in a direction its creator chooses. A Cone's width at any point along \n\nits length is equal to that point's distance from ~he \n\npoint of origin. For example, a Cone is 15 feet wide \n\nat a point along its length that is 15 feet from the . \n\npoint of origin. The effect that creates a Cone specifies its maximum length. \n\nA Cone's point of origin isn't included in the area \n\nof effect unless its creator decides otherwise.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "cover": {
+    "name": "Cover",
+    "description": "Cover provides a degree of protection to a target \n\nbehind it. There are three degrees of cover, each \n\nof which provides a different benefit to a target: \n\nHalf Cover (+2 bonus to AC and Dexterity saving \n\nthrows), Three-Quarters Cover (+5 bonus to AC and \n\nDexterity saving throws), and Total Cover (can't be \n\ntargeted directly). If behind more than one degree \n\nof cover, a target benefits only from the most protective degree. See also chapter 1 (\"Combat\").\n\n\n\n- ------;:.,;:::-",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "crawling": {
+    "name": "Crawling",
+    "description": "While you're crawling, each foot of movement costs \n\n1 extra foot (2 extra feet in Difficult Terrain). See \n\nalso \"Speed.\"",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "creature": {
+    "name": "Creature",
+    "description": "A creature or an object that has a damage threshold has Immunity to all damage unless it takes an \n\namount of damage from a single attack or effect \n\nequal to or greater than its d~mc1ge threshold, in\n\n\n\n\n\n\n\n\nwh ich case it takes that entire instance of damage. Any damage that fails to meet or exceed the \n\ndamage th reshold is superficial and doesn't reduce\n\n\n\nHit Points. For example, if an object has a damage \n\nthreshold of 10, the object takes no damage if 9 \n\ndamage is dealt to it, since that damage fails to \n\nexceed the threshold. If the same object is dealt 11 \n\ndamage, it takes all of that damage.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "critical_hit": {
+    "name": "Critical Hit",
+    "description": "If you roll a 20 on the d20 for an attack roll, you \n\nscore a Critical Hit, and the attack hits regardless of \n\nany modifiers or the target's AC. A Critical Hit lets\n\n\n\n",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "damage": {
+    "name": "Damage",
+    "description": "the target. Roll all of the attack's damage die\u00b7' L vice \n\nand add them together. Then add any relevant modifiers. See also chapter 1 (\"Damage and Healing\u00b7\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "cube": {
+    "name": "Cube",
+    "description": "A Cube is an area of effect that extends in straight \n\nlines from a point of origin located anywhere on \n\na face of the Cube. The effect that creates a Cube \n\nspecifies its size, which is the length of each side.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "cylinder": {
+    "name": "Cylinder",
+    "description": "A Cylinder is an area of effect that extends in \n\nstraight lines from a point of origin located at the \n\ncenter of the circular top or bottom of the Cylinder. \n\nThe effect that creates a Cylinder specifies the radius of the Cylinder's base and the Cylinder's height.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "d20_test": {
+    "name": "D20 Test",
+    "description": "D20 Tests encompass the three main d20 rolls of \n\nthe game: ability checks, attack rolls, and saving \n\nthrows. If something in the game affects D20 Tests, \n\nit affects all three of these rolls. The DM determines \n\nwhether a D20 Test is warranted in a given circumstance. See also chapter 1 (\"D20 Tests\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "damage_types": {
+    "name": "Damage Types",
+    "description": "Type \n\nExamples \n\nAcid \n\nCorrosive liquids, digestive enzymes \n\nBludgeoning Blunt objects, constriction, falling \n\nCold \n\nFreezing water, icy blasts \n\nFire \n\nFlames, unbearable heat\n\n\n\nPure magical energy\n\n\n\nForce \n\nLightning\n\n\n\nElectricity\n\n\n\nLife-draining energy\n\n\n\nNecrotic\n\n\n\nFangs, puncturing objects\n\n\n\nPiercing\n\n\n\nToxic gas, venom\n\n\n\nPoison\n\n\n\nMind-rending energy\n\n\n\nPsychic\n\n\n\nHoly energy, searing radiation\n\n\n\nRadiant\n\n\n\nClaws, cutting objects\n\n\n\nSlashing\n\n\n\nThunder \n\nConcussive sound",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "darkness": {
+    "name": "Darkness",
+    "description": "An area of Darkness is Heavily Obscured. See also \n\n\"Heavily Obscured\" and chapter 1 (\"Exploration\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "darkvision": {
+    "name": "Darkvision",
+    "description": "If you have Darkvision, you can see in Dim Light \n\nwithin a specified range as if it were Bright Light \n\nand in Darkness within that range as if it were Dim",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "dash": {
+    "name": "Dash",
+    "description": "W hen you take the Dash action, you gain extra \n\nmovement for the current turn. The increase equals \n\nyouc Speed after applying any modifiers. With a \n\nSpeed of 30 feet, for example, you can move up to \n\n60 feet on your turn if you Dash. If your Speed of",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "dead": {
+    "name": "Dead",
+    "description": "A dead creature has no Hit Points and can't regain \n\nthem unless it is first revived by magic such as the \n\nRaise Dead or Revivify spell. When such a spell is \n\ncast, the spirit knows who is casting it and can refuse. The spirit of a dead creature has left the body \n\nand departed for the Outer Planes, and reviving the \n\ncreature requires calling the spirit back. \n\nIf the creature returns to life, the revival effect \n\ndetermines the creature's current Hit Points. Unless \n\notherwise stated, the creature returns to life with \n\nany conditions, magical contagions, or curses that \n\nwere affecting it at death if the durations of those \n\neffects are still ongoing. If the creature died with \n\nany Exhaustion levels, it returns with 1 fewer level. \n\nIf the creature had Attunement to one or more \n\nmagic items, it is no longer attuned to them.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "deafened": {
+    "name": "Deafened",
+    "description": "While you have the Deafened condition, you experience the following effect. \n\nCan't Hear. You can't hear and automatically fail \n\nany ability check that requires hearing. \n\n1~------ -\n\n------- --~\n\n- ---",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "death_saving_throw": {
+    "name": "Death Saving Throw",
+    "description": "A player character must make a Death Saving \n\nThrow (also called a Death Save) if they start their \n\nturn with 0 Hit Points. See also chapter 1 (\"Damage \n\nand Healing\").\n\n\n\n---------,--~-",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "dehydration": {
+    "name": "Dehydration",
+    "description": "A creature requires an amount of water per day \n\nbased on its size, as shown in the Water Needs per \n\nDay table. A creature that drinks less than half the \n\nrequired water for a day gains 1 Exhaustion level \n\nat the day's end. Exhaustion caused by dehydration can't be removed until the creature drinks the \n\nfull amount of water required for a day. See also \n\n\"Exhaustion.\"\n\n\n\nWATER NEEDS PER DAY\n\n\n\nSize \n\nWater \n\nSize \n\nWater\n\n\n\nTiny \n\n1/4 gallon \n\nlarge \n\n4 gallons\n\n\n\nSmall \n\nl gallon \n\nHuge \n\n16 gallons\n\n\n\nMedium \n\nl gallon \n\nGargantuan 64 gallons\n\n\n\n",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "difficult_terrain": {
+    "name": "Difficult Terrain",
+    "description": "If a space is Difficult Terrain, every foot of movement in that space costs 1 extra foot. For example, \n\nmoving 5 feet through Difficult Terrain costs 10 feet \n\nof movement. Difficult Terrain isn't cumulative; either a space is Difficult Terrain or it isn't. \n\nA space is Difficult Terrain if the space contains \n\nany of the following or something similar:\n\n\n\n- A creature that isn't Tiny or your ally \n\n- Furniture that is sized for creatures of your size or \n\nlarger \n\n- Heavy snow, ice, rubble, or undergrowth \n\n- Liquid that's between shinand waist-deep \n\n- A narrow opening sized for a creature one size \n\nsmaller than you \n\n- A slope of 20 degrees or more",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "difficulty_class": {
+    "name": "Difficulty Class",
+    "description": "A Difficulty Class (DC) is the target number for an \n\nability check or a saving throw. See also chapter 1 \n\n(\"D2O Tests\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "dim_light": {
+    "name": "Dim Light",
+    "description": "An area with Dim Light is Lightly Obscured. See also \n\n\"Lightly Obscured\" and chapter 1 (\"Exploration\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "disadvantage": {
+    "name": "Disadvantage",
+    "description": "If yo_u have Disadvantage on a D2O Test, roll two \n\nd2Os and use the lower roll. A roll can't be affected \n\nby more than one Disadvantage, and Advantage and \n\nDisadvantage on the same roll cancel each other. See \n\nalso chapter 1 (\"D2O Tests\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "disengage": {
+    "name": "Disengage",
+    "description": "If you take the Disengage action, your movement \n\ndoesn't provoke Opportunity Attacks for the rest of \n\nthe current turn.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "dodge": {
+    "name": "Dodge",
+    "description": "If you take the Dodge action, you gain the following \n\nbenefits: until the start of your next turn, any attack \n\nroll made against you has Disadvantage if you can\n\n\n\n~66 \n\nAPPE N DI X CI RULES GLOS SA RY\n\n\n\nsee the attacker, and you make Dexterity saving \n\nthrows with Advantage. \n\nYou lose these benefits if you have the Incapacitated condition or if your Speed is 0.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "emanation": {
+    "name": "Emanation",
+    "description": "that is its origin unless it is an instantaneous or a \n\nstationary effect. \n\nAn Emanation's origin (creature or object) isn't included in the area of effect unless its creator decides \n\notherwise.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "encounter": {
+    "name": "Encounter",
+    "description": "An encounter is a scene in an adventure that is part \n\nof at least one of the game's three pillars: social interaction, exploration, or combat. See also chapter 1 \n\n(\"Social Interaction,\" \"Exploration,\" and \"Combat\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "enemy": {
+    "name": "Enemy",
+    "description": "A creature is your enemy if it fights against you in \n\ncombat, actively works to harm you, or is designated as your enemy by the rules or DM.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "exhaustion": {
+    "name": "Exhaustion",
+    "description": "While you have the Exhaustion condition, you \n\nexperience the following effects. \n\nExhaustion Levels. This condition is cumulative. \n\nEach time you receive it, you gain 1 Exhaustion \n\nlevel. You die if your Exhaustion level is 6. \n\nD20 Tests Affected. When you make a D2O Test, \n\nthe roll is reduced by 2 times your Exhaustion level. \n\nSpeed Reduced. Your Speed is reduced by a number of feet equal to 5 times your Exhaustion level. \n\nRemoving Exhaustion Levels. Finishing a Long \n\nRest removes 1 of your Exhaustion levels. When \n\nyour Exhaustion level reaches 0, the condition ends.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "experience_points": {
+    "name": "Experience Points",
+    "description": "As they overcome challenges an( ,_::,;n plete adventures, characters earn E.v. )w, ;,:nee Points (XP),\n\n\n\n\n\n\n\n\n- --~~lllh ..\n\n\n\n...,, -\u2022, I\n\n\n\nwhich are awarded by the Dungeon Master. When \n\na character's XP total crosses certain thresholds, \n\nthe character's level increases. The Dungeon Master's \n\nGuide provides guidance on awarding XP. See also \n\nchapter 2 (\"Level Advancement\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "expertise": {
+    "name": "Expertise",
+    "description": "Expertise is a feature that enhances your use of a \n\nskill proficiency. When you make an ability check \n\nwith a skill proficiency in which you have Expertise, \n\nyour Proficiency Bonus is doubled for that check \n\nunless the bonus is doubled by another feature. \n\nIf you gain Expertise, you gain it in one skill in \n\nwhich you have proficiency. You can't have Expertise in the same skill proficiency more than once. \n\nSee also chapter 1 (\"Proficiency\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "falling": {
+    "name": "Falling",
+    "description": "A creature that falls takes 1d6 Bludgeoning damage at the end of the fall for every 10 feet it fell, to \n\na maximum of 20d6. When the creature lands, it \n\nhas the Prone condition unless it avoids taking any \n\ndamage from the fall. \n\nA creature that falls into water or another liquid \n\ncan use its Reaction to make a DC 15 Strength (Athletics) or Dexterity (Acrobatics) check to hit the \n\nsurface head or feet first. On a successful check, any \n\ndamage resulting from the fall is halved.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "flying": {
+    "name": "Flying",
+    "description": "A variety of effects allow a creature to fly. While \n\nflying, you fall if you have the Incapacitated or \n\nProne condition or your Fly Speed is reduced to 0. \n\nYou can stay aloft in those circumstances if you can \n\nhover. See also \"Falling\" and \"Fly Speed.\"",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "fly_speed": {
+    "name": "Fly Speed",
+    "description": "A Fly Speed can be used to travel through the air. \n\nWhile you have a Fly Speed, you can stay aloft until \n\nyou land, fall, or die. See also \"Flying\" and \"Speed.\"\n\n\n\nFRI ... \u2022 DLY [ATTIT UDE] \n\nA Frkndly creature views you favorably. You \n\nhaw .f..dvantage on an ability check to influence a \n\nFrie:,\u00b7 l y creature. See also \"Influence.\"",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "frightened": {
+    "name": "Frightened",
+    "description": "While you have the Frightened condition, you experience the following effects. \n\nAbility Checks and Attacks Affected. You have Disadvantage on ability checks and attack rolls while \n\nthe source of fear is within line of sight. \n\nCan't Approach. You can't willingly move closer to \n\nthe source of fear.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "grappled": {
+    "name": "Grappled",
+    "description": "While you have the Grappled condition, you experience the following effects. \n\nSpeed 0. Your Speed is O and can't increase. \n\nAttacks Affected. You have Disadvantage on attack \n\nrolls against any target other than the grappler. \n\nMovable. The grappler can drag or carry you \n\nwhen it moves, but every foot of movement costs it 1 \n\nextra foot unless you are Tiny or two or more sizes \n\nsmaller than it.\n\n\n\n;:,. ---\n\n--\u00b7-- -\u00b7\u00b7--\u00b7-\u00b7--------,----.,.....-",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "grappling": {
+    "name": "Grappling",
+    "description": "A creature can grapple another creature. Characters typically grapple by using an Unarmed Strike. \n\nMany monsters have special attacks that allow \n\nthem to quickly grapple prey. However a grapple is \n\ninitiated, it follows these rules. See also \"Unarmed \n\nStrike\" and \"Grappled.\" \n\nGrappled Condition. Successfully grappling a creature gives it the Grappled condition. \n\nOne Grapple per Hand. A creature must have a \n\nhand free to grapple another creature. Some stat \n\nblocks and game effects allow a creature to grapple using a tentacle, a maw, or another body part. \n\nWhatever part a grappler uses, it can grapple only \n\none creature at a time with that part, and the grappler can't use that part to target another creature \n\nunless it ends the grapple. \n\nEscaping a Grapple. A Grappled creature can use \n\nits action to make a Strength (Athletics) or Dexterity (Acrobatics) check against the grapple's escape \n\nDC, ending the condition on itself on a success. The \n\ncondition also ends if the grappler has the Incapacitated condition or if the distance between the Grappled target and the grappler exceeds the grapple's \n\nrange.\n\n\n\n",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "hazard": {
+    "name": "Hazard",
+    "description": "A hazard is an environmental danger. See also \n\n\"Burning,\" \"Dehydration,\" \"Falling,\" \"Malnutrition,\" \n\nand \"Suffocation.\"\n\n\n\n---------:::;...-",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "healing": {
+    "name": "Healing",
+    "description": "Healing is how you regain Hit Points. See also chapter 1 (\"Damage and Healing\").\n\n\n\n----\n\n------ ---~",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "heavily_obscured": {
+    "name": "Heavily Obscured",
+    "description": "You have the Blinded condition while trying to see \n\nsomething in a Heavily Obscured space. See also \n\n\"Blinded,\" \"Darkness,\" and chapter 1 (\"Exploration\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "help": {
+    "name": "Help",
+    "description": "Hit Point Dice, or Hit Dice for short, help determine a player character's Hit Point maximum, as \n\nexplained in chapter 2. Most monsters also have Hit \n\nDice. A creature can spend Hit Dice during a Short \n\nRest to regain Hit Points. See also \"Short Rest.\"",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "heroic_inspiration": {
+    "name": "Heroic Inspiration",
+    "description": "If you (a player character) have Heroic Inspiration, \n\nyou can expend it to reroll any die immediately after \n\nrolling it, and you must use the new roll. \n\nIf you gain Heroic Inspiration but already have it, \n\nit's lost unless you give it to a player character who \n\nlacks it.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "hide": {
+    "name": "Hide",
+    "description": "With the Hide action, you try to conceal yourself. \n\nTo do so, you must succeed on a DC 15 Dexterity \n\n(Stealth) check while you're Heavily Obscured or \n\nbehind Three-Quarters Cover or Total Cover, and \n\nyou must be out of any enemy's line of sight; if you \n\ncan see a creature, you can discern whether it can \n\nsee you. \n\nOn a successful check, you have the Invisible condition. Make note of your check's total, which is the \n\nDC for a creature to find you with a Wisdom (Perception) check.\n\n\n\n368 \n\nhe condition ends on you immediately aft~:- any \n\nof the following occurs: you make a sound IOi.!Cter \n\nthan a whisper, an enemy finds you, you make \n\nan attack roll, or you cast a spell with a Verbal \n\ncomponent.\n\n\n\nr.. -\n\n-\n\n---\n\n-",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "high_jump": {
+    "name": "High Jump",
+    "description": "When you make a High Jump, you leap into the \n\nair a number of feet equal to 3 plus your Strength \n\nmodifier (minimum of O feet) if you move at least \n\n10 feet on foot immediately before the jump. When \n\nyou make a standing High Jump, you can jump only \n\nhalf that distance. Either way, each foot of the jump \n\ncosts a foot of movement. \n\nYou can extend your arms half your height above \n\nyourself during the jump. Thus, you can reach a dis-\n\n\n\ntance equal to the height of the jump plus I\u00bd times \n\nyour height.\n\n\n\n_.,,,,..--- -\n\n-- - -",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "hit_points": {
+    "name": "Hit Points",
+    "description": "Hit Points (HP) are a measure of how difficult it is \n\nto kill or destroy a creature or an object. Damage \n\nreduces Hit Points, and healing restores them. You \n\ncan't have more Hit Points than your Hit Point \n\nmaximum, and you can't have less than 0. See also \n\n\"Breaking Objects\" and chapter 1 (\"Damage and \n\nHealing\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "hostile": {
+    "name": "Hostile",
+    "description": "A Hostile creature views you unfavorably. You have \n\nDisadvantage on an ability check to influence a Hostile creature. See also \"Influence.\"",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "hover": {
+    "name": "Hover",
+    "description": "Some creatures can hover, as noted in their stat \n\nblocks, and some spells and other effects grant the \n\nability to hover. Hovering while flying prevents \n\nyou from falling in certain circumstances. See also \n\n\"Flying.\"\n\n\n\n\n\n",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "illusions": {
+    "name": "Illusions",
+    "description": "Spells and other effects sometimes create magical illusions. Such an effect defines what the illusion does \n\nand which senses or mental faculties it deceives.\n\n\n\nIf an illusion manifests in space, the illusion is \n\ninsubstantial and weightless, yet it seems to be affected by the environment as if the illusion were \n\nreal unless the effect that created it specifies otherwise. For example, a visual illusion of a creature \n\ncasts shadows and reflections, and wind appears \n\nto affect the illusory creature. Similarly, an audible \n\nillusion echoes in an echoey space.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "immunity": {
+    "name": "Immunity",
+    "description": "If you have Immunity to a damage type or a condition, it doesn't affect you in any way.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "improvised_weapons": {
+    "name": "Improvised Weapons",
+    "description": "An improvised weapon is an object wielded as a \n\nmakeshift weapon, such as broken glass, a table leg, \n\nor a frying pan. A Simple or Martial weapon also \n\ncounts as an improvised weapon if it's wielded in \n\na way contrary to its design; if you use a Ranged \n\nweapon to make a melee attack or throw a Melee weapon that lacks the Thrown property, the \n\nweapon counts as an improvised weapon. An improvised weapon follows the rules below. \n\nProficiency. Don't add your Proficiency Bonus to \n\nattack rolls with an improvised weapon. \n\nDamage. On a hit, the weapon deals 1d4 damage of \n\na type the OM thinks is appropriate for the object. \n\nRange. If you throw the weapon, it has a normal \n\nrange of 20 feet and a long range of 60 feet. \n\nWeapon Equivalents. If an improvised weapon \n\nresembles a Simple or Martial weapon, the DM may \n\nsay it functions as that weapon and uses that weapon's rules. For example, the OM could treat a table \n\nleg as a Club.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "incapacitated": {
+    "name": "Incapacitated",
+    "description": "While you have the Incapacitated condition, you \n\nexperience the following effects. \n\nInactive. You can't take any action, Bonus Action, \n\nor Reaction.\n\n\n\nNo Concentration. Your Concentration is broken. \n\nSpeechless. You can't speak. \n\nSurprised. If you're Incapacitated when you roll \n\nInitiative, you have Disadvantage on the roll.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "indifferent": {
+    "name": "Indifferent",
+    "description": "An Indifferent creature has no desire to help or \n\nhinder you. Indifferent is the default attitude of a \n\nmonster. See also \"Influence.\"",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "influence": {
+    "name": "Influence",
+    "description": "With the Influence action, you urge a monster to \n\ndo something. Describe or roleplay how you're \n\ncommunicating with the monster. Are you trying \n\nto deceive, intimidate, amuse, or gently persuade? \n\nThe DM then determines whether the monster feels \n\nwilling, unwilling, or hesitant due to your interaction; this determination establishes whether an ability check is necessary, as explained below. \n\nWilling. If your urging aligns with the monster's \n\ndesires, no ability check is necessary; the monster \n\nfulfills your request in a way it prefers. \n\nUnwilling. If your urging is repugnant to the monster or counter to its alignment, no ability check is \n\nnecessary; it doesn't comply. \n\nHesitant. If you urge the monster to do something \n\nthat it is hesitant to do, you must make an ability \n\ncheck, which is affected by the monster's attitude: \n\nIndifferent, Friendly, or Hostile, each of which is \n\ndefined in this glossary. The Influence Checks table suggests which ability check to make based on \n\nhow you're interacting with the monster. The DM \n\nchooses the check, which has a default DC equal to \n\n15 or the monster's Intelligence score, whichever is \n\nhigher. On a successful check, the monster does as \n\nurged. On a failed check, you must wait 24 hours \n\n(or a duration set by the DM) before urging it in the \n\nsame way again.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "initiative": {
+    "name": "Initiative",
+    "description": "Initiative determines the order of turns during combat. The combat rules in chapter l explain how to \n\nroll Initiative. \n\nSometimes a DM might have combatants use \n\ntheir Initiative scores instead of rolling Initiative. \n\nYour Initiative score equals 10 plus your Dexterity\n\n\n\n\n\n\nmodifier. If you have Advantage on Initiative rolls, \n\nincrease your Initiative score by 5. If you have Disadvantage on those rolls, decrease that score by 5. \n\nSee also chapter 1 (\"Combat\").\n\n\n\n'..,---=-",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "invisible": {
+    "name": "Invisible",
+    "description": "While you have the Invisible condition, you experience the following effects. \n\nSurprise. If you're Invisible when you roll Initiative, you have Advantage on the roll. \n\nConcealed. You aren't affected by any effect that \n\nrequires its target to be seen unless the effect's creator can somehow see you. Any equipment you are \n\nwearing or carrying is also concealed. \n\nAttacks Affected. Attack rolls against you have \n\nDisadvantage, and your attack rolls have Advantage. If a creature can somehow see you, you don't \n\ngain this benefit against that creature.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "jumping": {
+    "name": "Jumping",
+    "description": "When you jump, you make either a Long Jump (horizontal) or a High Jump (vertical). See also \"Long \n\nJump\" and \"High Jump.\"\n\n\n\n------------",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "knocking_out_a_creature": {
+    "name": "Knocking Out a Creature",
+    "description": "When you would reduce a creature to 0 Hit Points \n\nwith a melee attack, you can instead reduce the \n\ncreature to 1 Hit Point. The creature then has the \n\nUnconscious condition and starts a Short Rest. \n\nThe creature remains Unconscious until it regains \n\nany Hit Points or until someone uses an action to \n\nadminister first aid to it, which requires a successful \n\nDC 10 Wisdom (Medicine) check.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "lightly_obscured": {
+    "name": "Lightly Obscured",
+    "description": "You have Disadvantage on Wisdom (Perception) checks to see something in a Lightly Obscured space. See also \"Dim Light\" and chapter 1 \n\n(\"Exploration\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "line": {
+    "name": "Line",
+    "description": "A Line is an area of effect that extends from a point \n\nof origin in a straight path along its length and covers an area defined by its width. The effect that creates a Line specifies its length and width.\n\n\n\n\u00b0",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "long_jump": {
+    "name": "Long Jump",
+    "description": "When you make a Long Jump, you leap horizontally \n\na number of feet up to your Strength score if you \n\nmove at least 10 feet immediately before the jump. \n\nWhen you make a standing Long Jump, you can leap \n\nonly half that distance. Either way, each foot you \n\njump costs a foot of movement.\n\n\n\nIf you land in Difficult Terrain, you must succeed \n\non a DC 10 Dexterity (Acrobatics) check or have the \n\nProne condition. \n\nThis Long Jump rule assumes that the height of \n\nthe jump doesn't matter, such as a jump across a \n\nstream or chasm. At your DM's option, you must \n\nsucceed on a DC 10 Strength (Athletics) check to \n\nclear a low obstacle (no taller than a quarter of the \n\njump's distance), such as a hedge or low wall. Otherwise, you hit the obstacle.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "long_rest": {
+    "name": "Long Rest",
+    "description": "After you finish a Long Rest, you must wait at least \n\n16 hours before starting another one. \n\nBenefits of the Rest. To start a Long Rest, you must \n\nhave at least 1 Hit Point. When you finish the rest, \n\nyou gain the following benefits:\n\n\n\nRegain All HP. You regain all lost Hit Points and all \n\nspent Hit Point Dice. If your Hit Point maximum \n\nwas reduced, it returns to normal. \n\nAbility Scores Restored. If any of your ability \n\nscores were reduced, they return to normal. \n\nExhaustion Reduced. If you have the Exhaustion \n\ncondition, its level decreases by 1. \n\nSpecial Feature. Some features are recharged by a \n\nLong Rest. If you have such a feature, it recharges \n\nin the way specified in its description.\n\n\n\nInterrupting the Rest. A Long R12st i \u2022 stopped by \n\nthe following interruptions:\n\n\n\n- Rolling Initiative \n\n- Casting a spell other than a c c1 11, rir\n\n\n\n\n\n\n\n\nTaking any damage \n\n1 hour of walking or other physical exertion\n\n\n\nIf you rested at least 1 hour before the interruption, \n\nyou gain the benefits of a Short Rest. See also \"Short \n\nRest.\" \n\nYou can resume a Long Rest immediately after an \n\ninterruption. If you do so, the rest requires 1 additional hour per interruption to finish.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "magic": {
+    "name": "Magic",
+    "description": "When you take the Magic action, you cast a spell \n\nthat has a casting time of an action or use a feature \n\nor magic item that requires a Magic action to be \n\nactivated. \n\nIf you cast a spell that has a casting time of 1 minute or longer, you must take the Magic action on \n\neach turn of that casting, and you must maintain \n\nConcentration while you do so. If your Concentration is broken, the spell fails, but you don't expend a \n\nspell slot. See also \"Concentration.\"",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "malnutrition": {
+    "name": "Malnutrition",
+    "description": "A creature needs an amount of food per day based \n\non its size, as shown in the Food Needs per Day table. A creature that eats but consumes less than half \n\nthe required food for a day must succeed on a DC \n\n10 Constitution saving throw or gain 1 Exhaustion \n\nlevel at the day's end. A creature that eats nothing \n\nfor 5 days automatically gains 1 Exhaustion level at \n\nthe end of the fifth day as well as an additional level \n\nat the end of each subsequent day without food. \n\nExhaustion caused by malnutrition can't be removed until the creature eats the full amount of \n\nfood required for a day. See also \"Exhaustion.\"\n\n\n\nFooo NEEDS PER DAY\n\n\n\nSize \n\nFood \n\nSize \n\nFood\n\n\n\nTiny \n\n1/4 pound \n\nLarge \n\n4 pounds\n\n\n\nS111all \n\nl pound \n\nHuge \n\n16 pounds\n\n\n\nMedium \n\nl pound \n\nGargantuan 64 pounds",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "monster": {
+    "name": "Monster",
+    "description": "A nonplayer character (NPC) is a monster that has \n\na personal name and a distinct personality. See also \n\n\"Monster.\"",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "object": {
+    "name": "Object",
+    "description": "An object is a nonliving, distinct thing. Composite \n\nthings, like buildings, comprise more than one object. See also \"Breaking Objects.\"",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "occupied_space": {
+    "name": "Occupied Space",
+    "description": "A space is occupied if a creature is in it or if it is \n\ncompletely filled by objects.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "opportunity_attacks": {
+    "name": "Opportunity Attacks",
+    "description": "You can make an Opportunity Attack when a creature that you can see leaves your reach using its \n\naction, its Bonus Action, its Reaction, or one of its \n\nspeeds. To make the Opportunity Attack, take a Reaction to make one melee attack with a weapon or \n\nan Unarmed Strike against the provoking creature. \n\nThe attack occurs right before the creature leaves \n\nyour reach. See also chapter 1 (\"Combat\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "paralyzed": {
+    "name": "Paralyzed",
+    "description": "While you have the Paralyzed condition, you experience the following effects. \n\nIncapacitated. You have the Incapacitated \n\ncondition. \n\nSpeed 0. Your Speed is O and can't increase. \n\nSaving Throws Affected. You automatically fail \n\nStrength and Dexterity saving throws. \n\nAttacks Affected. Attack rolls against you have \n\nAdvantage. \n\nAutomatic Critical Hits. Any attack roll that hits \n\nyou is a Critical Hit if the attacker is within 5 feet of \n\nyou.\n\n\n\n",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "passive_perception": {
+    "name": "Passive Perception",
+    "description": "Passive Perception is a score that reflects a creature's general awareness of its surroundings. The \n\nDM uses this score when determining whether a \n\ncreature notices something without consciously \n\nmaking a Wisdom (Perception) check. \n\nA creature's Passive Perception equals 10 plus the \n\ncreature's Wisdom (Perception) check bonus. If the \n\ncreature has Advantage on such checks, increase \n\nthe score by 5. If the creature has Disadvantage on \n\nthem, decrease the score by 5. For example, a level \n\n1 character with a Wisdom of 15 and proficiency \n\nin Perception has a Passive Perception of 14 (10 + \n\n2 + 2). If that character has Advantage on Wisdom \n\n(Perception) checks, the score becomes 19.\n\n\n\n- - ------ - --- ---- v---",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "per_day": {
+    "name": "Per Day",
+    "description": "If a rule says you can use something a certain number of times per day, that means you must finish a \n\nLong Rest to use it again after you run out of uses.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "petrified": {
+    "name": "Petrified",
+    "description": "While you have the Petrified condition, you experience the following effects. \n\nTurned to Inanimate Substance. You are transformed, along with any nonmagical objects you are \n\nwearing and carrying, into a solid inanimate substance (usually stone). Your weight increases by a \n\nfactor of ten, and you cease aging.\n\n\n\nIncapacitated. You have the Incapacitated \n\ncondition. \n\nSpeed 0. Your Speed is O and can't increase. \n\nAttacks Affected. Attack rolls against you have \n\nAdvantage.\n\n\n\nSaving Throws Affected. You automatically fail \n\nStrength and Dexterity saving throws. \n\nResist Damage. You have Resistance to all damage. \n\nPoison Immunity. You have Immunity to the Poisoned condition.\n\n\n\n--------",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "player_character": {
+    "name": "Player Character",
+    "description": "A player character is a character controlled by a\n\n\n\nplayer. See also chapter 2.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "poisoned": {
+    "name": "Poisoned",
+    "description": "While you have the Poisoned condition, you experience the following effect. \n\nAbility Checks and Attacks Affected. You have Disadvantage on attack rolls and ability checks.\n\n\n\n37~ \n\nAPPE NDIX CI RULES GLOSSARY",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "possession": {
+    "name": "Possession",
+    "description": "Some effects cause a creature to be possessed by another creature or entity. A possessing effect defines \n\nhow the possession operates. Possession can be prevented by the Protection from Evil and Good spell and \n\nended by the Dispel Evil and Good spell.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "proficiency": {
+    "name": "Proficiency",
+    "description": "If you have proficiency with something, you can add \n\nyour Proficiency Bonus to any D20 Test you make \n\nusing that thing. A creature might have proficiency \n\nin a skill or saving throw or with a weapon or tool. \n\nSee also chapter 1 (\"Proficiency\").\n\n\n\n!, --",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "prone": {
+    "name": "Prone",
+    "description": "While you have the Prone condition, you experience the following effects. \n\nRestricted Movement. Your only movement options are to crawl or to spend an amount of movement equal to half your Speed (round down) to \n\nright yourself and thereby end the condition. If your \n\nSpeed is 0, you can't right yourself. \n\nAttacks Affected. You have Disadvantage on attack \n\nrolls. An attack roll against you has Advantage if \n\nthe attacker is within 5 feet of you. Otherwise, that \n\nattack roll has Disadvantage.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "reaction": {
+    "name": "Reaction",
+    "description": "will trigger your Reaction. Then, you choose the \n\naction you will take in response to that trigger, or \n\nyou choose to move up to your Speed in response \n\nto it. Examples include \"If the cultist steps on the \n\ntrapdoor, I'll pull the lever that opens it,\" and \"If the \n\nzombie steps next to me, J move aw~y.\"\n\n\n\n\n\n\n\n\nW hen the trigger occurs, you can either take your \n\nReaction right after the trigger finishes or ignore \n\nthe trigger.\n\n\n\nW hen you Ready a spell, you cast it as normal (expending any resources used to cast it) but hold its \n\nenergy, which you release with your Reaction when \n\nthe trigger occurs. To be readied, a spell must have \n\na casting time of an action, and holding on to the \n\nspell's magic requires Concentration, which you can\n\n\n\nmaintain up to the start of your next turn. If your \n\nConcentration is broken, the spell dissipates without taking effect.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "ready": {
+    "name": "Ready",
+    "description": "You take the Ready action to wait for a particular \n\ncircumstance before you act. To do so, you take this \n\naction on your turn, which lets you act by taking a",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "resistance": {
+    "name": "Resistance",
+    "description": "If you have Resistance to a damage type, damage of \n\nthat type is halved against you (round down). Resistance is applied only once to an instance of damage. \n\nSee also chapter 1 (\"Damage and Healing\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "restrained": {
+    "name": "Restrained",
+    "description": "While you have the Restrained condition, you experience the following effects.\n\n\n\nSpeed 0. Your Speed is O and can't increase. \n\nAttacks Affected. Attack rolls against you \n\nhave Advantage, and your attack rolls have \n\nDisadvantage. \n\nSaving Throws Affected. You have Disadvantage \n\non Dexterity saving throws.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "ritual": {
+    "name": "Ritual",
+    "description": "If you have a spell prepared that has the Ritual tag, \n\nyou can cast that spell as a Ritual. The Ritual version of a spell takes 10 minutes longer to cast than \n\nnormal. It also doesn't expend a spell slot, which \n\nmeans the ritual version of a spell can't be cast at a \n\nhigher level. See also chapter 7.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "round_down": {
+    "name": "Round Down",
+    "description": "Whenever you divide or multiply a number in the \n\ngame, round down if you end up with a fraction, \n\neven if the fraction is one-half or greater. Some \n\nrules make an exception and tell you to round up.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "save": {
+    "name": "Save",
+    "description": "A saving throw-also called a save-represents an \n\nattempt to avoid or resist a threat. You normally \n\nmake n saving throw only when a rule requires you \n\nto do so, but you can decide to fail the save without",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "search": {
+    "name": "Search",
+    "description": "When you take the Search action, you make a Wisdom check to discern something that isn't obvious. \n\nThe Search table suggests which skills are applica-\n\n\n\nble when you take this action, depending on what \n\nyou're trying to detect.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "shape_shifting": {
+    "name": "Shape-Shifting",
+    "description": "If an effect, such as Wild Shape or the Polymorph \n\nspell, lets you shape-shift, its description specifies \n\nwhat happens to you. Unless that description says \n\notherwise, any ongoing effects on you-conditions, \n\nspells, curses, and the like-carry over from one \n\nform to the other. You revert to your true form if \n\nyou die.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "short_rest": {
+    "name": "Short Rest",
+    "description": "A Short Rest is a 1-hour period of downtime, during \n\nwhich a creature does nothing more strenuous than \n\nreading, talking, eating, or standing watch. To start \n\na Short Rest, you must have at least 1 Hit Point. \n\nBenefits of the Rest. When you finish the rest, you \n\ngain the following benefits:\n\n\n\nSpend Hit Point Dice. You can spend one or more \n\nof your Hit Point Dice to regain Hit Points. For \n\neach Hit Point Die you spend in this way, roll the \n\ndie and add your Constitution modifier to it. You \n\nregain Hit Points equal to the total (minimum of 1 \n\nHit Point). You can decide to spend an additional \n\nHit Point Die after each roll. \n\nSpecial Feature. Some features are recharged by a \n\nShort Rest. If you have such a feature, it recharges \n\nin the way specified in its description.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "simultaneous_effects": {
+    "name": "Simultaneous Effects",
+    "description": "If two or more things happen at the same time on a \n\nturn, the person at the game table-player or DMwhose turn it is decides the order in which those \n\nthings happen. For example, if two effects occur at \n\nthe start of a player character's turn, the player decides which of the effects happens first.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "size": {
+    "name": "Size",
+    "description": "Huge, or Gargantuan. See also \"Size.\"\n\n\n\n\n\n\n\n\nCreature Type. This entry notes the family of beings a monster belongs to, along with any descriptive tags. See also \"Creature Type.\" \n\nAlignment. An alignment is suggested for the \n\nmonster, with the DM determining its actual alignment. See also \"Alignment.\" \n\nAC, Initiative, and HP. These entries give the monster's Armor Class, Initiative, and Hit Points, which \n\nare detailed in chapter 1. In parentheses after the \n\nHit Points, the monster's Hit Point Dice are provided, along with the contribution of its Constitution, if any, to its Hit Points. Following the Initiative \n\nmodifier is an Initiative score. Some creatures that \n\nare created by magic lack Hit Dice and Initiative \n\ninformation. \n\nSpeed. Here the monster's Speed is provided, along \n\nwith any special speeds. See also \"Burrow Speed,\" \n\n\"Climb Speed,\" \"Fly Speed,\" and \"Swim Speed.\" \n\nAbility Scores. A table provides the monster's ability scores, modifiers, and saving throw modifiers, all \n\nof which are detailed in chapter 1. \n\nSkills. This entry lists the monster's skill proficiencies, if any. See also chapter 1 (\"Proficiency\"). \n\nResistances and Vulnerabilities. These entries list \n\nthe monster's Resistances and Vulnerabilities, if any. \n\nSee also \"Resistance\" and \"Vulnerability.\" \n\nImmunities. This section lists the monster's \n\ndamage and condition Immunities, if any. See also \n\n\"Immunity.\" \n\nGear. If the monster has any equipment that can \n\nbe given away or retrieved, it's listed in this entry. \n\nSenses. This entry lists the monster's special \n\nsenses, such as Darkvision, and its Passive Perception. See also \"Passive Perception.\" \n\nLanguages. This entry lists any languages the \n\nmonster knows. \n\nCR. Challenge Rating summarizes the threat a \n\nmonster poses and is detailed in the Monster Manual. \n\nThe Experience Points characters receive for defeating a monster and its Proficiency Bonus follow. \n\nSome creatures that are created by magic have no \n\nCR. See also \"Challenge Rating\" and \"Experience \n\nPoints.\"\n\n\n\nTraits. The monster's traits, if any, are features \n\nthat an: active at all times or in certain situations.\n\n\n\nActions. The monster can take these actions in \n\naddit\u2022; \u2022 n to those detailed in this glossary. See also \n\nchapi c\u00b7r 1 (\"Actions\").\n\n\n\nHo r.us Actions. If the monster has Bonus Action \n\noptio')S, they are listed in this section.\n\n\n\nReactions. If the monster can take special Reactions, those are listed in this section. \n\nAttack Notation. The entry for a monster's attack \n\nstarts by identifying whether the attack is a melee \n\nor a ranged attack and then provides the attack \n\nroll's bonus, its reach or range, and what happens \n\non a hit. An attack is against one target unless its \n\nentry says otherwise. \n\nSaving Throw Effect Notation. If an effect forces a \n\nsaving throw, the effect's entry starts by identifying \n\nthe kind of saving throw required and then provides the save's DC, a description of which creatures \n\nmust make the save, and what happens on a failed \n\nor a successful save. \n\nDamage Notation. A stat block usually provides \n\nboth a static number and a die expression for each \n\ninstance of damage. For example, an attack might \n\ndeal 4 (1d4 + 2) damage on a hit. The DM determines whether you use the static number or the die \n\nexpression in parentheses; you don't use both.\n\n\n\n!7-",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "skill": {
+    "name": "Skill",
+    "description": "A skill is an area of specialization associated with \n\nan ability check. If you have proficiency in a skill, \n\nyou can add your Proficiency Bonus when you make \n\nan ability check associated with that skill. See also \n\nchapter 1 (\"Proficiency\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "speed": {
+    "name": "Speed",
+    "description": "A creature has a Speed, which is the distance in feet \n\nthe creature can cover when it moves on its turn. \n\nSee also \"Climbing,\" \"Crawling,\" \"Flying,\" \"Jumping,\" \n\n\"Swimming\" and chapter 1 (\"Combat\"). \n\nSpecial Speeds. Some creatures have special \n\nspeeds, such as a Burrow Speed, Climb Speed, Fly \n\nSpeed, or Swim Speed, each of which is defined \n\nin this glossary. If you have more than one speed, \n\nchoose which one to use when you move; you can \n\nswitch between the speeds during your move. \n\nWhenever you switch, subtract the distance already \n\nmoved from the new speed. The result determines \n\nhow much farther you can move. If the result is O or \n\nless, you can't use the new speed during the current \n\nmove. For example, if you have a Speed of 30 and a \n\nFly Speed of 40, you could fly 10 feet, walk 10 feet, \n\nand leap into the air to fly 20 feet more. \n\nChanges to Your Speeds. If an effect increases or \n\ndecreases your Speed for a time, any special speed \n\nyou have increases or decreases by an equal amount\n\n\n\n? \"7.c \n\nAPPE NDIX CI RULES GLOSSARY\n\n\n\n~\n\n\n\n~~~~-~-~~ \n\n,_ \n\n-\n\nJ5_s --",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "spell": {
+    "name": "Spell",
+    "description": "A Spellcasting Focus is an object that certain creatures can use in place of a spell's Material components if those materials aren't consumed by the spell \n\nand don't have a cost specified. Some classes allow \n\nits members to use certain types of Spellcasting Focuses. See also chapter 7 (\"Casting Spells\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "sphere": {
+    "name": "Sphere",
+    "description": "Imes from a point of origin outward in all directions. The effect that creates a Sphere specifies the \n\ndistance it extends as the radius of the Sphere. \n\nA Sphere's point of origin is included in the \n\nSphere's area of effect.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "stable": {
+    "name": "Stable",
+    "description": "A creature is Stable if it has 0 Hit Points but isn't \n\nrequired to make Death Saving Throws. See also \n\nchapter 1 (\"Damage and Healing\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "stat_block": {
+    "name": "Stat Block",
+    "description": "A stat block contains the game statistics of a monster. Each stat block includes the follow ing information presented after the monster's name.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "study": {
+    "name": "Study",
+    "description": "When you take the Study action, you make an Intelligence check to study your memory, a book, a clue, \n\nor another source of knowledge and call to mind an \n\nimportant piece of information about it. \n\nThe Areas of Knowledge table suggests which \n\nskills are applicable to various areas of knowledge.\n\n\n\nAREAS OF KNOWLEDCE\n\n\n\nSkill \n\nAreas\n\n\n\nArcana \n\nSpells, magic items, eldritch symbols, \n\nmagical traditions, planes of existence, and certain creatures (Aberrations, Constructs, Elementals, Fey,\n\n\n\nand Monstrosities)\n\n\n\nHistory \n\nHistoric events and people, ancient\n\n\n\ncivilizations, wars, and certain crea-\n\n\n\ntures (Giants and Humanoids)\n\n\n\nInvestigation Traps, ciphers, riddles, and gadgetry\n\n\n\nNature \n\nTerrain, flora, weather, and certain\n\n\n\ncreatures (Beasts, Dragons, Oozes,\n\n\n\nand Plants)\n\n\n\nDeities, religious hierarchies and rites,\n\n\n\nReligion\n\n\n\nholy symbols, cults, and certain crea-\n\n\n\ntures (Celestials, Fiends, and Undead)\n\n\n\nULEs GL OSSA RY \n\n'>.,r:!\n\n\n\n\n\n",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "stunned": {
+    "name": "Stunned",
+    "description": "While you have the Stunned condition, you experience the following effects. \n\nIncapacitated. You have the Incapacitated \n\ncondition. \n\nSaving Throws Affected. You automatically fail \n\nStrength and Dexterity saving throws. \n\nAttacks Affected. Attack rolls against you have \n\nAdvantage.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "suffocation": {
+    "name": "Suffocation",
+    "description": "A creature can hold its breath for a number of \n\nminutes equal to 1 plus its Constitution modifier \n\n(minimum of 30 seconds) before suffocation begins. \n\nWhen a creature runs out of breath or is choking, it gains 1 Exhaustion level at the end of each \n\nof its turns. When a creature can breathe again, \n\nit removes all levels of Exhaustion it gained from \n\nsuffocating.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "surprise": {
+    "name": "Surprise",
+    "description": "If a creature is caught unawares by the start of \n\ncombat, that creature is surprised, which causes it \n\nto have Disadvantage on its Initiative roll. See also \n\nchapter 1 (\"Combat\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "swimming": {
+    "name": "Swimming",
+    "description": "While you're swimming, each foot of movement \n\ncosts 1 extra foot (2 extra feet in Difficult Terrain). \n\nYou ignore this extra cost if you have a Swim Speed \n\nand use it to swim. At the DM's option, moving any \n\ndistance in rough water might require a successful \n\nDC 15 Strength {Athletics) check.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "swim_speed": {
+    "name": "Swim Speed",
+    "description": "A Swim Speed can be used to swim without expending the extra movement normally associated with \n\nswimming. See also \"Swimming\" and \"Speed.\"",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "target": {
+    "name": "Target",
+    "description": "A target is the creature or object targeted by an \n\nattack roll, forced to make a saving throw by an \n\neffect, or selected to receive the effects of a spell or \n\nanother phenomenon.\n\n\n\n,,,.,h \n\n",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "telepathy": {
+    "name": "Telepathy",
+    "description": "Telepathy is a magical ability that allows a creature \n\nto communicate mentally with another creature \n\nwithin a specified range. Unless a rule states otherwise, the contacted creature doesn't need to share a \n\nlanguage with the telepath to understand this communication, but the contacted creature must be able \n\nto understand at least one language or be telepathic \n\nitself to understand.\n\n\n\nA telepath doesn't need to see a contacted creature, and the telepath can start or end the telepathic \n\ncontact at any time (no action requi red). Telepathic \n\ncontact can't be initiated and is immediately broken \n\nif either the telepath or the other creature has the \n\nIncapacitated condition. Telepathic contact is also \n\nbroken if the contacted creature is no longer within \n\nthe telepathy's range or if the telepath contacts a \n\ndifferent creature within range.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "teleportation": {
+    "name": "Teleportation",
+    "description": "Teleportation is a special kind of magical transportation. If you teleport, you disappear and reappear \n\nelsewhere instantly, without moving through the intervening space. This transportation doesn't expend \n\nmovement unless a rule tells you otherwise, and \n\nteleportation never provokes Opportunity Attacks. \n\nWhen you teleport, all the equipment you're \n\nwearing and carrying teleports with you. If you're \n\ntouching another creature when you teleport, that \n\ncreature doesn't teleport with you unless the teleportation effect says otherwise. \n\nIf the destination space of your teleportation is \n\noccupied by another creature or blocked by a solid \n\nobstacle, you instead appear in the nearest unoccupied space of your choice. \n\nThe description of a teleportation effect tells you \n\nif you must see the teleportation's destination.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "temporary_hit_points": {
+    "name": "Temporary Hit Points",
+    "description": "Temporary Hit Points are granted by certain effects \n\nand act as a buffer against losing real Hit Points. See \n\nalso chapter 1 (\"Damage and Healing\").\n\n\n\n\n\n",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "tremorsense": {
+    "name": "Tremorsense",
+    "description": "A creature with Tremorsense can pinpoint the \n\nlocation of creatures and moving objects within \n\na specific range, provided that the creature with \n\nTremorsense and anything it is detecting are both in \n\ncontact with the same surface (such as the ground, \n\na wall, or a ceiling) or the same liquid. \n\nTremorsense can't detect creatures or objects in \n\nthe air, and it doesn't count as a form of sight.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "truesight": {
+    "name": "Truesight",
+    "description": "If you have Truesight, your vision is enhanced \n\nwithin a specified range. Within that range, your \n\nvision pierces through the following:\n\n\n\nDarkness. You can see in normal and magical \n\nDarkness. \n\nInvisibility. You see creatures and objects that have \n\nthe Invisible condition. \n\nVisual Illusions. Visual illusions appear transparent to you, and you automatically succeed on saving throws against them. \n\nTransformations. You discern the true form of any \n\ncreature or object you see that has been transformed by magic. \n\nEthereal Plane. You see into the Ethereal Plane. See \n\nalso appendix A (\"Transitive Planes\").",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "unarmed_strike": {
+    "name": "Unarmed Strike",
+    "description": "one of the following options for its effect. \n\nDamage. You make an attack roll against the target. Your bonus to the roll equals your Strength \n\nmodifier plus your Proficiency Bonus. On a hit, the \n\ntarget takes Bludgeoning damage equal to 1 plus \n\nyour Strength modifier.\n\n\n\nGrapple. The target must succeed on a Strength \n\nor Dexterity saving throw (it chooses which), or it \n\nhas the Grappled condition. The DC for the saving \n\nthrow and any escape attempts equals 8 plus your \n\nStrength modifier and Proficiency Bonus. This \n\ngrapple is possible only if the target is no more than \n\none size larger than you and if you have a hand free \n\nto grab it. See also \"Grappling.\"\n\n\n\nShove. The target must succeed on a Strength \n\nor Dexterity saving throw (it chooses which), or \n\nyou either push it 5 feet away or cause it to have \n\nthe Prone condition. The DC for the saving throw \n\nequals 8 plus your Strength modifier and Proficiency Bonus. This shove is possible only if the target is no more than one size larger than you.\n\n\n\n----------",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "unconscious": {
+    "name": "Unconscious",
+    "description": "While you have the Unconscious condition, you experience the following effects. \n\nInert. You have the Incapacitated and Prone \n\nconditions, and you drop whatever you're holding. \n\nWhen this condition ends, you remain Prone.\n\n\n\nSpeed 0. Your Speed is O and can't increase. \n\nAttacks Affected. Attack rolls against you have \n\nAdvantage. \n\nSaving Throws Affected. You automatically fail \n\nStrength and Dexterity saving throws. \n\nAutomatic Critical Hits. Any attack roll that hits \n\nyou is a Critical Hit if the attacker is within 5 feet of \n\nyou.\n\n\n\nUnaware. You're unaware of your surroundings.\n\n\n\n,-",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "unoccupied_space": {
+    "name": "Unoccupied Space",
+    "description": "A space is unoccupied if no creatures are in it and it \n\nisn't completely filled by objects.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "utilize": {
+    "name": "Utilize",
+    "description": "You normally interact with an object while doing \n\nsomething else, such as when you draw a sword as \n\npart of the Attack action. When an object requires \n\nan action for its use, you take the Utilize action.",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "vulnerability": {
+    "name": "Vulnerability",
+    "description": "of that type is doubled against you. Vulnerability is \n\napplied only once to an instance of damage. See also \n\nchapter 1 (\"Damage and Healing\").\n\n\n\nr -~\u00b7---- --",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  },
+  "weapon": {
+    "name": "Weapon",
+    "description": "A weapon attack is an attack roll made with a \n\nweapon. See also \"Weapon.\"\n\n\n\nAPP EN Dl XC I RULES GLOSSARY\n\n\n\n\n\n",
+    "source": "PHB 2024 Appendix C (Rules Glossary)"
+  }
+}

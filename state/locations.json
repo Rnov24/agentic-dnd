@@ -1,0 +1,426 @@
+{
+  "triboar_trail_ambush": {
+    "id": "triboar_trail_ambush",
+    "name": "Triboar Trail (Goblin Ambush)",
+    "region": "Neverwinter Wilderness",
+    "lighting": "Bright / Dim",
+    "description": "Two dead draft horses lie sprawled in the road with black-feathered arrows protruding from their flanks. Dense briars flank both sides of the narrow trail.",
+    "exits": [
+      {
+        "to": "cragmaw_hideout_cave_mouth",
+        "direction": "northwest",
+        "travel_time": "5 miles",
+        "condition": "Follow goblin trail (DC 10 Survival or track)"
+      },
+      {
+        "to": "phandalin_town_green",
+        "direction": "east",
+        "travel_time": "half day",
+        "condition": "Follow trail to Phandalin"
+      }
+    ],
+    "threats": [
+      "4 Goblins (Ambush from thickets)"
+    ],
+    "secrets": [
+      {
+        "type": "clue",
+        "dc": 10,
+        "skill": "investigation",
+        "text": "Saddlebags were raided; leather map case left behind, cut open and empty. The horses belonged to Gundren Rockseeker and Sildar Hallwinter."
+      }
+    ]
+  },
+  "cragmaw_hideout_cave_mouth": {
+    "id": "cragmaw_hideout_cave_mouth",
+    "name": "Cragmaw Hideout: Cave Mouth",
+    "region": "Cragmaw Hideout",
+    "lighting": "Dim / Darkness inside",
+    "description": "A shallow stream flows out of the hillside cave. A thick briar patch conceals a goblin lookout post on the east bank.",
+    "exits": [
+      {
+        "to": "triboar_trail_ambush",
+        "direction": "southeast"
+      },
+      {
+        "to": "cragmaw_hideout_steep_passage",
+        "direction": "north (inside)"
+      },
+      {
+        "to": "cragmaw_hideout_kennel",
+        "direction": "east"
+      }
+    ],
+    "threats": [
+      "2 Goblins hiding in briar blind (Stealth +6)"
+    ]
+  },
+  "cragmaw_hideout_kennel": {
+    "id": "cragmaw_hideout_kennel",
+    "name": "Cragmaw Hideout: Kennel",
+    "region": "Cragmaw Hideout",
+    "lighting": "Darkness",
+    "description": "A dark cave smelling of animal dung and raw meat. Three ferocious wolves are chained to an iron post in the wall.",
+    "exits": [
+      {
+        "to": "cragmaw_hideout_cave_mouth",
+        "direction": "west"
+      },
+      {
+        "to": "cragmaw_hideout_klargs_cave",
+        "direction": "chimney shaft (DC 10 Athletics to climb)"
+      }
+    ],
+    "threats": [
+      "3 Wolves (Chained, snap and howl unless calmed via DC 15 Animal Handling)"
+    ]
+  },
+  "cragmaw_hideout_steep_passage": {
+    "id": "cragmaw_hideout_steep_passage",
+    "name": "Cragmaw Hideout: Steep Passage & Overpass",
+    "region": "Cragmaw Hideout",
+    "lighting": "Darkness",
+    "description": "A steep uphill passage where the stream cascades over rocks. Above, a wooden bridge spans the passage 20 feet overhead.",
+    "exits": [
+      {
+        "to": "cragmaw_hideout_cave_mouth",
+        "direction": "south"
+      },
+      {
+        "to": "cragmaw_hideout_twin_pools",
+        "direction": "north"
+      },
+      {
+        "to": "cragmaw_hideout_goblin_den",
+        "direction": "east"
+      }
+    ],
+    "hazards": [
+      "Flood Trap: Goblins at Twin Pools can pull dam releases to wash creatures down the passage (DC 15 DEX save or 1d6 bludgeoning damage and knocked prone)"
+    ]
+  },
+  "cragmaw_hideout_goblin_den": {
+    "id": "cragmaw_hideout_goblin_den",
+    "name": "Cragmaw Hideout: Goblin Den",
+    "region": "Cragmaw Hideout",
+    "lighting": "Dim (Sputtering campfire)",
+    "description": "A large cavern filled with smoke from a cooking fire. Yeemik stands atop a 10-foot ledge holding a battered prisoner by the collar.",
+    "exits": [
+      {
+        "to": "cragmaw_hideout_steep_passage",
+        "direction": "west"
+      }
+    ],
+    "threats": [
+      "Yeemik (Goblin sub-chief with 12 HP)",
+      "5 Goblins",
+      "Sildar Hallwinter (Hostage at 3 HP)"
+    ]
+  },
+  "cragmaw_hideout_klargs_cave": {
+    "id": "cragmaw_hideout_klargs_cave",
+    "name": "Cragmaw Hideout: Klarg's Cave",
+    "region": "Cragmaw Hideout",
+    "lighting": "Dim (Coals of a fire)",
+    "description": "A large cave filled with stolen crates, barrels, and sacks. Klarg the bugbear reclines near a pile of furs with his mangy pet wolf.",
+    "exits": [
+      {
+        "to": "cragmaw_hideout_twin_pools",
+        "direction": "west"
+      },
+      {
+        "to": "cragmaw_hideout_kennel",
+        "direction": "chimney shaft"
+      }
+    ],
+    "threats": [
+      "Klarg (Bugbear, 27 HP)",
+      "Ripper (Wolf, 11 HP)",
+      "2 Goblins"
+    ],
+    "treasure": [
+      "Crates marked with the blue lion of Lionshield Coster",
+      "Chest with 600 cp, 110 sp, two potions of healing, and jade statuette of a frog"
+    ]
+  },
+  "phandalin_town_green": {
+    "id": "phandalin_town_green",
+    "name": "Phandalin: Town Green",
+    "region": "Phandalin Town",
+    "lighting": "Daylight / Torchlight at night",
+    "description": "A bustling frontier town with simple stone and timber cottages surrounded by the ruined stone foundations of old Phandalin. To the east, the ruined shell of Tresendar Manor looms on the hillside.",
+    "exits": [
+      {
+        "to": "phandalin_stonehill_inn",
+        "direction": "center of town"
+      },
+      {
+        "to": "phandalin_barthens_provisions",
+        "direction": "east"
+      },
+      {
+        "to": "phandalin_lionshield_coster",
+        "direction": "west"
+      },
+      {
+        "to": "phandalin_townmasters_hall",
+        "direction": "south"
+      },
+      {
+        "to": "phandalin_miners_exchange",
+        "direction": "southwest"
+      },
+      {
+        "to": "phandalin_shrine_of_luck",
+        "direction": "northeast"
+      },
+      {
+        "to": "phandalin_alderleaf_farm",
+        "direction": "southeast"
+      },
+      {
+        "to": "phandalin_tresendar_manor",
+        "direction": "east hill"
+      }
+    ]
+  },
+  "phandalin_stonehill_inn": {
+    "id": "phandalin_stonehill_inn",
+    "name": "Phandalin: Stonehill Inn",
+    "region": "Phandalin Town",
+    "lighting": "Warm Firelight",
+    "description": "A comfortable two-story roadhouse built of fieldstone and rough-hewn timber. The taproom is filled with local miners, prospectors, and farmers sharing rumors.",
+    "npcs": [
+      "Toblen Stonehill (Innkeeper)",
+      "Trilena Stonehill",
+      "Elsa (Barmaid)"
+    ],
+    "exits": [
+      {
+        "to": "phandalin_town_green",
+        "direction": "outside"
+      }
+    ]
+  },
+  "phandalin_barthens_provisions": {
+    "id": "phandalin_barthens_provisions",
+    "name": "Phandalin: Barthen's Provisions",
+    "region": "Phandalin Town",
+    "lighting": "Bright Light",
+    "description": "The largest trading post in Phandalin, stocking mining supplies, rations, tools, and dry goods.",
+    "npcs": [
+      "Elmar Barthen (Proprietor)",
+      "Ander",
+      "Thistle"
+    ],
+    "exits": [
+      {
+        "to": "phandalin_town_green",
+        "direction": "outside"
+      }
+    ]
+  },
+  "phandalin_lionshield_coster": {
+    "id": "phandalin_lionshield_coster",
+    "name": "Phandalin: Lionshield Coster",
+    "region": "Phandalin Town",
+    "lighting": "Bright Light",
+    "description": "A fortified trading post displaying a sign painted with a blue lion on a silver shield. Armors, weapons, and adventuring gear are sold here.",
+    "npcs": [
+      "Linene Graywind (Master Trader)"
+    ],
+    "exits": [
+      {
+        "to": "phandalin_town_green",
+        "direction": "outside"
+      }
+    ]
+  },
+  "phandalin_townmasters_hall": {
+    "id": "phandalin_townmasters_hall",
+    "name": "Phandalin: Townmaster's Hall",
+    "region": "Phandalin Town",
+    "lighting": "Bright Light",
+    "description": "A sturdy stone building with a small bell tower and a notice board posted outside with job bounties.",
+    "npcs": [
+      "Harbin Wester (Townmaster)",
+      "Sildar Hallwinter (Lords' Alliance Agent)"
+    ],
+    "exits": [
+      {
+        "to": "phandalin_town_green",
+        "direction": "outside"
+      }
+    ]
+  },
+  "phandalin_miners_exchange": {
+    "id": "phandalin_miners_exchange",
+    "name": "Phandalin: Miner's Exchange",
+    "region": "Phandalin Town",
+    "lighting": "Bright Light",
+    "description": "A trading post where miners weigh, measure, and sell their ore. Halia Thornton operates the scale with sharp efficiency.",
+    "npcs": [
+      "Halia Thornton (Zhentarim Operative)"
+    ],
+    "exits": [
+      {
+        "to": "phandalin_town_green",
+        "direction": "outside"
+      }
+    ]
+  },
+  "phandalin_shrine_of_luck": {
+    "id": "phandalin_shrine_of_luck",
+    "name": "Phandalin: Shrine of Luck",
+    "region": "Phandalin Town",
+    "lighting": "Sunlight / Candlelight",
+    "description": "A modest shrine constructed of timber and stone dedicated to Tymora, goddess of good fortune.",
+    "npcs": [
+      "Sister Garaele (Harpers Priestess)"
+    ],
+    "exits": [
+      {
+        "to": "phandalin_town_green",
+        "direction": "outside"
+      }
+    ]
+  },
+  "phandalin_alderleaf_farm": {
+    "id": "phandalin_alderleaf_farm",
+    "name": "Phandalin: Alderleaf Farm",
+    "region": "Phandalin Town",
+    "lighting": "Sunlight",
+    "description": "A neat, prosperous farmstead on the southern edge of town with apple orchards and fields of hay.",
+    "npcs": [
+      "Qelline Alderleaf (Wise Halfling Farmer)",
+      "Carp Alderleaf (Halfling boy)"
+    ],
+    "exits": [
+      {
+        "to": "phandalin_town_green",
+        "direction": "north"
+      },
+      {
+        "to": "redbrand_hideout_cellar",
+        "direction": "secret tunnel in woods"
+      }
+    ]
+  },
+  "redbrand_hideout_crevasse": {
+    "id": "redbrand_hideout_crevasse",
+    "name": "Redbrand Hideout: Subterranean Crevasse",
+    "region": "Redbrand Hideout",
+    "lighting": "Darkness",
+    "description": "A cold, damp cavern dominated by a 20-foot-deep chasm with two rickety wooden bridges spanning the divide. An unnatural chill emanates from the depths.",
+    "threats": [
+      "Nothic (One-eyed aberrant horror, communicates telepathically seeking secrets, 45 HP)"
+    ],
+    "treasure": [
+      "Chest at bottom of crevasse with 160 sp, 120 gp, potion of healing, potion of invisibility, and +1 longsword Talon"
+    ],
+    "exits": [
+      {
+        "to": "redbrand_hideout_cellar",
+        "direction": "west"
+      },
+      {
+        "to": "redbrand_hideout_wizard_quarters",
+        "direction": "north"
+      }
+    ]
+  },
+  "redbrand_hideout_wizard_quarters": {
+    "id": "redbrand_hideout_wizard_quarters",
+    "name": "Redbrand Hideout: Glasstaff's Quarters",
+    "region": "Redbrand Hideout",
+    "lighting": "Candlelight",
+    "description": "A comfortable study with a desk, books, alchemical apparatus, and a rat scuttling on the rug.",
+    "npcs": [
+      "Iarno Glasstaff Albrek (Evil Mage, 22 HP, carries Staff of Defense)"
+    ],
+    "threats": [
+      "Iarno Albrek",
+      "Rat familiar (warns Iarno if intruders approach)"
+    ],
+    "treasure": [
+      "Staff of Defense (+2 AC, cast Shield/Mage Armor)",
+      "Chest under bed with scroll of charm person, scroll of fireball, and 180 gp"
+    ],
+    "exits": [
+      {
+        "to": "redbrand_hideout_crevasse",
+        "direction": "south"
+      }
+    ]
+  },
+  "cragmaw_castle_throne_room": {
+    "id": "cragmaw_castle_throne_room",
+    "name": "Cragmaw Castle: King's Quarters",
+    "region": "Cragmaw Castle",
+    "lighting": "Dim (Braziers)",
+    "description": "A crumbling stone throne room. King Grol, a massive bugbear with thick greasy hair, interrogates a bloodied dwarf tied to a pillar.",
+    "npcs": [
+      "King Grol (Bugbear King, 45 HP)",
+      "Snarl (Wolf, 11 HP)",
+      "Vyerith (Doppelganger posing as Drow)",
+      "Gundren Rockseeker (Unconscious dwarf prisoner)"
+    ],
+    "treasure": [
+      "Gundren's Map to Wave Echo Cave (under bed mattress)",
+      "Chest with 220 sp, 160 ep, three potions of healing, and spell scroll of silence"
+    ],
+    "exits": [
+      {
+        "to": "cragmaw_castle_hallway",
+        "direction": "south"
+      }
+    ]
+  },
+  "wave_echo_cave_forge_of_spells": {
+    "id": "wave_echo_cave_forge_of_spells",
+    "name": "Wave Echo Cave: The Forge of Spells",
+    "region": "Wave Echo Cave",
+    "lighting": "Eerie Green Magical Radiance",
+    "description": "A vast cavern housing a massive stone furnace glowing with translucent green flame. A floating spherical creature with a large central eye and four eye-stalks hovers above the brazier.",
+    "npcs": [
+      "Spectator (Guardian of the Forge, 39 HP)"
+    ],
+    "treasure": [
+      "Lightbringer (+1 warhammer that glows with daylight and deals extra radiant damage to undead)",
+      "Dragonguard (+1 breastplate that grants advantage on saves vs dragon breath)"
+    ],
+    "exits": [
+      {
+        "to": "wave_echo_cave_wizard_quarters",
+        "direction": "west"
+      },
+      {
+        "to": "wave_echo_cave_temple_of_dumathoin",
+        "direction": "south"
+      }
+    ]
+  },
+  "wave_echo_cave_temple_of_dumathoin": {
+    "id": "wave_echo_cave_temple_of_dumathoin",
+    "name": "Wave Echo Cave: Temple of Dumathoin",
+    "region": "Wave Echo Cave",
+    "lighting": "Dim (Spider-silk web lanterns)",
+    "description": "A grand pillared hall with a towering statue of the dwarven god Dumathoin. Thick webs blanket the ceiling, where monstrous arachnids lurk in the shadows.",
+    "npcs": [
+      "Nezznar the Black Spider (Drow Mage, 27 HP, carries Spider Staff)",
+      "4 Giant Spiders (26 HP each)",
+      "2 Doppelgangers"
+    ],
+    "treasure": [
+      "Spider Staff (Add poison damage, cast Spider Climb and Web)",
+      "Nezznar's Journal detailing his plans to seize the Forge",
+      "Sack containing 190 ep, 130 gp, 15 sp, and a potion of flying"
+    ],
+    "exits": [
+      {
+        "to": "wave_echo_cave_forge_of_spells",
+        "direction": "north"
+      }
+    ]
+  }
+}

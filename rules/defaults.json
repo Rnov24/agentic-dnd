@@ -1,0 +1,32 @@
+{
+  "world": {
+    "campaign_name": "Lost Mine of Phandelver",
+    "active_location": "triboar_trail_ambush",
+    "lighting": "dim",
+    "time_of_day": "late afternoon",
+    "weather": "overcast with intermittent drizzle",
+    "tension_level": "medium",
+    "alarm_raised": false,
+    "discovered_secrets": [],
+    "global_flags": {}
+  },
+  "combat": {
+    "in_combat": false,
+    "round": 0,
+    "turn_index": 0,
+    "order": [],
+    "environmental_effects": [],
+    "log": []
+  },
+  "relationships": {
+    "relationships": []
+  },
+  "history": {
+    "active_branch": "main",
+    "branches": {
+      "main": []
+    },
+    "commits": {},
+    "head": null
+  }
+}

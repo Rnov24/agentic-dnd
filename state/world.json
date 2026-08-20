@@ -1,0 +1,25 @@
+{
+  "campaign_id": "lost_mine_of_phandelver",
+  "campaign_name": "Lost Mine of Phandelver",
+  "active_location": "triboar_trail_ambush",
+  "time_of_day": "Late Afternoon",
+  "weather": "Overcast with intermittent cool drizzle",
+  "lighting": "Dim Light",
+  "tension_level": "Tense",
+  "current_scene": {
+    "title": "Goblin Ambush on the Triboar Trail",
+    "description": "You have been on the High Road from Neverwinter for several days, escorting a wagon laden with mining provisions and supplies to the frontier settlement of Phandalin. As you round a bend in the Triboar Trail flanked by dense briars, you spot two dead horses sprawled across the muddy path ahead, black-feathered goblin arrows protruding from their flanks.",
+    "weather": "Overcast with intermittent cool drizzle",
+    "time_of_day": "Late Afternoon",
+    "lighting": "Dim Light",
+    "tension_level": "Tense",
+    "threats": [
+      "4 Cragmaw Goblins hiding in the thickets (Stealth +6 vs Passive Perception 10-15)"
+    ],
+    "exits": [
+      "Follow the goblin trail northwest toward the Cragmaw Hideout",
+      "Continue along the Triboar Trail toward Phandalin"
+    ]
+  },
+  "active_character_id": "li_wei"
+}

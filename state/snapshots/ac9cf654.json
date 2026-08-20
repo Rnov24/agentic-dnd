@@ -1,0 +1,439 @@
+{
+  "world": {
+    "campaign_id": "lost_mine_of_phandelver",
+    "campaign_name": "Lost Mine of Phandelver",
+    "active_location": "triboar_trail_ambush",
+    "time_of_day": "Late Afternoon",
+    "weather": "Overcast with intermittent cool drizzle",
+    "lighting": "Dim Light",
+    "tension_level": "Tense",
+    "current_scene": {
+      "title": "Goblin Ambush on the Triboar Trail",
+      "description": "You have been on the High Road from Neverwinter for several days, escorting a wagon laden with mining provisions and supplies to the frontier settlement of Phandalin. As you round a bend in the Triboar Trail flanked by dense briars, you spot two dead horses sprawled across the muddy path ahead, black-feathered goblin arrows protruding from their flanks.",
+      "weather": "Overcast with intermittent cool drizzle",
+      "time_of_day": "Late Afternoon",
+      "lighting": "Dim Light",
+      "tension_level": "Tense",
+      "threats": [
+        "4 Cragmaw Goblins hiding in the thickets (Stealth +6 vs Passive Perception 10-15)"
+      ],
+      "exits": [
+        "Follow the goblin trail northwest toward the Cragmaw Hideout",
+        "Continue along the Triboar Trail toward Phandalin"
+      ]
+    }
+  },
+  "party": [
+    {
+      "id": "aria_nightwind",
+      "name": "Aria Nightwind",
+      "class": "Rogue (Thief)",
+      "level": 3,
+      "background": "Criminal / Infiltrator",
+      "is_player": true,
+      "ac": 15,
+      "speed": 30,
+      "hp": {
+        "current": 24,
+        "max": 24,
+        "temp": 0
+      },
+      "stats": {
+        "strength": 10,
+        "dexterity": 17,
+        "constitution": 14,
+        "intelligence": 12,
+        "wisdom": 13,
+        "charisma": 14
+      },
+      "proficiencies": {
+        "skills": [
+          "stealth",
+          "sleight_of_hand",
+          "acrobatics",
+          "perception",
+          "deception"
+        ],
+        "expertise": [
+          "stealth",
+          "sleight_of_hand"
+        ],
+        "saving_throws": [
+          "dexterity",
+          "intelligence"
+        ]
+      },
+      "attacks": [
+        {
+          "name": "Black Glass Dagger",
+          "ability": "dexterity",
+          "bonus": 1,
+          "damage": "1d4+1",
+          "damage_type": "piercing",
+          "type": "melee"
+        },
+        {
+          "name": "Shortbow",
+          "ability": "dexterity",
+          "bonus": 0,
+          "damage": "1d6",
+          "damage_type": "piercing",
+          "type": "ranged"
+        }
+      ],
+      "resources": {
+        "sneak_attack_dice": 2,
+        "inspiration": 1
+      },
+      "conditions": [],
+      "personality": "Quiet, observant, fiercely loyal to allies, distrustful of corrupt nobles.",
+      "goals": [
+        "Infiltrate the Blackstone Fortress dungeon and free prisoner Valen",
+        "Escape through the lower sewer drains before Captain Aldric notices",
+        "Recover the Stolen Royal Seal"
+      ],
+      "memories": [
+        "Escaped the royal prison in the capital two winters ago",
+        "Discovered the enchanted black glass dagger in an ancient ruin"
+      ],
+      "inventory": [
+        "Black Glass Dagger (+1 enchanted)",
+        "Shortbow & Quiver (20 arrows)",
+        "Thieves' Tools (Fine lockpicks)",
+        "Potion of Healing (2d4+2)",
+        "Grappling Hook & 50ft Silk Rope",
+        "Pouch with 35 gold pieces",
+        "Fortress Iron Cell Key"
+      ],
+      "hit_dice": {
+        "current": 3,
+        "max": 3,
+        "die": "1d8"
+      }
+    },
+    {
+      "id": "eldrin_shadowseeker",
+      "name": "Eldrin Shadowseeker",
+      "class": "Wizard (Evoker)",
+      "level": 3,
+      "background": "Sage",
+      "is_player": false,
+      "ac": 12,
+      "speed": 30,
+      "hp": {
+        "current": 18,
+        "max": 18,
+        "temp": 0
+      },
+      "stats": {
+        "strength": 8,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 17,
+        "wisdom": 12,
+        "charisma": 10
+      },
+      "proficiencies": {
+        "skills": [
+          "arcana",
+          "history",
+          "investigation"
+        ],
+        "expertise": [
+          "arcana"
+        ],
+        "saving_throws": [
+          "intelligence",
+          "wisdom"
+        ]
+      },
+      "attacks": [
+        {
+          "name": "Fire Bolt",
+          "ability": "intelligence",
+          "bonus": 0,
+          "damage": "1d10",
+          "damage_type": "fire",
+          "type": "ranged"
+        },
+        {
+          "name": "Magic Missile",
+          "ability": "intelligence",
+          "bonus": 0,
+          "damage": "3d4+3",
+          "damage_type": "force",
+          "type": "ranged"
+        }
+      ],
+      "resources": {
+        "spell_slots_level_1": 4,
+        "spell_slots_level_2": 2
+      },
+      "conditions": [],
+      "personality": "Analytical, curious, cautious companion who calculates tactical odds.",
+      "goals": [
+        "Decipher the ancient runes carved into the fortress foundation"
+      ],
+      "memories": [
+        "Pledged an oath of brotherhood to Aria after she saved his sister"
+      ],
+      "inventory": [
+        "Arcane Spellbook",
+        "Focus Crystal",
+        "Scroll of Misty Step",
+        "Scholar's Pack"
+      ],
+      "hit_dice": {
+        "current": 3,
+        "max": 3,
+        "die": "1d8"
+      }
+    }
+  ],
+  "npcs": [
+    {
+      "id": "sildar_hallwinter",
+      "name": "Sildar Hallwinter",
+      "race": "Human",
+      "role": "Lords Alliance Agent / Escort",
+      "faction": "Lords Alliance",
+      "status": "Alive",
+      "ac": 16,
+      "hp": {
+        "current": 11,
+        "max": 11
+      },
+      "stats": {
+        "strength": 13,
+        "dexterity": 10,
+        "constitution": 12,
+        "intelligence": 10,
+        "wisdom": 11,
+        "charisma": 10
+      },
+      "disposition": 50,
+      "description": "A kind-hearted human warrior in his fifties with silver hair and an honorable bearing."
+    },
+    {
+      "id": "gundren_rockseeker",
+      "name": "Gundren Rockseeker",
+      "race": "Dwarf",
+      "role": "Prospector and Explorer",
+      "status": "Alive",
+      "ac": 10,
+      "hp": {
+        "current": 10,
+        "max": 10
+      },
+      "stats": {
+        "strength": 14,
+        "dexterity": 10,
+        "constitution": 14,
+        "intelligence": 12,
+        "wisdom": 12,
+        "charisma": 11
+      },
+      "disposition": 60,
+      "description": "An ambitious, enthusiastic dwarf prospector who discovered Wave Echo Cave with his brothers."
+    },
+    {
+      "id": "iarno_albrek",
+      "name": "Iarno Glasstaff Albrek",
+      "race": "Human",
+      "role": "Former Lords Alliance Wizard / Leader of the Redbrands",
+      "status": "Alive",
+      "ac": 13,
+      "hp": {
+        "current": 22,
+        "max": 22
+      },
+      "stats": {
+        "strength": 9,
+        "dexterity": 14,
+        "constitution": 11,
+        "intelligence": 17,
+        "wisdom": 12,
+        "charisma": 14
+      },
+      "disposition": -80,
+      "description": "A treacherous wizard with a glass staff who betrayed the Lords Alliance."
+    },
+    {
+      "id": "nezznar_the_black_spider",
+      "name": "Nezznar the Black Spider",
+      "race": "Drow",
+      "role": "Mastermind and Drow Mage",
+      "status": "Alive",
+      "ac": 11,
+      "hp": {
+        "current": 27,
+        "max": 27
+      },
+      "stats": {
+        "strength": 9,
+        "dexterity": 13,
+        "constitution": 10,
+        "intelligence": 16,
+        "wisdom": 14,
+        "charisma": 13
+      },
+      "disposition": -100,
+      "description": "A sinister, patient drow wizard seeking to unlock the Forge of Spells."
+    }
+  ],
+  "combat": {
+    "is_active": false,
+    "round": 0,
+    "turn_index": 0,
+    "initiative_order": [],
+    "environmental_effects": [],
+    "log": []
+  },
+  "quests": [
+    {
+      "id": "goblin_arrows_deliver_supplies",
+      "title": "Escort Provisions to Barthens",
+      "type": "main",
+      "giver": "Gundren Rockseeker",
+      "status": "active",
+      "priority": "High",
+      "objectives": [
+        {
+          "id": "deliver_wagon",
+          "description": "Escort the ox wagon safely to Barthens Provisions in Phandalin",
+          "completed": false
+        },
+        {
+          "id": "claim_payment",
+          "description": "Receive 10 gp per adventurer from Elmar Barthen",
+          "completed": false
+        }
+      ],
+      "rewards": {
+        "xp": 100,
+        "gp": 50
+      }
+    },
+    {
+      "id": "rescue_sildar",
+      "title": "Rescue Sildar Hallwinter",
+      "type": "main",
+      "giver": "Auto (Goblin Ambush Clue)",
+      "status": "active",
+      "priority": "Critical",
+      "objectives": [
+        {
+          "id": "infiltrate_hideout",
+          "description": "Follow goblin trail to Cragmaw Hideout",
+          "completed": false
+        },
+        {
+          "id": "free_sildar",
+          "description": "Rescue Sildar Hallwinter from Yeemiks clutches",
+          "completed": false
+        }
+      ],
+      "rewards": {
+        "xp": 150,
+        "gp": 50
+      }
+    },
+    {
+      "id": "redbrand_menace",
+      "title": "The Redbrand Menace",
+      "type": "main",
+      "giver": "Sildar Hallwinter / Townspeople",
+      "status": "active",
+      "priority": "High",
+      "objectives": [
+        {
+          "id": "infiltrate_tresendar",
+          "description": "Infiltrate the Redbrand Hideout beneath Tresendar Manor",
+          "completed": false
+        },
+        {
+          "id": "defeat_glasstaff",
+          "description": "Defeat or capture Iarno Glasstaff Albrek",
+          "completed": false
+        },
+        {
+          "id": "rescue_dendrars",
+          "description": "Free Mirna Dendrar and her children from the slave pens",
+          "completed": false
+        }
+      ],
+      "rewards": {
+        "xp": 400,
+        "gp": 200
+      }
+    },
+    {
+      "id": "wave_echo_cave_forge",
+      "title": "Reclaim Wave Echo Cave and The Forge of Spells",
+      "type": "main",
+      "giver": "Gundren Rockseeker",
+      "status": "active",
+      "priority": "Epic",
+      "objectives": [
+        {
+          "id": "enter_cave",
+          "description": "Travel to the secret entrance of Wave Echo Cave",
+          "completed": false
+        },
+        {
+          "id": "defeat_black_spider",
+          "description": "Defeat Nezznar the Black Spider in the Temple of Dumathoin",
+          "completed": false
+        },
+        {
+          "id": "reclaim_forge",
+          "description": "Secure the Forge of Spells and restore prosperity to Phandalin",
+          "completed": false
+        }
+      ],
+      "rewards": {
+        "xp": 1200,
+        "gp": 1000,
+        "items": [
+          "Spider Staff",
+          "Lightbringer",
+          "Dragonguard"
+        ]
+      }
+    }
+  ],
+  "relationships": {
+    "relationships": [
+      {
+        "source": "aria_nightwind",
+        "target": "captain_aldric",
+        "disposition": "Hostile",
+        "notes": "Captain Aldric oversaw the execution of Aria's mentor."
+      },
+      {
+        "source": "aria_nightwind",
+        "target": "eldrin_shadowseeker",
+        "disposition": "Trusted Ally",
+        "notes": "Sworn companions in surviving the underworld."
+      },
+      {
+        "source": "aria_nightwind",
+        "target": "mira_the_alchemist",
+        "disposition": "Friendly Contact",
+        "notes": "Mira supplies antidotes and underworld intel."
+      },
+      {
+        "source": "captain_aldric",
+        "target": "prisoner_valen",
+        "disposition": "Interrogation Target",
+        "notes": "Aldric seeks the cipher code before executing Valen at dawn."
+      },
+      {
+        "source": "royal_garrison",
+        "target": "shadow_syndicate",
+        "disposition": "At War",
+        "notes": "Total martial suppression order against the Syndicate."
+      }
+    ]
+  }
+}
